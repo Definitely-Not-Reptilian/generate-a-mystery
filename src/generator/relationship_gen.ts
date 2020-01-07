@@ -22,20 +22,17 @@ export function assignRelationshipsToPlayersInGame(strongFriends: number, weakFr
       }
     }
     for (let i = 0; i < strongFriends - existingStrongFriends; i++) {
-      game.relationships.push(makeNewFriend(player, potentialFriends, RelationshipStrength.STRONG, random));
+      makeNewFriend(player, potentialFriends, RelationshipStrength.STRONG, random);
     }
     for (let i = 0; i < weakFriends - existingWeakFriends; i++) {
-      game.relationships.push(makeNewFriend(player, potentialFriends, RelationshipStrength.WEAK, random));
+      makeNewFriend(player, potentialFriends, RelationshipStrength.WEAK, random);
     }
   }
 }
 function makeNewFriend(player: Player, potentialFriends: Player[], strength: RelationshipStrength, random: Random): Relationship {
   const newFriend = random.pickRandomAndRemove(potentialFriends);
-  const newRelationship = new Relationship();
-  newRelationship.player1 = player;
-  newRelationship.player2 = newFriend;
-  newRelationship.strength = strength;
-  newRelationship.alignment = random.randomRoll() > 0.5 ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
+  const alignment = random.randomRoll() > 0.5 ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
+  const newRelationship = new Relationship(player, newFriend, strength, alignment);
   player.relationships.push(newRelationship);
   newFriend.relationships.push(newRelationship);
   return newRelationship;

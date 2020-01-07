@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { Game } from './game_data/game';
 import { classToPlain } from 'class-transformer';
 import { writeJSON } from './json';

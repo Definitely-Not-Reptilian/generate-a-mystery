@@ -1,6 +1,6 @@
 import * as PizZip from 'pizzip';
 import * as Docxtemplater from 'docxtemplater';
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { Player } from './game_data/player';
 import { Game } from './game_data/game';
 import * as expressions from 'angular-expressions';
@@ -46,6 +46,13 @@ export class DocX {
     const buf = doc.getZip()
       .generate({ type: 'nodebuffer' });
 
+    try {
+      mkdirSync('output');
+    } catch (e) {
+      if (e.code !== 'EEXIST') {
+        throw e;
+      }
+    }
     // buf is a nodejs buffer, you can either write it to a file or do anything else with it.
     writeFileSync(`output/${player.fullName}.docx`, buf);
 
