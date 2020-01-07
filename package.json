@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "tslint -p . -c tslint.json",
     "start": "ts-node src/main.ts",
+    "render": "ts-node src/render.ts",
     "serve": "npm start"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "class-transformer": "^0.2.3",
     "docxtemplater": "^3.15.4",
     "pizzip": "^3.0.6",
     "seedrandom": "^3.0.5"

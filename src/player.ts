@@ -1,5 +1,6 @@
 import { Power } from './power';
 import { Goal } from './goal';
+import { Expose } from 'class-transformer';
 
 export class Player {
   firstName: string;
@@ -12,6 +13,7 @@ export class Player {
     this.lastName = last;
   }
 
+  @Expose()
   get fullName(): string {
     return `${this.firstName} ${this.lastName}`;
   }
