@@ -6,16 +6,16 @@ import { generatePowersIntoGame } from './generator/power_gen';
 import { generatePlotsIntoGame, assignPlotsToPlayersInGame } from './generator/plots_gen';
 import { assignGoalsFromPlotsToPlayersInGame } from './generator/goals_gen';
 
-const SEED = Math.random();
 const GAME_NAME = 'Shotgun Wedding';
-const NUMBER_OF_PLAYERS = 10;
+const TITLES = [ 'Groom', 'Bride', 'Bridesmaid', 'Flowergirl', 'Priest', 'Best man', 'Wedding Planner', 'Bride\'s Father', 'Groom\'s Mother', 'Drunk Uncle' ];
+const SEED = GAME_NAME;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
 const NUMBER_OF_PLOTS = NUMBER_OF_PLAYERS;
 
 const game = new Game(GAME_NAME);
 game.seed = SEED.toString();
 
-generatePlayersIntoGame(NUMBER_OF_PLAYERS, game);
+generatePlayersIntoGame(TITLES, game);
 
 generatePowersIntoGame(NUMBER_OF_POWERS_PER_PLAYER, game);
 

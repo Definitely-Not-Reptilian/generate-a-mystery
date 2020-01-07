@@ -4,21 +4,26 @@
       "powers": [
         {
           "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3,
           "avgPerPlayer": 0.3
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -27,27 +32,33 @@
       ],
       "firstName": "Colis",
       "lastName": "Ringham",
+      "title": "Groom",
       "fullName": "Colis Ringham"
     },
     {
       "powers": [
         {
           "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3,
           "avgPerPlayer": 0.3
         },
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Attack",
+          "description": "Do something specific. If you manage this, the player is knocked out.",
+          "usages": 2,
           "avgPerPlayer": 0.1
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -56,27 +67,33 @@
       ],
       "firstName": "Ostap",
       "lastName": "Beeghley",
+      "title": "Bride",
       "fullName": "Ostap Beeghley"
     },
     {
       "powers": [
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Attack",
+          "description": "Do something specific. If you manage this, the player is knocked out.",
+          "usages": 2,
           "avgPerPlayer": 0.1
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An very interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -85,27 +102,33 @@
       ],
       "firstName": "Elayne",
       "lastName": "Sebra",
+      "title": "Bridesmaid",
       "fullName": "Elayne Sebra"
     },
     {
       "powers": [
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Attack",
+          "description": "Do something specific. If you manage this, the player is knocked out.",
+          "usages": 2,
           "avgPerPlayer": 0.1
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -114,27 +137,33 @@
       ],
       "firstName": "Chrisse",
       "lastName": "Riskin",
+      "title": "Flowergirl",
       "fullName": "Chrisse Riskin"
     },
     {
       "powers": [
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3,
           "avgPerPlayer": 0.3
         },
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -143,27 +172,33 @@
       ],
       "firstName": "Felic",
       "lastName": "Rautmann",
+      "title": "Priest",
       "fullName": "Felic Rautmann"
     },
     {
       "powers": [
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Special",
+          "description": "Do something specific. If you manage this something special happens",
+          "usages": 2,
           "avgPerPlayer": 0.1
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -172,27 +207,33 @@
       ],
       "firstName": "Polly",
       "lastName": "Naraine",
+      "title": "Best man",
       "fullName": "Polly Naraine"
     },
     {
       "powers": [
         {
           "name": "Special",
+          "description": "Do something specific. If you manage this something special happens",
+          "usages": 2,
           "avgPerPlayer": 0.1
         },
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Pickpocket",
+          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "usages": 2,
           "avgPerPlayer": 0.2
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -201,27 +242,33 @@
       ],
       "firstName": "Lamphere",
       "lastName": "Linaman",
+      "title": "Wedding Planner",
       "fullName": "Lamphere Linaman"
     },
     {
       "powers": [
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -230,27 +277,33 @@
       ],
       "firstName": "Magen",
       "lastName": "Tyger",
+      "title": "Bride's Father",
       "fullName": "Magen Tyger"
     },
     {
       "powers": [
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -259,27 +312,33 @@
       ],
       "firstName": "Borlase",
       "lastName": "Valkema",
+      "title": "Groom's Mother",
       "fullName": "Borlase Valkema"
     },
     {
       "powers": [
         {
           "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         },
         {
           "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3,
           "avgPerPlayer": 0.5
         },
         {
           "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3,
           "avgPerPlayer": 0.4
         }
       ],
       "goals": [],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
-      "title": "An interesting individual",
       "blurb": "The thing about interesting people is that they are usually boring",
       "traits": [
         "Boring",
@@ -288,6 +347,7 @@
       ],
       "firstName": "Hilario",
       "lastName": "Depta",
+      "title": "Drunk Uncle",
       "fullName": "Hilario Depta"
     }
   ],
@@ -305,43 +365,47 @@
       "items": []
     },
     {
-      "name": "Get the item",
+      "name": "I hate that guy in particular",
       "players": [
         "Hilario Depta",
-        "Felic Rautmann"
-      ],
-      "items": []
-    },
-    {
-      "name": "Get the item",
-      "players": [
-        "Elayne Sebra",
-        "Magen Tyger"
-      ],
-      "items": []
-    },
-    {
-      "name": "Get the item",
-      "players": [
-        "Borlase Valkema"
+        "Felic Rautmann",
+        "Elayne Sebra"
       ],
       "items": []
     },
     {
       "name": "Dark past",
       "players": [
-        "Polly Naraine",
-        "Hilario Depta"
+        "Magen Tyger",
+        "Borlase Valkema",
+        "Polly Naraine"
       ],
       "items": []
     },
     {
       "name": "Get the item",
       "players": [
-        "Elayne Sebra"
+        "Hilario Depta"
+      ],
+      "items": []
+    },
+    {
+      "name": "Secret relationship",
+      "players": [
+        "Elayne Sebra",
+        "Magen Tyger",
+        "Chrisse Riskin"
+      ],
+      "items": []
+    },
+    {
+      "name": "Get the item",
+      "players": [
+        "Ostap Beeghley"
       ],
       "items": []
     }
   ],
-  "name": "Shotgun Wedding"
+  "name": "Shotgun Wedding",
+  "seed": "Shotgun Wedding"
 }
