@@ -27,7 +27,7 @@ export class DocX {
       };
       console.log(JSON.stringify({ error: e }));
       if (error.properties && error.properties.errors instanceof Array) {
-        const errorMessages = error.properties.errors.map((error) =>error.properties.explanation)
+        const errorMessages = error.properties.errors.map((error) => error.properties.explanation)
           .join('\n');
         console.log('errorMessages', errorMessages);
         // errorMessages is a humanly readable message looking like this :
