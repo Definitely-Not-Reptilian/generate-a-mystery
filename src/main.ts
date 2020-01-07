@@ -10,7 +10,7 @@ const GAME_NAME = 'Shotgun Wedding';
 const TITLES = [ 'Groom', 'Bride', 'Bridesmaid', 'Flowergirl', 'Priest', 'Best man', 'Wedding Planner', 'Bride\'s Father', 'Groom\'s Mother', 'Drunk Uncle' ];
 const SEED = GAME_NAME;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
-const NUMBER_OF_PLOTS = NUMBER_OF_PLAYERS;
+const NUMBER_OF_PLOTS = TITLES.length;
 
 const game = new Game(GAME_NAME);
 game.seed = SEED.toString();
@@ -23,7 +23,6 @@ generatePlotsIntoGame(NUMBER_OF_PLOTS, game);
 
 assignPlotsToPlayersInGame(game);
 assignGoalsFromPlotsToPlayersInGame(game);
-
 
 console.log(
   game.players

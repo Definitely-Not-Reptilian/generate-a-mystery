@@ -21,7 +21,51 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Get the item G",
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
+          "plot": {
+            "name": "Get the item G",
+            "players": [
+              "Colis Ringham",
+              "Borlase Valkema",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship J",
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
+          "plot": {
+            "name": "Secret relationship J",
+            "players": [
+              "Polly Naraine",
+              "Colis Ringham",
+              "Chrisse Riskin",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -56,7 +100,51 @@
           "avgPerPlayer": 0.1
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship F",
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
+          "plot": {
+            "name": "Secret relationship F",
+            "players": [
+              "Ostap Beeghley",
+              "Felic Rautmann",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Conspiracy H",
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy H",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Ostap Beeghley",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -91,7 +179,44 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy B",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Elayne Sebra",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Elayne Sebra",
+          "plot": {
+            "name": "Get the item D",
+            "players": [
+              "Elayne Sebra"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Dark past I",
+          "description": "Dark past I: Elayne Sebra",
+          "plot": {
+            "name": "Dark past I",
+            "players": [
+              "Elayne Sebra"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -126,7 +251,50 @@
           "avgPerPlayer": 0.1
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Dark past E",
+          "description": "Dark past E: Magen Tyger, Chrisse Riskin",
+          "plot": {
+            "name": "Dark past E",
+            "players": [
+              "Magen Tyger",
+              "Chrisse Riskin"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship J",
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
+          "plot": {
+            "name": "Secret relationship J",
+            "players": [
+              "Polly Naraine",
+              "Colis Ringham",
+              "Chrisse Riskin",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -161,7 +329,49 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy B",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Elayne Sebra",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship F",
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
+          "plot": {
+            "name": "Secret relationship F",
+            "players": [
+              "Ostap Beeghley",
+              "Felic Rautmann",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Conspiracy H",
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy H",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Ostap Beeghley",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -196,7 +406,51 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot I hate that guy in particular C",
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
+          "plot": {
+            "name": "I hate that guy in particular C",
+            "players": [
+              "Borlase Valkema",
+              "Polly Naraine",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship J",
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
+          "plot": {
+            "name": "Secret relationship J",
+            "players": [
+              "Polly Naraine",
+              "Colis Ringham",
+              "Chrisse Riskin",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -231,7 +485,50 @@
           "avgPerPlayer": 0.2
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship F",
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
+          "plot": {
+            "name": "Secret relationship F",
+            "players": [
+              "Ostap Beeghley",
+              "Felic Rautmann",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Get the item G",
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
+          "plot": {
+            "name": "Get the item G",
+            "players": [
+              "Colis Ringham",
+              "Borlase Valkema",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -266,7 +563,48 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy B",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Elayne Sebra",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Dark past E",
+          "description": "Dark past E: Magen Tyger, Chrisse Riskin",
+          "plot": {
+            "name": "Dark past E",
+            "players": [
+              "Magen Tyger",
+              "Chrisse Riskin"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Conspiracy H",
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy H",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Ostap Beeghley",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -301,7 +639,50 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
+          "plot": {
+            "name": "Inciting incident A",
+            "players": [
+              "Polly Naraine",
+              "Lamphere Linaman",
+              "Chrisse Riskin",
+              "Colis Ringham",
+              "Ostap Beeghley",
+              "Borlase Valkema"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot I hate that guy in particular C",
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
+          "plot": {
+            "name": "I hate that guy in particular C",
+            "players": [
+              "Borlase Valkema",
+              "Polly Naraine",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Get the item G",
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
+          "plot": {
+            "name": "Get the item G",
+            "players": [
+              "Colis Ringham",
+              "Borlase Valkema",
+              "Lamphere Linaman"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -336,7 +717,63 @@
           "avgPerPlayer": 0.4
         }
       ],
-      "goals": [],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy B",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Elayne Sebra",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot I hate that guy in particular C",
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
+          "plot": {
+            "name": "I hate that guy in particular C",
+            "players": [
+              "Borlase Valkema",
+              "Polly Naraine",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Conspiracy H",
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
+          "plot": {
+            "name": "Conspiracy H",
+            "players": [
+              "Hilario Depta",
+              "Felic Rautmann",
+              "Ostap Beeghley",
+              "Magen Tyger"
+            ],
+            "items": []
+          }
+        },
+        {
+          "name": "Resolve plot Secret relationship J",
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
+          "plot": {
+            "name": "Secret relationship J",
+            "players": [
+              "Polly Naraine",
+              "Colis Ringham",
+              "Chrisse Riskin",
+              "Hilario Depta"
+            ],
+            "items": []
+          }
+        }
+      ],
       "secret": "A dark haunting secret",
       "information": "A useful tidbit",
       "blurb": "The thing about interesting people is that they are usually boring",
@@ -353,7 +790,7 @@
   ],
   "plots": [
     {
-      "name": "Inciting incident \"\"\"\"murder\"\"\"\"",
+      "name": "Inciting incident A",
       "players": [
         "Polly Naraine",
         "Lamphere Linaman",
@@ -365,43 +802,81 @@
       "items": []
     },
     {
-      "name": "I hate that guy in particular",
+      "name": "Conspiracy B",
       "players": [
         "Hilario Depta",
         "Felic Rautmann",
-        "Elayne Sebra"
+        "Elayne Sebra",
+        "Magen Tyger"
       ],
       "items": []
     },
     {
-      "name": "Dark past",
+      "name": "I hate that guy in particular C",
       "players": [
-        "Magen Tyger",
         "Borlase Valkema",
-        "Polly Naraine"
-      ],
-      "items": []
-    },
-    {
-      "name": "Get the item",
-      "players": [
+        "Polly Naraine",
         "Hilario Depta"
       ],
       "items": []
     },
     {
-      "name": "Secret relationship",
+      "name": "Get the item D",
       "players": [
-        "Elayne Sebra",
+        "Elayne Sebra"
+      ],
+      "items": []
+    },
+    {
+      "name": "Dark past E",
+      "players": [
         "Magen Tyger",
         "Chrisse Riskin"
       ],
       "items": []
     },
     {
-      "name": "Get the item",
+      "name": "Secret relationship F",
       "players": [
-        "Ostap Beeghley"
+        "Ostap Beeghley",
+        "Felic Rautmann",
+        "Lamphere Linaman"
+      ],
+      "items": []
+    },
+    {
+      "name": "Get the item G",
+      "players": [
+        "Colis Ringham",
+        "Borlase Valkema",
+        "Lamphere Linaman"
+      ],
+      "items": []
+    },
+    {
+      "name": "Conspiracy H",
+      "players": [
+        "Hilario Depta",
+        "Felic Rautmann",
+        "Ostap Beeghley",
+        "Magen Tyger"
+      ],
+      "items": []
+    },
+    {
+      "name": "Dark past I",
+      "players": [
+        "Elayne Sebra"
+      ],
+      "items": []
+    },
+    {
+      "name": "Secret relationship J",
+      "players": [
+        "Polly Naraine",
+        "Colis Ringham",
+        "Chrisse Riskin",
+        "Hilario Depta"
       ],
       "items": []
     }
