@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import { Player } from './player';
 import { Power } from './power';
+import { DocX } from './docx';
 
 const NUMBER_OF_PLAYERS = 10;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
@@ -57,4 +58,10 @@ for (const player of players) {
   const playerPowers = pickNPowers(NUMBER_OF_POWERS_PER_PLAYER, powers);
   player.powers.push(...playerPowers);
   console.log(`${player.fullName} - ${player.fullPowers}`);
+}
+
+const docx = new DocX();
+
+for (const player of players) {
+  docx.generate(player);
 }
