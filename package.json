@@ -1,0 +1,27 @@
+{
+  "name": "generate-a-mystery",
+  "version": "1.0.0",
+  "description": "Generates a framework for murder mystery nights.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -p . -c tslint.json",
+    "start": "ts-node src/main.ts",
+    "serve": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesHDuffield/generate-a-mystery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesHDuffield/generate-a-mystery/issues"
+  },
+  "homepage": "https://github.com/JamesHDuffield/generate-a-mystery#readme",
+  "devDependencies": {
+    "intolerable-style-guide": "^1.3.0",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
