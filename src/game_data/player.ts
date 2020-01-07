@@ -1,6 +1,7 @@
 import { Power } from './power';
 import { Goal } from './goal';
-import { Expose } from 'class-transformer';
+import { Expose, Exclude } from 'class-transformer';
+import { Relationship } from './relationship';
 
 export class Player {
   firstName: string;
@@ -8,6 +9,8 @@ export class Player {
   title: string;
   powers: Power[] = [];
   goals: Goal[] = [];
+  @Exclude()
+  relationships: Relationship[] = [];
   secret = 'A dark haunting secret';
   information = 'A useful tidbit';
   blurb = 'The thing about interesting people is that they are usually boring';
@@ -17,6 +20,12 @@ export class Player {
     this.firstName = first;
     this.lastName = last;
     this.title = title;
+  }
+
+  @Expose()
+  get otherPeople(): string[] {
+    return this.relationships
+      .map((rel) => `${rel.theFriendThatsNotMe(this).title} (${rel.strength} ${rel.alignment})`);
   }
 
   @Expose()
@@ -34,7 +43,11 @@ export class Player {
       .join(', ');
   }
 
+  get otherPeopleSummary(): string {
+    return this.otherPeople.join(',');
+  }
+
   get playerSummary(): string {
-    return `${this.fullName} - ${this.fullPowers} - ${this.fullGoals}`;
+    return `${this.fullName}(${this.title}) - ${this.otherPeopleSummary} - ${this.fullPowers} - ${this.fullGoals}`;
   }
 }

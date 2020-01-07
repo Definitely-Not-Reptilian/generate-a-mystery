@@ -21,7 +21,7 @@ export class Plot {
 
   get plotSummary(): string {
     const playerNameList = this.players
-      .map((p) => p.fullName)
+      .map((p) => p.title)
       .join(', ');
     return `${this.name}: ${playerNameList}`;
   }

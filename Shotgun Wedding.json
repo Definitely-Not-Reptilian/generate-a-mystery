@@ -21,15 +21,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
+          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
+          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
         }
       ],
       "secret": "A dark haunting secret",
@@ -43,6 +43,14 @@
       "firstName": "Colis",
       "lastName": "Ringham",
       "title": "Groom",
+      "otherPeople": [
+        "Bridesmaid (Strong -)",
+        "Priest (Strong -)",
+        "Drunk Uncle (Strong -)",
+        "Bride (Weak +)",
+        "Best man (Weak -)",
+        "Wedding Planner (Weak +)"
+      ],
       "fullName": "Colis Ringham"
     },
     {
@@ -66,15 +74,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
+          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
+          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
         }
       ],
       "secret": "A dark haunting secret",
@@ -88,6 +96,16 @@
       "firstName": "Ostap",
       "lastName": "Beeghley",
       "title": "Bride",
+      "otherPeople": [
+        "Groom (Weak +)",
+        "Wedding Planner (Strong +)",
+        "Priest (Strong -)",
+        "Flowergirl (Strong +)",
+        "Drunk Uncle (Weak -)",
+        "Bridesmaid (Weak +)",
+        "Best man (Weak -)",
+        "Bride's Father (Weak -)"
+      ],
       "fullName": "Ostap Beeghley"
     },
     {
@@ -111,15 +129,15 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
+          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
         },
         {
           "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Elayne Sebra"
+          "description": "Get the item D: Bridesmaid"
         },
         {
           "name": "Resolve plot Dark past I",
-          "description": "Dark past I: Elayne Sebra"
+          "description": "Dark past I: Bridesmaid"
         }
       ],
       "secret": "A dark haunting secret",
@@ -133,6 +151,14 @@
       "firstName": "Elayne",
       "lastName": "Sebra",
       "title": "Bridesmaid",
+      "otherPeople": [
+        "Groom (Strong -)",
+        "Bride (Weak +)",
+        "Best man (Strong -)",
+        "Groom's Mother (Strong -)",
+        "Flowergirl (Weak +)",
+        "Priest (Weak -)"
+      ],
       "fullName": "Elayne Sebra"
     },
     {
@@ -156,15 +182,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Magen Tyger, Chrisse Riskin"
+          "description": "Dark past E: Bride's Father, Flowergirl"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
+          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
         }
       ],
       "secret": "A dark haunting secret",
@@ -178,6 +204,15 @@
       "firstName": "Chrisse",
       "lastName": "Riskin",
       "title": "Flowergirl",
+      "otherPeople": [
+        "Bride (Strong +)",
+        "Bridesmaid (Weak +)",
+        "Drunk Uncle (Strong +)",
+        "Wedding Planner (Strong -)",
+        "Bride's Father (Weak +)",
+        "Priest (Weak -)",
+        "Best man (Strong +)"
+      ],
       "fullName": "Chrisse Riskin"
     },
     {
@@ -201,15 +236,15 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
+          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
+          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
+          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
         }
       ],
       "secret": "A dark haunting secret",
@@ -223,6 +258,16 @@
       "firstName": "Felic",
       "lastName": "Rautmann",
       "title": "Priest",
+      "otherPeople": [
+        "Groom (Strong -)",
+        "Bride (Strong -)",
+        "Bridesmaid (Weak -)",
+        "Flowergirl (Weak -)",
+        "Wedding Planner (Strong +)",
+        "Drunk Uncle (Weak +)",
+        "Bride's Father (Strong -)",
+        "Groom's Mother (Weak -)"
+      ],
       "fullName": "Felic Rautmann"
     },
     {
@@ -246,15 +291,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
+          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
+          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
         }
       ],
       "secret": "A dark haunting secret",
@@ -268,6 +313,15 @@
       "firstName": "Polly",
       "lastName": "Naraine",
       "title": "Best man",
+      "otherPeople": [
+        "Groom (Weak -)",
+        "Bridesmaid (Strong -)",
+        "Bride's Father (Strong +)",
+        "Flowergirl (Strong +)",
+        "Bride (Weak -)",
+        "Wedding Planner (Weak -)",
+        "Groom's Mother (Strong +)"
+      ],
       "fullName": "Polly Naraine"
     },
     {
@@ -291,15 +345,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
+          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
+          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
         }
       ],
       "secret": "A dark haunting secret",
@@ -313,6 +367,16 @@
       "firstName": "Lamphere",
       "lastName": "Linaman",
       "title": "Wedding Planner",
+      "otherPeople": [
+        "Groom (Weak +)",
+        "Bride (Strong +)",
+        "Flowergirl (Strong -)",
+        "Priest (Strong +)",
+        "Best man (Weak -)",
+        "Groom's Mother (Weak -)",
+        "Bride's Father (Strong +)",
+        "Drunk Uncle (Weak +)"
+      ],
       "fullName": "Lamphere Linaman"
     },
     {
@@ -336,15 +400,15 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
+          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
         },
         {
           "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Magen Tyger, Chrisse Riskin"
+          "description": "Dark past E: Bride's Father, Flowergirl"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
+          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
         }
       ],
       "secret": "A dark haunting secret",
@@ -358,6 +422,14 @@
       "firstName": "Magen",
       "lastName": "Tyger",
       "title": "Bride's Father",
+      "otherPeople": [
+        "Flowergirl (Weak +)",
+        "Best man (Strong +)",
+        "Priest (Strong -)",
+        "Wedding Planner (Strong +)",
+        "Bride (Weak -)",
+        "Groom's Mother (Weak -)"
+      ],
       "fullName": "Magen Tyger"
     },
     {
@@ -381,15 +453,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
+          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
+          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
+          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
         }
       ],
       "secret": "A dark haunting secret",
@@ -403,6 +475,14 @@
       "firstName": "Borlase",
       "lastName": "Valkema",
       "title": "Groom's Mother",
+      "otherPeople": [
+        "Bridesmaid (Strong -)",
+        "Wedding Planner (Weak -)",
+        "Bride's Father (Weak -)",
+        "Best man (Strong +)",
+        "Drunk Uncle (Strong -)",
+        "Priest (Weak -)"
+      ],
       "fullName": "Borlase Valkema"
     },
     {
@@ -426,19 +506,19 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
+          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
+          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
+          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
+          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
         }
       ],
       "secret": "A dark haunting secret",
@@ -452,6 +532,14 @@
       "firstName": "Hilario",
       "lastName": "Depta",
       "title": "Drunk Uncle",
+      "otherPeople": [
+        "Groom (Strong -)",
+        "Bride (Weak -)",
+        "Flowergirl (Strong +)",
+        "Priest (Weak +)",
+        "Groom's Mother (Strong -)",
+        "Wedding Planner (Weak +)"
+      ],
       "fullName": "Hilario Depta"
     }
   ],
