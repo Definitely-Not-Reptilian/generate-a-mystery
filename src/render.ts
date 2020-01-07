@@ -1,5 +1,5 @@
 import { DocX } from './docx';
-import { Game } from './game';
+import { Game } from './game_data/game';
 import { readJson } from './json';
 
 const GAME_NAME = 'Shotgun Wedding';

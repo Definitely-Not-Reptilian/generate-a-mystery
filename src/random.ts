@@ -1,5 +1,5 @@
 import * as seedrandom from 'seedrandom';
-import { Power } from './power';
+import { Power } from './game_data/power';
 
 export class Random {
 

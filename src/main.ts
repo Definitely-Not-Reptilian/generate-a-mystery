@@ -1,8 +1,8 @@
 
-import { Player } from './player';
-import { Power } from './power';
-import { PlotTemplate, Plot } from './plot';
-import { Game } from './game';
+import { Player } from './game_data/player';
+import { Power } from './game_data/power';
+import { PlotTemplate, Plot } from './game_data/plot';
+import { Game } from './game_data/game';
 import { classToPlain } from 'class-transformer';
 import { loadJson, writeJSON } from './json';
 import { Random } from './random';
