@@ -3,6 +3,13 @@ import { Player } from './player';
 import { Power } from './power';
 import { PlotTemplate, Plot } from './plot';
 
+import { DocX } from './docx';
+import * as seedrandom from 'seedrandom';
+
+const SEED = 'redrum';
+const randomPick = seedrandom(`${SEED}.pick`);
+const randomRoll = seedrandom(`${SEED}.roll`);
+
 const NUMBER_OF_PLAYERS = 10;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
 const NUMBER_OF_PLOTS = 6;
@@ -12,7 +19,7 @@ function loadJson<T>(filename: string): T {
 }
 
 function pickRandomAndRemove<T>(options: T[]): T {
-  const index = Math.floor(Math.random() * options.length);
+  const index = Math.floor(randomPick() * options.length);
   return options.splice(index, 1)[0];
 }
 
@@ -21,7 +28,7 @@ function pickNPowers(n: number, powerSet: Power[]): Power[] {
     .reduce((p, cv) => p + cv);
   const picked: Power[] = [];
   for (let i = 0; i < n; i++) {
-    const roll = Math.random() * total;
+    const roll = randomRoll() * total;
     let currentWeight = 0;
     for (const power of powerSet) {
       if (!picked.includes(power)) {
@@ -104,3 +111,10 @@ for (const gamePlot of gamePlots) {
   }
 }
 console.log(gamePlots.map((plot) => plot.plotSummary).join('\n'));
+
+const docx = new DocX();
+
+for (const player of players) {
+  docx.generate(player);
+}
+
