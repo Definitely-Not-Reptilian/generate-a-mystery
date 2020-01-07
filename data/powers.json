@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Secret",
+    "avgPerPlayer": 0.4
+  },
+  {
+    "name": "Information",
+    "avgPerPlayer": 0.4
+  },
+  {
+    "name": "Other People",
+    "avgPerPlayer": 0.3
+  },
+  {
+    "name": "Defend",
+    "avgPerPlayer": 0.5
+  },
+  {
+    "name": "Pickpocket",
+    "avgPerPlayer": 0.2
+  },
+  {
+    "name": "Reveal",
+    "avgPerPlayer": 0.1
+  },
+  {
+    "name": "Attack",
+    "avgPerPlayer": 0.1
+  },
+  {
+    "name": "Special",
+    "avgPerPlayer": 0.1
+  }
+]
