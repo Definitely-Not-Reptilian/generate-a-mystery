@@ -5,17 +5,18 @@ import { Expose } from 'class-transformer';
 export class Player {
   firstName: string;
   lastName: string;
+  title: string;
   powers: Power[] = [];
   goals: Goal[] = [];
   secret = 'A dark haunting secret';
   information = 'A useful tidbit';
-  title = 'An interesting individual';
   blurb = 'The thing about interesting people is that they are usually boring';
   traits = [ 'Boring', 'Curious', 'Smooth Talking' ];
 
-  constructor(first: string, last: string) {
+  constructor(first: string, last: string, title: string) {
     this.firstName = first;
     this.lastName = last;
+    this.title = title;
   }
 
   @Expose()
