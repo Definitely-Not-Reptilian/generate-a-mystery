@@ -7,8 +7,9 @@ function loadJson<T>(filename: string): T {
   return JSON.parse(readFileSync(`./data/${filename}.json`, { encoding: 'UTF8' }));
 }
 
-function pickRandom<T>(options: T[]) {
-  return options[Math.floor(Math.random() * options.length)];
+function pickRandomAndRemove<T>(options: T[]): T {
+  const index = Math.floor(Math.random() * options.length);
+  return options.splice(index, 1)[0];
 }
 
 // Load names
@@ -21,8 +22,9 @@ console.log(`Loaded: ${lastNames.length} last names`);
 const players = [];
 
 for (let i = 0; i < NUMBER_OF_PLAYERS; i++) {
-  const player = new Player(pickRandom(firstNames), pickRandom(lastNames));
+  const player = new Player(pickRandomAndRemove(firstNames), pickRandomAndRemove(lastNames));
   players.push(player);
-  console.log(`Created player ${player.fullName}`);
+  console.log(`Created player: ${player.fullName}`);
 }
+
 
