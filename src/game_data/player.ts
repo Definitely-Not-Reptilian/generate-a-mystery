@@ -27,4 +27,13 @@ export class Player {
     return this.powers.map((power) => power.name)
       .join(', ');
   }
+
+  get fullGoals(): string {
+    return this.goals.map((goal) => goal.name)
+      .join(', ');
+  }
+
+  get playerSummary(): string {
+    return `${this.fullName} - ${this.fullPowers} - ${this.fullGoals}`;
+  }
 }

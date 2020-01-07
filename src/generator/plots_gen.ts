@@ -8,9 +8,15 @@ interface PlotsFile {
   needed: PlotTemplate[];
   optional: PlotTemplate[];
 }
-
+const ALPHABET = 'abcdefghijklmnopqrstuvwxyz';
+let currentIndexOfAlphabet = 0;
+function getNextLetter(): string {
+  const letter = ALPHABET[currentIndexOfAlphabet].toUpperCase();
+  currentIndexOfAlphabet = (currentIndexOfAlphabet + 1) % ALPHABET.length;
+  return letter;
+}
 function seedPlot(random: Random, plotTemplate: PlotTemplate): Plot {
-  const newPlot = new Plot(plotTemplate.name);
+  const newPlot = new Plot(`${plotTemplate.name} ${getNextLetter()}`);
   const numberOfPlayersInPlot = random.getRandomBetween(plotTemplate.playerRangeMin, plotTemplate.playerRangeMax);
   newPlot.numberOfPlayers = numberOfPlayersInPlot;
   return newPlot;

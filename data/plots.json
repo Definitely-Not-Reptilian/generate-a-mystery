@@ -1,7 +1,7 @@
 {
   "needed": [
     {
-      "name": "Inciting incident \"\"\"\"murder\"\"\"\"",
+      "name": "Inciting incident",
       "playerRangeMin": 3,
       "playerRangeMax": 6
     }
@@ -26,6 +26,11 @@
       "name": "I hate that guy in particular",
       "playerRangeMin": 2,
       "playerRangeMax": 4
+    },
+    {
+      "name": "Conspiracy",
+      "playerRangeMin": 2,
+      "playerRangeMax": 6
     }
   ]
 }
