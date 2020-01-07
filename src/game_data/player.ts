@@ -7,6 +7,11 @@ export class Player {
   lastName: string;
   powers: Power[] = [];
   goals: Goal[] = [];
+  secret = 'A dark haunting secret';
+  information = 'A useful tidbit';
+  title = 'An interesting individual';
+  blurb = 'The thing about interesting people is that they are usually boring';
+  traits = [ 'Boring', 'Curious', 'Smooth Talking' ];
 
   constructor(first: string, last: string) {
     this.firstName = first;

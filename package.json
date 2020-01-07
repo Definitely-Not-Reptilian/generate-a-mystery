@@ -28,8 +28,10 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "angular-expressions": "^1.0.0",
     "class-transformer": "^0.2.3",
     "docxtemplater": "^3.15.4",
+    "lodash": "^4.17.15",
     "pizzip": "^3.0.6",
     "seedrandom": "^3.0.5"
   }
