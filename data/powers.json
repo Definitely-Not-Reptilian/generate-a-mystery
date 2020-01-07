@@ -3,48 +3,48 @@
     "name": "Secret",
     "description": "Do something specific. If you manage this, the player must show you their secret.",
     "usages": 3,
-    "avgPerPlayer": 0.4
+    "weight": 0.4
   },
   {
     "name": "Information",
     "description": "Do something specific. If you manage this, the player must show you their information.",
     "usages": 3,
-    "avgPerPlayer": 0.4
+    "weight": 0.4
   },
   {
     "name": "Other People",
     "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
     "usages": 3,
-    "avgPerPlayer": 0.3
+    "weight": 0.3
   },
   {
     "name": "Defend",
     "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
     "usages": 3,
-    "avgPerPlayer": 0.5
+    "weight": 0.5
   },
   {
     "name": "Pickpocket",
     "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
     "usages": 2,
-    "avgPerPlayer": 0.2
+    "weight": 0.2
   },
   {
     "name": "Reveal",
     "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
     "usages": 3,
-    "avgPerPlayer": 0.1
+    "weight": 0.1
   },
   {
     "name": "Attack",
     "description": "Do something specific. If you manage this, the player is knocked out.",
     "usages": 2,
-    "avgPerPlayer": 0.1
+    "weight": 0.1
   },
   {
     "name": "Special",
     "description": "Do something specific. If you manage this something special happens",
     "usages": 2,
-    "avgPerPlayer": 0.1
+    "weight": 0.1
   }
 ]

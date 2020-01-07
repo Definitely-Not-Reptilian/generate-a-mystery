@@ -1,5 +1,4 @@
 import * as seedrandom from 'seedrandom';
-import { Power } from './game_data/power';
 
 export class Random {
 
@@ -25,20 +24,18 @@ export class Random {
     return toBeSampled[Math.floor(this.randomAmount() * toBeSampled.length)];
   }
 
-  pickNPowers(n: number, powerSet: Power[]): Power[] {
-    let total = powerSet
-      .map((p) => p.avgPerPlayer)
-      .reduce((p, cv) => p + cv);
-    const picked: Power[] = [];
+  pickNFromWeightedListWithoutReplacement<T extends { weight: number }>(n: number, set: T[]): T[] {
+    let total = set.reduce((p, cv) => p + cv.weight, 0);
+    const picked: T[] = [];
     for (let i = 0; i < n; i++) {
       const roll = this.randomRoll() * total;
       let currentWeight = 0;
-      for (const power of powerSet) {
-        if (!picked.includes(power)) {
-          currentWeight += power.avgPerPlayer;
+      for (const item of set) {
+        if (!picked.includes(item)) {
+          currentWeight += item.weight;
           if (currentWeight > roll) {
-            picked.push(power);
-            total -= power.avgPerPlayer;
+            picked.push(item);
+            total -= item.weight;
             break;
           }
         }

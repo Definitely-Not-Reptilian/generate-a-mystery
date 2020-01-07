@@ -1,6 +1,9 @@
-export interface Power {
+import { Exclude } from 'class-transformer';
+
+export class Power {
   name: string;
   description: string;
   usages: number;
-  avgPerPlayer: number;
+  @Exclude({ toPlainOnly: true })
+  weight: number;
 }

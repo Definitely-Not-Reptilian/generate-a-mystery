@@ -5,65 +5,31 @@
         {
           "name": "Other People",
           "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3,
-          "avgPerPlayer": 0.3
+          "usages": 3
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
-          "plot": {
-            "name": "Get the item G",
-            "players": [
-              "Colis Ringham",
-              "Borlase Valkema",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
-          "plot": {
-            "name": "Secret relationship J",
-            "players": [
-              "Polly Naraine",
-              "Colis Ringham",
-              "Chrisse Riskin",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
         }
       ],
       "secret": "A dark haunting secret",
@@ -84,65 +50,31 @@
         {
           "name": "Other People",
           "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3,
-          "avgPerPlayer": 0.3
+          "usages": 3
         },
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Attack",
           "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2,
-          "avgPerPlayer": 0.1
+          "usages": 2
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
-          "plot": {
-            "name": "Secret relationship F",
-            "players": [
-              "Ostap Beeghley",
-              "Felic Rautmann",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy H",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Ostap Beeghley",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
         }
       ],
       "secret": "A dark haunting secret",
@@ -163,58 +95,31 @@
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Attack",
           "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2,
-          "avgPerPlayer": 0.1
+          "usages": 2
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy B",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Elayne Sebra",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
         },
         {
           "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Elayne Sebra",
-          "plot": {
-            "name": "Get the item D",
-            "players": [
-              "Elayne Sebra"
-            ],
-            "items": []
-          }
+          "description": "Get the item D: Elayne Sebra"
         },
         {
           "name": "Resolve plot Dark past I",
-          "description": "Dark past I: Elayne Sebra",
-          "plot": {
-            "name": "Dark past I",
-            "players": [
-              "Elayne Sebra"
-            ],
-            "items": []
-          }
+          "description": "Dark past I: Elayne Sebra"
         }
       ],
       "secret": "A dark haunting secret",
@@ -235,64 +140,31 @@
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Attack",
           "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2,
-          "avgPerPlayer": 0.1
+          "usages": 2
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Magen Tyger, Chrisse Riskin",
-          "plot": {
-            "name": "Dark past E",
-            "players": [
-              "Magen Tyger",
-              "Chrisse Riskin"
-            ],
-            "items": []
-          }
+          "description": "Dark past E: Magen Tyger, Chrisse Riskin"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
-          "plot": {
-            "name": "Secret relationship J",
-            "players": [
-              "Polly Naraine",
-              "Colis Ringham",
-              "Chrisse Riskin",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
         }
       ],
       "secret": "A dark haunting secret",
@@ -313,63 +185,31 @@
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Other People",
           "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3,
-          "avgPerPlayer": 0.3
+          "usages": 3
         },
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy B",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Elayne Sebra",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
-          "plot": {
-            "name": "Secret relationship F",
-            "players": [
-              "Ostap Beeghley",
-              "Felic Rautmann",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy H",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Ostap Beeghley",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
         }
       ],
       "secret": "A dark haunting secret",
@@ -390,65 +230,31 @@
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Special",
           "description": "Do something specific. If you manage this something special happens",
-          "usages": 2,
-          "avgPerPlayer": 0.1
+          "usages": 2
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
-          "plot": {
-            "name": "I hate that guy in particular C",
-            "players": [
-              "Borlase Valkema",
-              "Polly Naraine",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
-          "plot": {
-            "name": "Secret relationship J",
-            "players": [
-              "Polly Naraine",
-              "Colis Ringham",
-              "Chrisse Riskin",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
         }
       ],
       "secret": "A dark haunting secret",
@@ -469,64 +275,31 @@
         {
           "name": "Special",
           "description": "Do something specific. If you manage this something special happens",
-          "usages": 2,
-          "avgPerPlayer": 0.1
+          "usages": 2
         },
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Pickpocket",
           "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
-          "usages": 2,
-          "avgPerPlayer": 0.2
+          "usages": 2
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman",
-          "plot": {
-            "name": "Secret relationship F",
-            "players": [
-              "Ostap Beeghley",
-              "Felic Rautmann",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship F: Ostap Beeghley, Felic Rautmann, Lamphere Linaman"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
-          "plot": {
-            "name": "Get the item G",
-            "players": [
-              "Colis Ringham",
-              "Borlase Valkema",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
         }
       ],
       "secret": "A dark haunting secret",
@@ -547,62 +320,31 @@
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy B",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Elayne Sebra",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
         },
         {
           "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Magen Tyger, Chrisse Riskin",
-          "plot": {
-            "name": "Dark past E",
-            "players": [
-              "Magen Tyger",
-              "Chrisse Riskin"
-            ],
-            "items": []
-          }
+          "description": "Dark past E: Magen Tyger, Chrisse Riskin"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy H",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Ostap Beeghley",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
         }
       ],
       "secret": "A dark haunting secret",
@@ -623,64 +365,31 @@
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema",
-          "plot": {
-            "name": "Inciting incident A",
-            "players": [
-              "Polly Naraine",
-              "Lamphere Linaman",
-              "Chrisse Riskin",
-              "Colis Ringham",
-              "Ostap Beeghley",
-              "Borlase Valkema"
-            ],
-            "items": []
-          }
+          "description": "Inciting incident A: Polly Naraine, Lamphere Linaman, Chrisse Riskin, Colis Ringham, Ostap Beeghley, Borlase Valkema"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
-          "plot": {
-            "name": "I hate that guy in particular C",
-            "players": [
-              "Borlase Valkema",
-              "Polly Naraine",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
         },
         {
           "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman",
-          "plot": {
-            "name": "Get the item G",
-            "players": [
-              "Colis Ringham",
-              "Borlase Valkema",
-              "Lamphere Linaman"
-            ],
-            "items": []
-          }
+          "description": "Get the item G: Colis Ringham, Borlase Valkema, Lamphere Linaman"
         }
       ],
       "secret": "A dark haunting secret",
@@ -701,77 +410,35 @@
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         },
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3,
-          "avgPerPlayer": 0.5
+          "usages": 3
         },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3,
-          "avgPerPlayer": 0.4
+          "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy B",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Elayne Sebra",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy B: Hilario Depta, Felic Rautmann, Elayne Sebra, Magen Tyger"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta",
-          "plot": {
-            "name": "I hate that guy in particular C",
-            "players": [
-              "Borlase Valkema",
-              "Polly Naraine",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "I hate that guy in particular C: Borlase Valkema, Polly Naraine, Hilario Depta"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger",
-          "plot": {
-            "name": "Conspiracy H",
-            "players": [
-              "Hilario Depta",
-              "Felic Rautmann",
-              "Ostap Beeghley",
-              "Magen Tyger"
-            ],
-            "items": []
-          }
+          "description": "Conspiracy H: Hilario Depta, Felic Rautmann, Ostap Beeghley, Magen Tyger"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta",
-          "plot": {
-            "name": "Secret relationship J",
-            "players": [
-              "Polly Naraine",
-              "Colis Ringham",
-              "Chrisse Riskin",
-              "Hilario Depta"
-            ],
-            "items": []
-          }
+          "description": "Secret relationship J: Polly Naraine, Colis Ringham, Chrisse Riskin, Hilario Depta"
         }
       ],
       "secret": "A dark haunting secret",
