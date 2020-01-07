@@ -1,0 +1,31 @@
+{
+  "needed": [
+    {
+      "name": "Inciting incident \"\"\"\"murder\"\"\"\"",
+      "playerRangeMin": 3,
+      "playerRangeMax": 6
+    }
+  ],
+  "optional": [
+    {
+      "name": "Get the item",
+      "playerRangeMin": 1,
+      "playerRangeMax": 3
+    },
+    {
+      "name": "Secret relationship",
+      "playerRangeMin": 2,
+      "playerRangeMax": 5
+    },
+    {
+      "name": "Dark past",
+      "playerRangeMin": 1,
+      "playerRangeMax": 4
+    },
+    {
+      "name": "I hate that guy in particular",
+      "playerRangeMin": 2,
+      "playerRangeMax": 4
+    }
+  ]
+}

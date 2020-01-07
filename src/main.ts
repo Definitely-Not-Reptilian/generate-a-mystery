@@ -1,9 +1,11 @@
 import { readFileSync } from 'fs';
 import { Player } from './player';
 import { Power } from './power';
+import { PlotTemplate, Plot } from './plot';
 
 const NUMBER_OF_PLAYERS = 10;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
+const NUMBER_OF_PLOTS = 6;
 
 function loadJson<T>(filename: string): T {
   return JSON.parse(readFileSync(`./data/${filename}.json`, { encoding: 'UTF8' }));
@@ -58,3 +60,47 @@ for (const player of players) {
   player.powers.push(...playerPowers);
   console.log(`${player.fullName} - ${player.fullPowers}`);
 }
+
+interface PlotsFile {
+  needed: PlotTemplate[];
+  optional: PlotTemplate[];
+}
+// Load plots
+const plotTemplates = loadJson<PlotsFile>('plots');
+console.log(`Loaded: ${powers.length} plots`);
+const gamePlots: Plot[] = [];
+
+function getRandomBetween(min: number, max: number): number {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function seedPlot(plotTemplate: PlotTemplate): Plot {
+  const newPlot = new Plot(plotTemplate.name);
+  const numberOfPlayersInPlot = getRandomBetween(plotTemplate.playerRangeMin, plotTemplate.playerRangeMax);
+  newPlot.numberOfPlayers = numberOfPlayersInPlot;
+  return newPlot;
+}
+for (const neededPlot of plotTemplates.needed) {
+  gamePlots.push(seedPlot(neededPlot));
+}
+for (let i = 0; i < NUMBER_OF_PLOTS - plotTemplates.needed.length; i++) {
+  gamePlots.push(seedPlot(plotTemplates.optional[Math.floor(Math.random() * plotTemplates.optional.length)]));
+}
+
+function shuffleArray(toBeSuffled): void {
+  for (let i = toBeSuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [ toBeSuffled[i], toBeSuffled[j] ] = [ toBeSuffled[j], toBeSuffled[i] ];
+  }
+}
+let shuffledPlayerList = [ ...players ];
+shuffleArray(shuffledPlayerList);
+for (const gamePlot of gamePlots) {
+  for (let i = 0; i < gamePlot.numberOfPlayers; i++) {
+    gamePlot.players.push(shuffledPlayerList.pop());
+    if (shuffledPlayerList.length === 0) {
+      shuffledPlayerList = [ ...players ];
+      shuffleArray(shuffledPlayerList);
+    }
+  }
+}
+console.log(gamePlots.map((plot) => plot.plotSummary).join('\n'));
