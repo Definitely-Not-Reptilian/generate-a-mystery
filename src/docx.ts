@@ -2,10 +2,11 @@ import * as PizZip from 'pizzip';
 import * as Docxtemplater from 'docxtemplater';
 import { readFileSync, writeFileSync } from 'fs';
 import { Player } from './player';
+import { Game } from './game';
 
 export class DocX {
 
-  generate(data: Player) {
+  generate(game: Game, data: Player) {
     // Get template
     const content = readFileSync('template/input.docx', 'binary');
     const zip = new PizZip(content);

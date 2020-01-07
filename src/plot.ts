@@ -1,5 +1,6 @@
 import { Player } from './player';
 import { Item } from './item';
+import { Transform, Exclude } from 'class-transformer';
 
 export interface PlotTemplate {
   name: string;
@@ -9,8 +10,13 @@ export interface PlotTemplate {
 
 export class Plot {
   constructor(public name: string) { }
+
+  @Exclude()
   numberOfPlayers: number;
+
+  @Transform((players: Player[]) => players.map((player) => player.fullName), { toPlainOnly: true })
   players: Player[] = [];
+
   items: Item[] = [];
 
   get plotSummary(): string {

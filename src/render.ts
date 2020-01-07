@@ -8,5 +8,5 @@ const docx = new DocX();
 
 const game: Game = readJson(`${GAME_NAME}.json`);
 for (const player of game.players) {
-  docx.generate(player);
+  docx.generate(game, player);
 }

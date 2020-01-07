@@ -205,324 +205,52 @@
     {
       "name": "Inciting incident \"\"\"\"murder\"\"\"\"",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Special",
-              "avgPerPlayer": 0.1
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Polly",
-          "lastName": "Naraine",
-          "fullName": "Polly Naraine"
-        },
-        {
-          "powers": [
-            {
-              "name": "Special",
-              "avgPerPlayer": 0.1
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Pickpocket",
-              "avgPerPlayer": 0.2
-            }
-          ],
-          "goals": [],
-          "firstName": "Lamphere",
-          "lastName": "Linaman",
-          "fullName": "Lamphere Linaman"
-        },
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Attack",
-              "avgPerPlayer": 0.1
-            }
-          ],
-          "goals": [],
-          "firstName": "Chrisse",
-          "lastName": "Riskin",
-          "fullName": "Chrisse Riskin"
-        },
-        {
-          "powers": [
-            {
-              "name": "Other People",
-              "avgPerPlayer": 0.3
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Colis",
-          "lastName": "Ringham",
-          "fullName": "Colis Ringham"
-        },
-        {
-          "powers": [
-            {
-              "name": "Other People",
-              "avgPerPlayer": 0.3
-            },
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Attack",
-              "avgPerPlayer": 0.1
-            }
-          ],
-          "goals": [],
-          "firstName": "Ostap",
-          "lastName": "Beeghley",
-          "fullName": "Ostap Beeghley"
-        },
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Borlase",
-          "lastName": "Valkema",
-          "fullName": "Borlase Valkema"
-        }
+        "Polly Naraine",
+        "Lamphere Linaman",
+        "Chrisse Riskin",
+        "Colis Ringham",
+        "Ostap Beeghley",
+        "Borlase Valkema"
       ],
-      "items": [],
-      "numberOfPlayers": 6
+      "items": []
     },
     {
       "name": "Get the item",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Hilario",
-          "lastName": "Depta",
-          "fullName": "Hilario Depta"
-        },
-        {
-          "powers": [
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Other People",
-              "avgPerPlayer": 0.3
-            },
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Felic",
-          "lastName": "Rautmann",
-          "fullName": "Felic Rautmann"
-        }
+        "Hilario Depta",
+        "Felic Rautmann"
       ],
-      "items": [],
-      "numberOfPlayers": 2
+      "items": []
     },
     {
       "name": "Get the item",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Attack",
-              "avgPerPlayer": 0.1
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Elayne",
-          "lastName": "Sebra",
-          "fullName": "Elayne Sebra"
-        },
-        {
-          "powers": [
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Magen",
-          "lastName": "Tyger",
-          "fullName": "Magen Tyger"
-        }
+        "Elayne Sebra",
+        "Magen Tyger"
       ],
-      "items": [],
-      "numberOfPlayers": 2
+      "items": []
     },
     {
       "name": "Get the item",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Borlase",
-          "lastName": "Valkema",
-          "fullName": "Borlase Valkema"
-        }
+        "Borlase Valkema"
       ],
-      "items": [],
-      "numberOfPlayers": 1
+      "items": []
     },
     {
       "name": "Dark past",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Special",
-              "avgPerPlayer": 0.1
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Polly",
-          "lastName": "Naraine",
-          "fullName": "Polly Naraine"
-        },
-        {
-          "powers": [
-            {
-              "name": "Secret",
-              "avgPerPlayer": 0.4
-            },
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Hilario",
-          "lastName": "Depta",
-          "fullName": "Hilario Depta"
-        }
+        "Polly Naraine",
+        "Hilario Depta"
       ],
-      "items": [],
-      "numberOfPlayers": 2
+      "items": []
     },
     {
       "name": "Get the item",
       "players": [
-        {
-          "powers": [
-            {
-              "name": "Defend",
-              "avgPerPlayer": 0.5
-            },
-            {
-              "name": "Attack",
-              "avgPerPlayer": 0.1
-            },
-            {
-              "name": "Information",
-              "avgPerPlayer": 0.4
-            }
-          ],
-          "goals": [],
-          "firstName": "Elayne",
-          "lastName": "Sebra",
-          "fullName": "Elayne Sebra"
-        }
+        "Elayne Sebra"
       ],
-      "items": [],
-      "numberOfPlayers": 1
+      "items": []
     }
   ],
   "name": "Shotgun Wedding"
