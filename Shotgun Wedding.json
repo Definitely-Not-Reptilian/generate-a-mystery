@@ -21,7 +21,7 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Get the item G",
@@ -29,7 +29,7 @@
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
         }
       ],
       "secret": "A dark haunting secret",
@@ -45,47 +45,56 @@
       "title": "Groom",
       "otherPeople": [
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -113,15 +122,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
+          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
         }
       ],
       "secret": "A dark haunting secret",
@@ -137,41 +146,49 @@
       "title": "Bride",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "-"
@@ -200,15 +217,15 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
+          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
         },
         {
           "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Bridesmaid"
+          "description": "Get the item D: Maid of Honor"
         },
         {
           "name": "Resolve plot Dark past I",
-          "description": "Dark past I: Bridesmaid"
+          "description": "Dark past I: Maid of Honor"
         },
         {
           "name": "Lean into this relationship",
@@ -225,44 +242,52 @@
       ],
       "firstName": "Elayne",
       "lastName": "Sebra",
-      "title": "Bridesmaid",
+      "title": "Maid of Honor",
       "otherPeople": [
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
@@ -291,7 +316,7 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Dark past E",
@@ -299,7 +324,7 @@
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
         },
         {
           "name": "Lean into this relationship",
@@ -319,41 +344,49 @@
       "title": "Flowergirl",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
@@ -382,19 +415,19 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
+          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
+          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very + about Bridesmaid. Do something about it"
+          "description": "You feel very + about Maid of Honor. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -407,45 +440,53 @@
       ],
       "firstName": "Felic",
       "lastName": "Rautmann",
-      "title": "Priest",
+      "title": "Marriage Officiant",
       "otherPeople": [
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "-"
         }
@@ -473,15 +514,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
+          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
         },
         {
           "name": "Lean into this relationship",
@@ -498,44 +539,52 @@
       ],
       "firstName": "Polly",
       "lastName": "Naraine",
-      "title": "Best man",
+      "title": "Best Man",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "-"
@@ -564,11 +613,11 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Priest, Wedding Planner"
+          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
         },
         {
           "name": "Resolve plot Get the item G",
@@ -588,41 +637,49 @@
       "title": "Wedding Planner",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
@@ -651,7 +708,7 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
+          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
         },
         {
           "name": "Resolve plot Dark past E",
@@ -659,11 +716,11 @@
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very + about Bridesmaid. Do something about it"
+          "description": "You feel very + about Maid of Honor. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -679,46 +736,55 @@
       "title": "Bride's Father",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
@@ -747,11 +813,11 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
+          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Get the item G",
@@ -759,7 +825,7 @@
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Best man. Do something about it"
+          "description": "You feel very - about Best Man. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -775,46 +841,55 @@
       "title": "Groom's Mother",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Hilario Depta",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "-"
@@ -843,19 +918,19 @@
       "goals": [
         {
           "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Priest, Bridesmaid, Bride's Father"
+          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
         },
         {
           "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best man, Drunk Uncle"
+          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
         },
         {
           "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
         },
         {
           "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
         },
         {
           "name": "Lean into this relationship",
@@ -875,46 +950,55 @@
       "title": "Drunk Uncle",
       "otherPeople": [
         {
+          "playerName": "Colis Ringham",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
+          "playerName": "Ostap Beeghley",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerName": "Elayne Sebra",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
+          "playerName": "Felic Rautmann",
+          "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Lamphere Linaman",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "-"
         },
         {
+          "playerName": "Magen Tyger",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "+"
         },
         {
+          "playerName": "Borlase Valkema",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerTitle": "Best man",
+          "playerName": "Polly Naraine",
+          "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "-"
         },
         {
+          "playerName": "Chrisse Riskin",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
@@ -927,7 +1011,7 @@
     {
       "name": "Inciting incident A",
       "playerTitles": [
-        "Best man",
+        "Best Man",
         "Wedding Planner",
         "Flowergirl",
         "Groom",
@@ -940,8 +1024,8 @@
       "name": "Conspiracy B",
       "playerTitles": [
         "Drunk Uncle",
-        "Priest",
-        "Bridesmaid",
+        "Marriage Officiant",
+        "Maid of Honor",
         "Bride's Father"
       ],
       "items": []
@@ -950,7 +1034,7 @@
       "name": "I hate that guy in particular C",
       "playerTitles": [
         "Groom's Mother",
-        "Best man",
+        "Best Man",
         "Drunk Uncle"
       ],
       "items": []
@@ -958,7 +1042,7 @@
     {
       "name": "Get the item D",
       "playerTitles": [
-        "Bridesmaid"
+        "Maid of Honor"
       ],
       "items": []
     },
@@ -974,7 +1058,7 @@
       "name": "Secret relationship F",
       "playerTitles": [
         "Bride",
-        "Priest",
+        "Marriage Officiant",
         "Wedding Planner"
       ],
       "items": []
@@ -992,7 +1076,7 @@
       "name": "Conspiracy H",
       "playerTitles": [
         "Drunk Uncle",
-        "Priest",
+        "Marriage Officiant",
         "Bride",
         "Bride's Father"
       ],
@@ -1001,14 +1085,14 @@
     {
       "name": "Dark past I",
       "playerTitles": [
-        "Bridesmaid"
+        "Maid of Honor"
       ],
       "items": []
     },
     {
       "name": "Secret relationship J",
       "playerTitles": [
-        "Best man",
+        "Best Man",
         "Groom",
         "Flowergirl",
         "Drunk Uncle"
