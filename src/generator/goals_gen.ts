@@ -22,7 +22,7 @@ export function assignBonusGoalsFromOtherPeopleInGame(game: Game): void {
     const bestFriend = random.sampleOne(strongFriends);
     const goal = new Goal(
       'Lean into this relationship',
-      `You feel very ${bestFriend.alignment} about ${bestFriend.theFriendThatsNotMe(player).title}. Do something about it`
+      `You feel very ${bestFriend.alignment} about ${bestFriend.theFriendThatsNotMe(player).title}. Do something about it`,
     );
     player.goals.push(goal);
   }

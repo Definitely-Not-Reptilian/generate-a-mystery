@@ -9,7 +9,7 @@ const GAME_NAME = 'Shotgun Wedding';
 const docx = new DocX();
 
 const game: Game = plainToClass(Game, readJson<any>(`${GAME_NAME}.json`));
-game.rehydrate()
+game.rehydrate();
 for (const player of game.players) {
   docx.generate(game, player);
 }

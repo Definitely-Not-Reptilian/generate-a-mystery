@@ -69,7 +69,7 @@ export class Player {
     for (const otherPerson of this._otherPeople) {
       const otherPlayer = game.getPlayer(otherPerson.playerTitle);
       let relationship = new Relationship(this, otherPlayer, otherPerson.strength, otherPerson.alignment);
-      const relationshipHash = relationship.uniqueString
+      const relationshipHash = relationship.uniqueString;
       if (game.allRelationships.has(relationshipHash)) {
         relationship = game.allRelationships.get(relationshipHash);
       } else {
