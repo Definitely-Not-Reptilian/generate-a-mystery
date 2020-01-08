@@ -1,6 +1,6 @@
 import { Power } from './power';
 import { Goal } from './goal';
-import { Expose, Exclude, Type, Transform } from 'class-transformer';
+import { Expose, Exclude, Type } from 'class-transformer';
 import { Relationship, OtherPerson } from './relationship';
 
 export class Player {
@@ -18,13 +18,25 @@ export class Player {
   blurb = 'The thing about interesting people is that they are usually boring';
   traits = [ 'Boring', 'Curious', 'Smooth Talking' ];
 
-  @Transform((_otherPeople, player: Player) => player.relationships.map((rel) => OtherPerson.makeFromMe(player, rel)), { toPlainOnly: true })
-  otherPeople: OtherPerson[] = [];
+  @Exclude()
+  private _otherPeople: OtherPerson[] = [];
 
   constructor(first: string, last: string, title: string) {
     this.firstName = first;
     this.lastName = last;
     this.title = title;
+  }
+  @Type(() => OtherPerson)
+  @Expose()
+  get otherPeople(): OtherPerson[] {
+    if (this._otherPeople.length !== 0) {
+      return this._otherPeople;
+    }
+    return this.relationships.map((rel) => OtherPerson.makeFromMe(this, rel));
+  }
+
+  set otherPeople(otherPeople: OtherPerson[]) {
+    this._otherPeople = otherPeople;
   }
 
   @Expose()

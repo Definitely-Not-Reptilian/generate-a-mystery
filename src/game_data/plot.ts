@@ -1,6 +1,7 @@
 import { Player } from './player';
 import { Item } from './item';
 import { Transform, Exclude, Type } from 'class-transformer';
+import { Game } from './game';
 
 export interface PlotTemplate {
   name: string;
@@ -26,5 +27,12 @@ export class Plot {
   get plotSummary(): string {
     const playerNameList = this.players.length === 0 ? this.playerTitles : this.players.map((p) => p.title);
     return `${this.name}: ${playerNameList.join(', ')}`;
+  }
+
+  rehydrate(game: Game): void {
+    this.numberOfPlayers = this.playerTitles.length;
+    for (const playerTitle of this.playerTitles) {
+      this.players.push(game.getPlayer(playerTitle));
+    }
   }
 }

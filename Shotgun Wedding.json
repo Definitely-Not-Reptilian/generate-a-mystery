@@ -40,6 +40,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Colis",
+      "lastName": "Ringham",
+      "title": "Groom",
       "otherPeople": [
         {
           "playerTitle": "Flowergirl",
@@ -87,9 +90,6 @@
           "alignment": "+"
         }
       ],
-      "firstName": "Colis",
-      "lastName": "Ringham",
-      "title": "Groom",
       "fullName": "Colis Ringham"
     },
     {
@@ -132,6 +132,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Ostap",
+      "lastName": "Beeghley",
+      "title": "Bride",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -174,9 +177,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Ostap",
-      "lastName": "Beeghley",
-      "title": "Bride",
       "fullName": "Ostap Beeghley"
     },
     {
@@ -223,6 +223,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Elayne",
+      "lastName": "Sebra",
+      "title": "Bridesmaid",
       "otherPeople": [
         {
           "playerTitle": "Bride",
@@ -265,9 +268,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Elayne",
-      "lastName": "Sebra",
-      "title": "Bridesmaid",
       "fullName": "Elayne Sebra"
     },
     {
@@ -314,6 +314,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Chrisse",
+      "lastName": "Riskin",
+      "title": "Flowergirl",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -356,9 +359,6 @@
           "alignment": "+"
         }
       ],
-      "firstName": "Chrisse",
-      "lastName": "Riskin",
-      "title": "Flowergirl",
       "fullName": "Chrisse Riskin"
     },
     {
@@ -405,6 +405,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Felic",
+      "lastName": "Rautmann",
+      "title": "Priest",
       "otherPeople": [
         {
           "playerTitle": "Bride",
@@ -447,9 +450,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Felic",
-      "lastName": "Rautmann",
-      "title": "Priest",
       "fullName": "Felic Rautmann"
     },
     {
@@ -496,6 +496,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Polly",
+      "lastName": "Naraine",
+      "title": "Best man",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -538,9 +541,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Polly",
-      "lastName": "Naraine",
-      "title": "Best man",
       "fullName": "Polly Naraine"
     },
     {
@@ -583,6 +583,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Lamphere",
+      "lastName": "Linaman",
+      "title": "Wedding Planner",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -625,9 +628,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Lamphere",
-      "lastName": "Linaman",
-      "title": "Wedding Planner",
       "fullName": "Lamphere Linaman"
     },
     {
@@ -674,6 +674,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Magen",
+      "lastName": "Tyger",
+      "title": "Bride's Father",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -721,9 +724,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Magen",
-      "lastName": "Tyger",
-      "title": "Bride's Father",
       "fullName": "Magen Tyger"
     },
     {
@@ -770,6 +770,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Borlase",
+      "lastName": "Valkema",
+      "title": "Groom's Mother",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -817,9 +820,6 @@
           "alignment": "-"
         }
       ],
-      "firstName": "Borlase",
-      "lastName": "Valkema",
-      "title": "Groom's Mother",
       "fullName": "Borlase Valkema"
     },
     {
@@ -870,6 +870,9 @@
         "Curious",
         "Smooth Talking"
       ],
+      "firstName": "Hilario",
+      "lastName": "Depta",
+      "title": "Drunk Uncle",
       "otherPeople": [
         {
           "playerTitle": "Groom",
@@ -917,9 +920,6 @@
           "alignment": "+"
         }
       ],
-      "firstName": "Hilario",
-      "lastName": "Depta",
-      "title": "Drunk Uncle",
       "fullName": "Hilario Depta"
     }
   ],

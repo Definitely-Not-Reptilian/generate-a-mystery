@@ -15,16 +15,12 @@ export class Game {
     this.name = name;
   }
 
-  private getPlayer(title: string) {
+  public getPlayer(title: string) {
     return this.players.find((player) => player.title === title);
   }
   rehydrate() {
     for (const plot of this.plots) {
-      // plot.players = [];
-      plot.numberOfPlayers = plot.playerTitles.length;
-      for (const playerTitle of plot.playerTitles) {
-        plot.players.push(this.getPlayer(playerTitle));
-      }
+      plot.rehydrate(this);
     }
     // this.players.forEach((p) => p.relationships = []); // class transformers seems to never run the constructor, so this needs to be inited
     const allRelationships: Set<string> = new Set();
@@ -42,6 +38,7 @@ export class Game {
           otherPlayer.relationships.push(relationship);
         }
       }
+      player.otherPeople = []; // relationships set, go back to calculated
     }
   }
 }
