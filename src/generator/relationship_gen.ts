@@ -1,9 +1,9 @@
 import { Game } from '../game_data/game';
-import { getRandomOfSeed, Random } from '../random';
+import { getRandomOfSeed } from '../random';
 import { Player } from '../game_data/player';
 import { RelationshipStrength, Relationship, RelationshipAlignment } from '../game_data/relationship';
 
-export function assignRelationshipsToPlayersInGame(strongFriends: number, weakFriends: number, game: Game): void {
+export function assignRelationshipsToPlayersInGame(strongFriendsRange: [number, number], weakFriendsRange: [number, number], game: Game): void {
   const random = getRandomOfSeed(game.seed);
   for (const player of game.players) {
     const potentialFriends = [ ...game.players ];
@@ -21,19 +21,28 @@ export function assignRelationshipsToPlayersInGame(strongFriends: number, weakFr
         existingWeakFriends++;
       }
     }
-    for (let i = 0; i < strongFriends - existingStrongFriends; i++) {
-      makeNewFriend(player, potentialFriends, RelationshipStrength.STRONG, random);
+    const weightedPotentialFriends: {friend: Player, weight: number}[] = potentialFriends.map((friend) => ({ friend, weight: 10 }));
+    for (const goal of player.goals) {
+      for (const plotBuddy of goal.plot.players) {
+        const weightedFriend = weightedPotentialFriends.find((f) => f.friend === plotBuddy);
+        if (weightedFriend) {
+          weightedFriend.weight = weightedFriend.weight * 2;
+        }
+      }
     }
-    for (let i = 0; i < weakFriends - existingWeakFriends; i++) {
-      makeNewFriend(player, potentialFriends, RelationshipStrength.WEAK, random);
+    const minimumStrongFriends = random.getRandomBetween(...strongFriendsRange);
+    const minimumWeakFriends = random.getRandomBetween(...weakFriendsRange);
+    const newStrongFriendsNeeded = Math.max(0, minimumStrongFriends - existingStrongFriends);
+    const newWeakFriendsNeeded = Math.max(0, minimumWeakFriends - existingWeakFriends);
+    const totalNewFriendsNeeded = newStrongFriendsNeeded + newWeakFriendsNeeded;
+    const newFriendsList = random.pickNFromWeightedListWithoutReplacement(totalNewFriendsNeeded, weightedPotentialFriends);
+    for (let i = 0; i < newFriendsList.length; i++) {
+      const newFriend = newFriendsList[i].friend;
+      const strength = i < newStrongFriendsNeeded ? RelationshipStrength.STRONG : RelationshipStrength.WEAK;
+      const alignment = random.randomRoll() > 0.5 ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
+      const newRelationship = new Relationship(player, newFriend, strength, alignment);
+      player.relationships.push(newRelationship);
+      newFriend.relationships.push(newRelationship);
     }
   }
-}
-function makeNewFriend(player: Player, potentialFriends: Player[], strength: RelationshipStrength, random: Random): Relationship {
-  const newFriend = random.pickRandomAndRemove(potentialFriends);
-  const alignment = random.randomRoll() > 0.5 ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
-  const newRelationship = new Relationship(player, newFriend, strength, alignment);
-  player.relationships.push(newRelationship);
-  newFriend.relationships.push(newRelationship);
-  return newRelationship;
 }

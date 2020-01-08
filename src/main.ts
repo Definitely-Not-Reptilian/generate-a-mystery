@@ -13,8 +13,10 @@ const TITLES = [ 'Groom', 'Bride', 'Bridesmaid', 'Flowergirl', 'Priest', 'Best m
 const SEED = GAME_NAME;
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
 const NUMBER_OF_PLOTS = TITLES.length;
-const NUMBER_OF_STRONG_RELATIONSHIPS = 3;
-const NUMBER_OF_WEAK_RELATIONSHIPS = 3;
+const MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_LOWER = 3;
+const MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_UPPER = 4;
+const MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_LOWER = 3;
+const MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_UPPER = 5;
 const game = new Game(GAME_NAME);
 game.seed = SEED.toString();
 
@@ -26,7 +28,7 @@ generatePlotsIntoGame(NUMBER_OF_PLOTS, game);
 
 assignPlotsToPlayersInGame(game);
 assignGoalsFromPlotsToPlayersInGame(game);
-assignRelationshipsToPlayersInGame(NUMBER_OF_STRONG_RELATIONSHIPS, NUMBER_OF_WEAK_RELATIONSHIPS, game);
+assignRelationshipsToPlayersInGame([MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_LOWER, MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_UPPER], [MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_LOWER, MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_UPPER], game);
 console.log(
   game.players
     .map((plot) => plot.playerSummary)

@@ -40,41 +40,56 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Colis",
-      "lastName": "Ringham",
-      "title": "Groom",
       "otherPeople": [
         {
-          "playerTitle": "Bridesmaid",
+          "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
-        },
-        {
-          "playerTitle": "Priest",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerTitle": "Best man",
-          "strength": "Weak",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Bride",
+          "strength": "Strong",
           "alignment": "-"
+        },
+        {
+          "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "+"
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Bridesmaid",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Priest",
+          "strength": "Weak",
           "alignment": "+"
         }
       ],
+      "firstName": "Colis",
+      "lastName": "Ringham",
+      "title": "Groom",
       "fullName": "Colis Ringham"
     },
     {
@@ -117,51 +132,51 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Ostap",
-      "lastName": "Beeghley",
-      "title": "Bride",
       "otherPeople": [
         {
           "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Wedding Planner",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Priest",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Flowergirl",
+          "playerTitle": "Bridesmaid",
           "strength": "Strong",
           "alignment": "+"
         },
         {
           "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "-"
+          "strength": "Strong",
+          "alignment": "+"
         },
         {
-          "playerTitle": "Bridesmaid",
+          "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Best man",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Priest",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
           "playerTitle": "Bride's Father",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "-"
         }
       ],
+      "firstName": "Ostap",
+      "lastName": "Beeghley",
+      "title": "Bride",
       "fullName": "Ostap Beeghley"
     },
     {
@@ -204,18 +219,10 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Elayne",
-      "lastName": "Sebra",
-      "title": "Bridesmaid",
       "otherPeople": [
         {
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
           "playerTitle": "Bride",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "+"
         },
         {
@@ -224,21 +231,39 @@
           "alignment": "-"
         },
         {
-          "playerTitle": "Groom's Mother",
+          "playerTitle": "Bride's Father",
           "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
           "alignment": "+"
         },
         {
           "playerTitle": "Priest",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
+      "firstName": "Elayne",
+      "lastName": "Sebra",
+      "title": "Bridesmaid",
       "fullName": "Elayne Sebra"
     },
     {
@@ -281,24 +306,26 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Chrisse",
-      "lastName": "Riskin",
-      "title": "Flowergirl",
       "otherPeople": [
         {
-          "playerTitle": "Bride",
+          "playerTitle": "Groom",
           "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bride",
+          "strength": "Weak",
           "alignment": "+"
         },
         {
           "playerTitle": "Bridesmaid",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
-          "playerTitle": "Drunk Uncle",
+          "playerTitle": "Groom's Mother",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
           "playerTitle": "Wedding Planner",
@@ -306,21 +333,24 @@
           "alignment": "-"
         },
         {
+          "playerTitle": "Best man",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Priest",
+          "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Best man",
-          "strength": "Strong",
           "alignment": "+"
         }
       ],
+      "firstName": "Chrisse",
+      "lastName": "Riskin",
+      "title": "Flowergirl",
       "fullName": "Chrisse Riskin"
     },
     {
@@ -363,51 +393,51 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Felic",
-      "lastName": "Rautmann",
-      "title": "Priest",
       "otherPeople": [
         {
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
           "playerTitle": "Bride",
-          "strength": "Strong",
+          "strength": "Weak",
           "alignment": "-"
         },
         {
           "playerTitle": "Bridesmaid",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "+"
         },
         {
           "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bride's Father",
+          "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Groom's Mother",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Best man",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
+      "firstName": "Felic",
+      "lastName": "Rautmann",
+      "title": "Priest",
       "fullName": "Felic Rautmann"
     },
     {
@@ -450,14 +480,11 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Polly",
-      "lastName": "Naraine",
-      "title": "Best man",
       "otherPeople": [
         {
           "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "-"
+          "strength": "Strong",
+          "alignment": "+"
         },
         {
           "playerTitle": "Bridesmaid",
@@ -465,31 +492,39 @@
           "alignment": "-"
         },
         {
-          "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
           "playerTitle": "Flowergirl",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
           "playerTitle": "Wedding Planner",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "-"
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Priest",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "-"
         }
       ],
+      "firstName": "Polly",
+      "lastName": "Naraine",
+      "title": "Best man",
       "fullName": "Polly Naraine"
     },
     {
@@ -532,19 +567,16 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Lamphere",
-      "lastName": "Linaman",
-      "title": "Wedding Planner",
       "otherPeople": [
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
           "playerTitle": "Bride",
-          "strength": "Strong",
-          "alignment": "+"
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
           "playerTitle": "Flowergirl",
@@ -553,30 +585,33 @@
         },
         {
           "playerTitle": "Priest",
-          "strength": "Strong",
+          "strength": "Weak",
           "alignment": "+"
         },
         {
           "playerTitle": "Best man",
-          "strength": "Weak",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
+          "strength": "Strong",
           "alignment": "-"
         },
         {
           "playerTitle": "Groom's Mother",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "-"
         },
         {
           "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         }
       ],
+      "firstName": "Lamphere",
+      "lastName": "Linaman",
+      "title": "Wedding Planner",
       "fullName": "Lamphere Linaman"
     },
     {
@@ -619,41 +654,56 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Magen",
-      "lastName": "Tyger",
-      "title": "Bride's Father",
       "otherPeople": [
+        {
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bridesmaid",
+          "strength": "Strong",
+          "alignment": "+"
+        },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerTitle": "Best man",
-          "strength": "Strong",
-          "alignment": "+"
+          "playerTitle": "Priest",
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
-          "playerTitle": "Priest",
-          "strength": "Strong",
+          "playerTitle": "Best man",
+          "strength": "Weak",
           "alignment": "-"
         },
         {
           "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bride",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
           "playerTitle": "Groom's Mother",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "-"
         }
       ],
+      "firstName": "Magen",
+      "lastName": "Tyger",
+      "title": "Bride's Father",
       "fullName": "Magen Tyger"
     },
     {
@@ -696,41 +746,56 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Borlase",
-      "lastName": "Valkema",
-      "title": "Groom's Mother",
       "otherPeople": [
         {
-          "playerTitle": "Bridesmaid",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Wedding Planner",
+          "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Best man",
-          "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerTitle": "Drunk Uncle",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
           "playerTitle": "Priest",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Best man",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Wedding Planner",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Bridesmaid",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
+      "firstName": "Borlase",
+      "lastName": "Valkema",
+      "title": "Groom's Mother",
       "fullName": "Borlase Valkema"
     },
     {
@@ -777,41 +842,56 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Hilario",
-      "lastName": "Depta",
-      "title": "Drunk Uncle",
       "otherPeople": [
         {
           "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Bride",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Bridesmaid",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Priest",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerTitle": "Bride",
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerTitle": "Best man",
           "strength": "Weak",
           "alignment": "-"
         },
         {
           "playerTitle": "Flowergirl",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Priest",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerTitle": "Groom's Mother",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
         }
       ],
+      "firstName": "Hilario",
+      "lastName": "Depta",
+      "title": "Drunk Uncle",
       "fullName": "Hilario Depta"
     }
   ],
