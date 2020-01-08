@@ -30,16 +30,16 @@ export function assignRelationshipsToPlayersInGame(strongFriendsRange: [number, 
         }
       }
     }
-    const minimumStrongFriends = random.getRandomBetween(...strongFriendsRange);
-    const minimumWeakFriends = random.getRandomBetween(...weakFriendsRange);
+    const minimumStrongFriends = random.spiced('minimum_strong_friends', player.title).getRandomBetween(...strongFriendsRange);
+    const minimumWeakFriends = random.spiced('minimum_weak_friends', player.title).getRandomBetween(...weakFriendsRange);
     const newStrongFriendsNeeded = Math.max(0, minimumStrongFriends - existingStrongFriends);
     const newWeakFriendsNeeded = Math.max(0, minimumWeakFriends - existingWeakFriends);
     const totalNewFriendsNeeded = newStrongFriendsNeeded + newWeakFriendsNeeded;
-    const newFriendsList = random.pickNFromWeightedListWithoutReplacement(totalNewFriendsNeeded, weightedPotentialFriends);
+    const newFriendsList = random.spiced('pick_new_friends', player.title).pickNFromWeightedListWithoutReplacement(totalNewFriendsNeeded, weightedPotentialFriends);
     for (let i = 0; i < newFriendsList.length; i++) {
       const newFriend = newFriendsList[i].friend;
       const strength = i < newStrongFriendsNeeded ? RelationshipStrength.STRONG : RelationshipStrength.WEAK;
-      const alignment = random.randomRoll() > 0.5 ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
+      const alignment = random.spiced('maybe_hate_this_person', player.title, newFriend.title).chanceRoll(0.5) ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
       const newRelationship = new Relationship(player, newFriend, strength, alignment);
       player.relationships.push(newRelationship);
       newFriend.relationships.push(newRelationship);

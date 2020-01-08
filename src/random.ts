@@ -2,33 +2,33 @@ import * as seedrandom from 'seedrandom';
 
 export class Random {
 
-  randomPick: seedrandom.prng;
-  randomRoll: seedrandom.prng;
-  randomShuffle: seedrandom.prng;
-  randomBetween: seedrandom.prng;
-  randomAmount: seedrandom.prng;
+  numberMaker: seedrandom.prng;
 
-  constructor(seed: string) {
-    this.randomPick = seedrandom(`${seed}.pick`);
-    this.randomRoll = seedrandom(`${seed}.roll`);
-    this.randomShuffle = seedrandom(`${seed}.shuffle`);
-    this.randomBetween = seedrandom(`${seed}.between`);
-    this.randomAmount = seedrandom(`${seed}.amount`);
+  constructor(public seed: string) {
+    this.numberMaker = seedrandom(this.seed);
+  }
+
+  spiced(...newSpice: string[]): Random {
+    return new Random(`${this.seed}${newSpice.join()}`);
+  }
+
+  chanceRoll(odds: number): boolean {
+    return this.numberMaker() < odds;
   }
 
   pickRandomAndRemove<T>(options: T[]): T {
-    const index = Math.floor(this.randomPick() * options.length);
+    const index = Math.floor(this.numberMaker() * options.length);
     return options.splice(index, 1)[0];
   }
   sampleOne<T>(toBeSampled: T[]): T {
-    return toBeSampled[Math.floor(this.randomAmount() * toBeSampled.length)];
+    return toBeSampled[Math.floor(this.numberMaker() * toBeSampled.length)];
   }
 
   pickNFromWeightedListWithoutReplacement<T extends { weight: number }>(n: number, set: T[]): T[] {
     let total = set.reduce((p, cv) => p + cv.weight, 0);
     const picked: T[] = [];
     for (let i = 0; i < n; i++) {
-      const roll = this.randomRoll() * total;
+      const roll = this.numberMaker() * total;
       let currentWeight = 0;
       for (const item of set) {
         if (!picked.includes(item)) {
@@ -46,13 +46,13 @@ export class Random {
 
   shuffleArray(toBeSuffled): void {
     for (let i = toBeSuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(this.randomShuffle() * (i + 1));
+      const j = Math.floor(this.numberMaker() * (i + 1));
       [ toBeSuffled[i], toBeSuffled[j] ] = [ toBeSuffled[j], toBeSuffled[i] ];
     }
   }
 
   getRandomBetween(min: number, max: number): number {
-    return Math.floor(this.randomBetween() * (max - min + 1)) + min;
+    return Math.floor(this.numberMaker() * (max - min + 1)) + min;
   }
 
   getReductionSampleableList<T>(list: T[], reductionCoefficient: number = 3): RandomWeightedList<T> {
@@ -67,7 +67,7 @@ export class RandomWeightedList<T> {
     this.weights = list.map(() => 10);
   }
   public getNextThing(): T {
-    const roll = this.random.randomRoll() * this.total;
+    const roll = this.random.numberMaker() * this.total;
     let currentWeight = 0;
     for (let i = 0; i < this.list.length; i++) {
       currentWeight += this.weights[i];

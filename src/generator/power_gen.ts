@@ -14,7 +14,7 @@ export function generatePowersIntoGame(numberOfPowersPerPlayer: number, game: Ga
     .map((powerTemplate) => plainToClass(Power, powerTemplate));
   // Assign powers randomly
   for (const player of game.players) {
-    const playerPowers = random.pickNFromWeightedListWithoutReplacement(numberOfPowersPerPlayer, powers);
+    const playerPowers = random.spiced('player_power', player.title).pickNFromWeightedListWithoutReplacement(numberOfPowersPerPlayer, powers);
     player.powers.push(...playerPowers);
   }
 }

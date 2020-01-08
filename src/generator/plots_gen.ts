@@ -17,7 +17,7 @@ function getNextLetter(): string {
 }
 function seedPlot(random: Random, plotTemplate: PlotTemplate): Plot {
   const newPlot = new Plot(`${plotTemplate.name} ${getNextLetter()}`);
-  const numberOfPlayersInPlot = random.getRandomBetween(plotTemplate.playerRangeMin, plotTemplate.playerRangeMax);
+  const numberOfPlayersInPlot = random.spiced('players_in_plot', newPlot.name).getRandomBetween(plotTemplate.playerRangeMin, plotTemplate.playerRangeMax);
   newPlot.numberOfPlayers = numberOfPlayersInPlot;
   return newPlot;
 }
@@ -30,7 +30,7 @@ export function generatePlotsIntoGame(numberOfPlots: number, game: Game): void {
   for (const neededPlot of plotTemplates.needed) {
     game.plots.push(seedPlot(random, neededPlot));
   }
-  const reductionSamplableList = random.getReductionSampleableList(plotTemplates.optional, 3);
+  const reductionSamplableList = random.spiced('number_of_optional_plots').getReductionSampleableList(plotTemplates.optional, 3);
   for (let i = 0; i < numberOfPlots - plotTemplates.needed.length; i++) {
     game.plots.push(seedPlot(random, reductionSamplableList.getNextThing()));
   }
@@ -42,7 +42,7 @@ function reseedPoolOfPlayers(random: Random, players: Player[]): Player[] {
   return shuffledPlayerList;
 }
 export function assignPlotsToPlayersInGame(game: Game): void {
-  const random = getRandomOfSeed(game.seed);
+  const random = getRandomOfSeed(game.seed).spiced('player_plot_assign');
   let randomPlayerPool = reseedPoolOfPlayers(random, game.players);
   for (const plot of game.plots) {
     const duplicatePicksInPlot: Player[] = [];

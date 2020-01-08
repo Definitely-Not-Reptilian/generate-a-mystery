@@ -11,7 +11,8 @@ export function generatePlayersIntoGame(titles: string[], game: Game): void {
 
   // Generate players
   for (const title of titles) {
-    const player = new Player(random.pickRandomAndRemove(firstNames), random.pickRandomAndRemove(lastNames), title);
+    const namesRandom = random.spiced('names', title);
+    const player = new Player(namesRandom.pickRandomAndRemove(firstNames), namesRandom.pickRandomAndRemove(lastNames), title);
     game.players.push(player);
   }
 }
