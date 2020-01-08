@@ -34,12 +34,14 @@ export class Relationship implements IRelationship {
 }
 export class OtherPerson implements IRelationship {
   constructor(
+    public playerName: string,
     public playerTitle: string,
     public strength: RelationshipStrength,
     public alignment: RelationshipAlignment,
   ) { }
 
   static makeFromMe(me: Player, relationship: Relationship): OtherPerson {
-    return new OtherPerson(relationship.theFriendThatsNotMe(me).title, relationship.strength, relationship.alignment);
+    const notMe = relationship.theFriendThatsNotMe(me);
+    return new OtherPerson(notMe.fullName, notMe.title, relationship.strength, relationship.alignment);
   }
 }
