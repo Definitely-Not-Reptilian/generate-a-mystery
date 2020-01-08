@@ -5,7 +5,7 @@ import { writeJSON } from './json';
 import { generatePlayersIntoGame } from './generator/player_gen';
 import { generatePowersIntoGame } from './generator/power_gen';
 import { generatePlotsIntoGame, assignPlotsToPlayersInGame } from './generator/plots_gen';
-import { assignGoalsFromPlotsToPlayersInGame } from './generator/goals_gen';
+import { assignGoalsFromPlotsToPlayersInGame, assignBonusGoalsFromOtherPeopleInGame } from './generator/goals_gen';
 import { assignRelationshipsToPlayersInGame } from './generator/relationship_gen';
 
 const GAME_NAME = 'Shotgun Wedding';
@@ -29,6 +29,8 @@ generatePlotsIntoGame(NUMBER_OF_PLOTS, game);
 assignPlotsToPlayersInGame(game);
 assignGoalsFromPlotsToPlayersInGame(game);
 assignRelationshipsToPlayersInGame([MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_LOWER, MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_UPPER], [MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_LOWER, MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_UPPER], game);
+assignBonusGoalsFromOtherPeopleInGame(game);
+
 console.log(
   game.players
     .map((plot) => plot.playerSummary)

@@ -209,6 +209,10 @@
         {
           "name": "Resolve plot Dark past I",
           "description": "Dark past I: Bridesmaid"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Bride. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -296,6 +300,10 @@
         {
           "name": "Resolve plot Secret relationship J",
           "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Groom. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -383,6 +391,10 @@
         {
           "name": "Resolve plot Conspiracy H",
           "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Bridesmaid. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -470,6 +482,10 @@
         {
           "name": "Resolve plot Secret relationship J",
           "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Wedding Planner. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -644,6 +660,10 @@
         {
           "name": "Resolve plot Conspiracy H",
           "description": "Conspiracy H: Drunk Uncle, Priest, Bride, Bride's Father"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Bridesmaid. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -736,6 +756,10 @@
         {
           "name": "Resolve plot Get the item G",
           "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Best man. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -832,6 +856,10 @@
         {
           "name": "Resolve plot Secret relationship J",
           "description": "Secret relationship J: Best man, Groom, Flowergirl, Drunk Uncle"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Bride's Father. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
