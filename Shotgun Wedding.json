@@ -20,12 +20,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot I hate that guy in particular B",
-          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Dog, Bride's Father, Groom"
         },
         {
-          "name": "Resolve plot Dark past G",
-          "description": "Dark past G: Drunk Uncle, Groom"
+          "name": "Resolve plot Misunderstanding E",
+          "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
+        },
+        {
+          "name": "Resolve plot Get the item I",
+          "description": "Get the item I: Wedding Planner, Groom's Mother, Groom"
         },
         {
           "name": "Lean into this relationship",
@@ -64,12 +68,6 @@
           "alignment": "-"
         },
         {
-          "playerName": "Skantze Wriedt",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
           "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
@@ -98,6 +96,12 @@
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "-"
         }
       ],
       "fullName": "Chatav Kosack"
@@ -122,16 +126,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Get the item C",
-          "description": "Get the item C: Bride"
+          "name": "Resolve plot Secret relationship C",
+          "description": "Secret relationship C: Bride, Flowergirl, Best Man, Wedding Planner"
         },
         {
-          "name": "Resolve plot Dark past F",
-          "description": "Dark past F: Bride, Groom's Mother, Photographer"
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Marriage Officiant, Bride, Groom's Mother"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Maid of Honor. Do something about it"
+          "description": "You feel very - about Flowergirl. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -154,16 +158,22 @@
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
-          "playerTitle": "Groom's Mother",
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "+"
+        },
+        {
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Weak",
+          "alignment": "+"
         },
         {
           "playerName": "Nelie Daughdrill",
@@ -216,12 +226,12 @@
           "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot Secret relationship I",
-          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
+          "name": "Resolve plot Feud G",
+          "description": "Feud G: Maid of Honor, Flowergirl"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Bride. Do something about it"
+          "description": "You feel very + about Flowergirl. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -238,22 +248,22 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Doggett Giuliana",
-          "playerTitle": "Bride",
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
-          "playerTitle": "Bride's Father",
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
           "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
           "playerName": "Chatav Kosack",
@@ -262,34 +272,22 @@
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Skantze Wriedt",
-          "playerTitle": "Best Man",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
-        },
-        {
-          "playerName": "Saleem Bluff",
-          "playerTitle": "Dog",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
         },
         {
           "playerName": "Mungo Joint",
@@ -326,12 +324,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Flowergirl, Best Man"
+          "name": "Resolve plot Secret relationship C",
+          "description": "Secret relationship C: Bride, Flowergirl, Best Man, Wedding Planner"
         },
         {
-          "name": "Resolve plot Secret relationship I",
-          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
+          "name": "Resolve plot Feud G",
+          "description": "Feud G: Maid of Honor, Flowergirl"
+        },
+        {
+          "name": "Resolve plot Get the item J",
+          "description": "Get the item J: Flowergirl, Photographer"
         }
       ],
       "secret": "A dark haunting secret",
@@ -348,15 +350,33 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
-          "playerTitle": "Best Man",
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Strong",
+          "alignment": "+"
         },
         {
           "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Weak",
           "alignment": "-"
         },
         {
@@ -375,19 +395,13 @@
           "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
           "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
-        },
-        {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerName": "Mungo Joint",
@@ -399,7 +413,7 @@
           "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         }
       ],
       "fullName": "Graehl Argiro"
@@ -424,16 +438,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy E",
-          "description": "Conspiracy E: Wedding Planner, Marriage Officiant"
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Marriage Officiant, Bride, Groom's Mother"
         },
         {
-          "name": "Resolve plot Secret relationship I",
-          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
+          "name": "Resolve plot Feud F",
+          "description": "Feud F: Best Man, Wedding Planner, Marriage Officiant"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very + about Drunk Uncle. Do something about it"
+          "description": "You feel very - about Groom's Mother. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -456,28 +470,16 @@
           "alignment": "-"
         },
         {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
           "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
-          "strength": "Strong",
-          "alignment": "+"
         },
         {
           "playerName": "Doggett Giuliana",
@@ -498,8 +500,8 @@
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -532,12 +534,12 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Flowergirl, Best Man"
+          "name": "Resolve plot Secret relationship C",
+          "description": "Secret relationship C: Bride, Flowergirl, Best Man, Wedding Planner"
         },
         {
-          "name": "Resolve plot I hate that guy in particular H",
-          "description": "I hate that guy in particular H: Best Man, Wedding Planner"
+          "name": "Resolve plot Feud F",
+          "description": "Feud F: Best Man, Wedding Planner, Marriage Officiant"
         }
       ],
       "secret": "A dark haunting secret",
@@ -554,8 +556,8 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
@@ -572,20 +574,20 @@
           "alignment": "+"
         },
         {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
@@ -618,16 +620,20 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy E",
-          "description": "Conspiracy E: Wedding Planner, Marriage Officiant"
+          "name": "Resolve plot Secret relationship C",
+          "description": "Secret relationship C: Bride, Flowergirl, Best Man, Wedding Planner"
         },
         {
-          "name": "Resolve plot I hate that guy in particular H",
-          "description": "I hate that guy in particular H: Best Man, Wedding Planner"
+          "name": "Resolve plot Feud F",
+          "description": "Feud F: Best Man, Wedding Planner, Marriage Officiant"
+        },
+        {
+          "name": "Resolve plot Get the item I",
+          "description": "Get the item I: Wedding Planner, Groom's Mother, Groom"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very + about Drunk Uncle. Do something about it"
+          "description": "You feel very + about Best Man. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -650,21 +656,15 @@
           "alignment": "+"
         },
         {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "+"
         },
         {
           "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "+"
         },
         {
@@ -677,7 +677,13 @@
           "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
           "playerName": "Bisset Marolla",
@@ -714,12 +720,12 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot I hate that guy in particular B",
-          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Dog, Bride's Father, Groom"
         },
         {
-          "name": "Resolve plot Get the item J",
-          "description": "Get the item J: Bride's Father"
+          "name": "Resolve plot Dark past H",
+          "description": "Dark past H: Bride's Father, Dog"
         },
         {
           "name": "Lean into this relationship",
@@ -752,10 +758,22 @@
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "+"
         },
         {
           "playerName": "Graehl Argiro",
@@ -770,14 +788,14 @@
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -808,12 +826,16 @@
           "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot Dark past F",
-          "description": "Dark past F: Bride, Groom's Mother, Photographer"
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Marriage Officiant, Bride, Groom's Mother"
+        },
+        {
+          "name": "Resolve plot Get the item I",
+          "description": "Get the item I: Wedding Planner, Groom's Mother, Groom"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Marriage Officiant. Do something about it"
+          "description": "You feel very + about Flowergirl. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -830,10 +852,10 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Doggett Giuliana",
-          "playerTitle": "Bride",
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
           "playerName": "Prem Beahr",
@@ -898,8 +920,8 @@
           "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot Dark past G",
-          "description": "Dark past G: Drunk Uncle, Groom"
+          "name": "Resolve plot Misunderstanding E",
+          "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
         }
       ],
       "secret": "A dark haunting secret",
@@ -922,14 +944,8 @@
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
@@ -940,14 +956,14 @@
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "+"
         },
         {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -974,8 +990,12 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot I hate that guy in particular B",
-          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
+          "name": "Resolve plot Conspiracy B",
+          "description": "Conspiracy B: Dog, Bride's Father, Groom"
+        },
+        {
+          "name": "Resolve plot Dark past H",
+          "description": "Dark past H: Bride's Father, Dog"
         }
       ],
       "secret": "A dark haunting secret",
@@ -998,6 +1018,12 @@
           "alignment": "+"
         },
         {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
@@ -1008,12 +1034,6 @@
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "-"
         },
         {
           "playerName": "Prem Beahr",
@@ -1054,8 +1074,12 @@
           "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot Dark past F",
-          "description": "Dark past F: Bride, Groom's Mother, Photographer"
+          "name": "Resolve plot Misunderstanding E",
+          "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
+        },
+        {
+          "name": "Resolve plot Get the item J",
+          "description": "Get the item J: Flowergirl, Photographer"
         }
       ],
       "secret": "A dark haunting secret",
@@ -1129,7 +1153,7 @@
       "items": []
     },
     {
-      "name": "I hate that guy in particular B",
+      "name": "Conspiracy B",
       "playerTitles": [
         "Dog",
         "Bride's Father",
@@ -1138,66 +1162,72 @@
       "items": []
     },
     {
-      "name": "Get the item C",
-      "playerTitles": [
-        "Bride"
-      ],
-      "items": []
-    },
-    {
-      "name": "Get the item D",
-      "playerTitles": [
-        "Flowergirl",
-        "Best Man"
-      ],
-      "items": []
-    },
-    {
-      "name": "Conspiracy E",
-      "playerTitles": [
-        "Wedding Planner",
-        "Marriage Officiant"
-      ],
-      "items": []
-    },
-    {
-      "name": "Dark past F",
+      "name": "Secret relationship C",
       "playerTitles": [
         "Bride",
-        "Groom's Mother",
-        "Photographer"
-      ],
-      "items": []
-    },
-    {
-      "name": "Dark past G",
-      "playerTitles": [
-        "Drunk Uncle",
-        "Groom"
-      ],
-      "items": []
-    },
-    {
-      "name": "I hate that guy in particular H",
-      "playerTitles": [
+        "Flowergirl",
         "Best Man",
         "Wedding Planner"
       ],
       "items": []
     },
     {
-      "name": "Secret relationship I",
+      "name": "Get the item D",
       "playerTitles": [
         "Marriage Officiant",
+        "Bride",
+        "Groom's Mother"
+      ],
+      "items": []
+    },
+    {
+      "name": "Misunderstanding E",
+      "playerTitles": [
+        "Photographer",
+        "Drunk Uncle",
+        "Groom"
+      ],
+      "items": []
+    },
+    {
+      "name": "Feud F",
+      "playerTitles": [
+        "Best Man",
+        "Wedding Planner",
+        "Marriage Officiant"
+      ],
+      "items": []
+    },
+    {
+      "name": "Feud G",
+      "playerTitles": [
         "Maid of Honor",
         "Flowergirl"
       ],
       "items": []
     },
     {
+      "name": "Dark past H",
+      "playerTitles": [
+        "Bride's Father",
+        "Dog"
+      ],
+      "items": []
+    },
+    {
+      "name": "Get the item I",
+      "playerTitles": [
+        "Wedding Planner",
+        "Groom's Mother",
+        "Groom"
+      ],
+      "items": []
+    },
+    {
       "name": "Get the item J",
       "playerTitles": [
-        "Bride's Father"
+        "Flowergirl",
+        "Photographer"
       ],
       "items": []
     }
