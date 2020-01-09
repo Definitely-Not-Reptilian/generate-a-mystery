@@ -36,15 +36,15 @@
           "description": "You feel very - about Bride's Father. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "Hooked up with my Best Man at the Bachelor party.",
+      "information": "Drunk Uncle gave me a huge cash gift before the wedding.",
+      "blurb": "Last Night: It was your bachelor party. Best Man, Drunk Uncle, Wedding Planner, Bride’s Father, Dog was there. You were grabbed from your bed, black bagged and taken on a 8 hour pub crawl. You had to drink everytime anyone else did and got pretty blasted. Bride's Father left at some point, you think he was worse than you. You all went to a hotel, and were told there would be some 'friends' coming voer soon by your Drunk Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you hadn't experienced all there was in the single life yet. The sex was fantastic. You still love your bride and want to get married.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Airhead",
+        "Joyous",
+        "Casual"
       ],
-      "firstName": "Chatav",
+      "firstName": "Chad",
       "lastName": "Kosack",
       "title": "Groom",
       "optional": false,
@@ -103,8 +103,7 @@
           "strength": "Weak",
           "alignment": "-"
         }
-      ],
-      "fullName": "Chatav Kosack"
+      ]
     },
     {
       "powers": [
@@ -138,13 +137,13 @@
           "description": "You feel very - about Flowergirl. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You are 3 months pregnant.",
+      "information": "Maid of Honor got hammered last night.",
+      "blurb": "Last Night: It was your Bachelorette party. You asked for a night in of party games & Rom Coms but the Maid of Honor had other plans. She and the Groom's Mother rocked up, drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honor puked over your favourite party dress and you yelled at her for ruining your bachelorette party.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Bridezilla",
+        "Boisterous",
+        "Laser Focused"
       ],
       "firstName": "Doggett",
       "lastName": "Giuliana",
@@ -199,8 +198,7 @@
           "strength": "Weak",
           "alignment": "-"
         }
-      ],
-      "fullName": "Doggett Giuliana"
+      ]
     },
     {
       "powers": [
@@ -234,13 +232,13 @@
           "description": "You feel very + about Flowergirl. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "During cop academy you became an alcoholic.",
+      "information": "You heard the ring came from the Drunk Uncle.",
+      "blurb": "Last Night: You attended the Bachorette party. You had planned for it to be a night in of party games and romcoms, but the Groom’s Mother had other ideas. She brought a bunch of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You have a massive headache and have vowed to never drink again. After the wedding.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Steely",
+        "Action Hero",
+        "Traumatised"
       ],
       "firstName": "Naldo",
       "lastName": "Paulat",
@@ -301,8 +299,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Naldo Paulat"
+      ]
     },
     {
       "powers": [
@@ -336,16 +333,16 @@
           "description": "Get the item J: Flowergirl, Photographer"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "I run the entire town's drug trade.",
+      "information": "I saw the Maid of Honor trying on the wedding ring at the bachelorette party.",
+      "blurb": "Last Night: You were too young to be there, but someone had to make it a real party. You gave the Maid of Honor a small dose of Ketamine and she took it hard. Oops. You werent allowed in the Casino, so you left and made a few sales.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Anarchist",
+        "Moody",
+        "Cynical Teenager"
       ],
-      "firstName": "Graehl",
-      "lastName": "Argiro",
+      "firstName": "Mercedes",
+      "lastName": "Bennie",
       "title": "Flowergirl",
       "optional": false,
       "otherPeople": [
@@ -415,8 +412,7 @@
           "strength": "Weak",
           "alignment": "-"
         }
-      ],
-      "fullName": "Graehl Argiro"
+      ]
     },
     {
       "powers": [
@@ -450,13 +446,13 @@
           "description": "You feel very - about Groom's Mother. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You have been paid $15,000 anonymously to make sure this wedding goes ahead.",
+      "information": "The Wedding Planner is married, but didn't bring their partner.",
+      "blurb": "Last Night: You were not at either of the Bachelor or Bachelorette parties, but everyone seems real hung over.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Polite",
+        "Judgemental",
+        "Difficult"
       ],
       "firstName": "Prem",
       "lastName": "Beahr",
@@ -511,8 +507,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Prem Beahr"
+      ]
     },
     {
       "powers": [
@@ -542,13 +537,13 @@
           "description": "Feud F: Best Man, Wedding Planner, Marriage Officiant"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "The hooker's never showed up to the hotel last night.",
+      "information": "The Groom's Mother recovered from last night better than anyone else.",
+      "blurb": "Last night: You were at the Bachelor party. You kidnapped the Groom and brought him on the greatest pub crawl of all time. You went light on the drinks because you wanted to be sharp for your best friend’s wedding the next day. After the last bar you all went back to a hotel and you and the Groom and you split a room. One thing led to another and you both boned down. Hard. It was something you had always thought about, but didn’t think would ever happen. Everyone thinks you got hookers for the night, and you’ve decided to let everything think that.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Smooth talker",
+        "Manipulative",
+        "Sexy"
       ],
       "firstName": "Skantze",
       "lastName": "Wriedt",
@@ -597,8 +592,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Skantze Wriedt"
+      ]
     },
     {
       "powers": [
@@ -636,13 +630,13 @@
           "description": "You feel very + about Best Man. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You are already married to the Bride.",
+      "information": "You got a one night stand at the last pub and brought them back to the hotel. From the bangingon the walls it sounded like everyone else got lucky too.",
+      "blurb": "Last Night: ",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Clumsy",
+        "Good hearted",
+        "Nervous"
       ],
       "firstName": "Romeyn",
       "lastName": "Eminger",
@@ -697,8 +691,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Romeyn Eminger"
+      ]
     },
     {
       "powers": [
@@ -732,13 +725,13 @@
           "description": "You feel very - about Bride. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You have a serious drug problem.",
+      "information": "The Groom's mother tried to get a prenup signed but the Groom blocked it.",
+      "blurb": "Last Night: You were at the Bachelor party. You kidnapped the Groom and brought him on a pretty nice pub crawl. You managed to get quite turped up. Plus you found your dealer and scored some Ketamine. Rest of the night is pretty blurry but at one point everyone put you in a taxi to go home. You have woken up with a hangover, and are ready for a bonza wedding.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Drug Addict",
+        "Emotional",
+        "Broken"
       ],
       "firstName": "Hassett",
       "lastName": "Einfalt",
@@ -799,8 +792,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Hassett Einfalt"
+      ]
     },
     {
       "powers": [
@@ -838,13 +830,13 @@
           "description": "You feel very + about Flowergirl. Do something about it"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "20 years ago you had an affair with Bride's Father.",
+      "information": "You brought the nicer boxed wine to the Bachorette party.",
+      "blurb": "Last Night: Brought drinks, got Maid of Honor drunk. When she brought out the wedding ring you stole it. You threw it in the trash just before getting to the wedding today. You didn't drink a drop.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Protective",
+        "Classy",
+        "Liar"
       ],
       "firstName": "Bisset",
       "lastName": "Marolla",
@@ -924,13 +916,13 @@
           "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You are filthy rich.",
+      "information": "The Groom's father died in drag race 2 years ago.",
+      "blurb": "Last Night: You were at the Bachelor party. You wanted to treat everyone so you paid for drinks on the pub crawl the whole night and also the hotel afterwards. You didn’t stay until the end because you got a bit too drunk. You were planning on setting everyone up with hookers at the hotel, but you never got a chance to set it up.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Smart",
+        "Understanding",
+        "Trickster"
       ],
       "firstName": "Nelie",
       "lastName": "Daughdrill",
@@ -967,8 +959,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Nelie Daughdrill"
+      ]
     },
     {
       "powers": [
@@ -998,13 +989,13 @@
           "description": "Dark past H: Bride's Father, Dog"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "You were a stunt dog from the famous TV show WoWza.",
+      "information": "The Groom and Best Man stayed in the same hotel room.",
+      "blurb": "Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Loyal",
+        "Hungry",
+        "Possessive"
       ],
       "firstName": "Saleem",
       "lastName": "Bluff",
@@ -1082,13 +1073,13 @@
           "description": "Get the item J: Flowergirl, Photographer"
         }
       ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
+      "secret": "Driving late at night you hit someone. It was dark, but you kept on driving...",
+      "information": "You heard there is an off duty cop at the wedding.",
+      "blurb": "Last Night: You were hired to join the Bachelorette party. Strange but they are country folk. You got some great shots, the Maid of Honor was super blasted, and the Flowergirl would not let herself be photographed.",
       "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
+        "Nosey",
+        "Desperate",
+        "Well-researched"
       ],
       "firstName": "Mungo",
       "lastName": "Joint",
