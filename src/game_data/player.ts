@@ -18,14 +18,16 @@ export class Player {
   information = 'A useful tidbit';
   blurb = 'The thing about interesting people is that they are usually boring';
   traits = [ 'Boring', 'Curious', 'Smooth Talking' ];
+  optional: boolean;
 
   @Exclude()
   private _otherPeople: OtherPerson[] = [];
 
-  constructor(first: string, last: string, title: string) {
+  constructor(first: string, last: string, title: string, optional: boolean = false) {
     this.firstName = first;
     this.lastName = last;
     this.title = title;
+    this.optional = optional;
   }
   @Type(() => OtherPerson)
   @Expose()

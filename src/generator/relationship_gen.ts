@@ -6,7 +6,7 @@ import { RelationshipStrength, Relationship, RelationshipAlignment } from '../ga
 export function assignRelationshipsToPlayersInGame(strongFriendsRange: [number, number], weakFriendsRange: [number, number], game: Game): void {
   const random = getRandomOfSeed(game.seed);
   for (const player of game.players) {
-    const potentialFriends = [ ...game.players ];
+    const potentialFriends = game.players.filter((otherPlayer) => !otherPlayer.optional);
     potentialFriends.splice(potentialFriends.indexOf(player), 1);
     let existingStrongFriends = 0;
     let existingWeakFriends = 0;
@@ -38,7 +38,7 @@ export function assignRelationshipsToPlayersInGame(strongFriendsRange: [number, 
     const newFriendsList = random.spiced('pick_new_friends', player.title).pickNFromWeightedListWithoutReplacement(totalNewFriendsNeeded, weightedPotentialFriends);
     for (let i = 0; i < newFriendsList.length; i++) {
       const newFriend = newFriendsList[i].friend;
-      const strength = i < newStrongFriendsNeeded ? RelationshipStrength.STRONG : RelationshipStrength.WEAK;
+      const strength = i < newStrongFriendsNeeded && !player.optional ? RelationshipStrength.STRONG : RelationshipStrength.WEAK;
       const alignment = random.spiced('maybe_hate_this_person', player.title, newFriend.title).chanceRoll(0.5) ? RelationshipAlignment.POSITIVE : RelationshipAlignment.NEGATIVE;
       const newRelationship = new Relationship(player, newFriend, strength, alignment);
       player.relationships.push(newRelationship);

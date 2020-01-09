@@ -3,14 +3,14 @@
     {
       "powers": [
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3
-        },
-        {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
           "usages": 3
+        },
+        {
+          "name": "Pickpocket",
+          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "usages": 2
         },
         {
           "name": "Secret",
@@ -20,16 +20,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "name": "Resolve plot I hate that guy in particular B",
+          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
         },
         {
-          "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
+          "name": "Resolve plot Dark past G",
+          "description": "Dark past G: Drunk Uncle, Groom"
         },
         {
-          "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Bride's Father. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -40,54 +40,67 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Colis",
-      "lastName": "Ringham",
+      "firstName": "Chatav",
+      "lastName": "Kosack",
       "title": "Groom",
+      "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
           "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Ostap Beeghley",
-          "playerTitle": "Bride",
-          "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Borlase Valkema",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Lamphere Linaman",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
           "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
           "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
+          "strength": "Weak",
+          "alignment": "-"
         }
       ],
-      "fullName": "Colis Ringham"
+      "fullName": "Chatav Kosack"
     },
     {
       "powers": [
@@ -97,32 +110,28 @@
           "usages": 3
         },
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3
-        },
-        {
           "name": "Attack",
           "description": "Do something specific. If you manage this, the player is knocked out.",
           "usages": 2
+        },
+        {
+          "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3
         }
       ],
       "goals": [
         {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "name": "Resolve plot Get the item C",
+          "description": "Get the item C: Bride"
         },
         {
-          "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
-        },
-        {
-          "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
+          "name": "Resolve plot Dark past F",
+          "description": "Dark past F: Bride, Groom's Mother, Photographer"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Wedding Planner. Do something about it"
+          "description": "You feel very - about Maid of Honor. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -133,421 +142,62 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Ostap",
-      "lastName": "Beeghley",
+      "firstName": "Doggett",
+      "lastName": "Giuliana",
       "title": "Bride",
+      "optional": false,
       "otherPeople": [
         {
-          "playerName": "Colis Ringham",
-          "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Lamphere Linaman",
-          "playerTitle": "Wedding Planner",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Felic Rautmann",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Borlase Valkema",
-          "playerTitle": "Groom's Mother",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
-          "alignment": "-"
-        }
-      ],
-      "fullName": "Ostap Beeghley"
-    },
-    {
-      "powers": [
-        {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
-        },
-        {
-          "name": "Attack",
-          "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2
-        },
-        {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3
-        }
-      ],
-      "goals": [
-        {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
-        },
-        {
-          "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Maid of Honor"
-        },
-        {
-          "name": "Resolve plot Dark past I",
-          "description": "Dark past I: Maid of Honor"
-        }
-      ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
-      "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
-      ],
-      "firstName": "Elayne",
-      "lastName": "Sebra",
-      "title": "Maid of Honor",
-      "otherPeople": [
-        {
-          "playerName": "Felic Rautmann",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Borlase Valkema",
-          "playerTitle": "Groom's Mother",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Lamphere Linaman",
-          "playerTitle": "Wedding Planner",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "-"
-        }
-      ],
-      "fullName": "Elayne Sebra"
-    },
-    {
-      "powers": [
-        {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3
-        },
-        {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
-        },
-        {
-          "name": "Attack",
-          "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2
-        }
-      ],
-      "goals": [
-        {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
-        },
-        {
-          "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Bride's Father, Flowergirl"
-        },
-        {
-          "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
-        }
-      ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
-      "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
-      ],
-      "firstName": "Chrisse",
-      "lastName": "Riskin",
-      "title": "Flowergirl",
-      "otherPeople": [
-        {
-          "playerName": "Colis Ringham",
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Felic Rautmann",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Borlase Valkema",
-          "playerTitle": "Groom's Mother",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Ostap Beeghley",
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Lamphere Linaman",
-          "playerTitle": "Wedding Planner",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
-          "alignment": "-"
-        }
-      ],
-      "fullName": "Chrisse Riskin"
-    },
-    {
-      "powers": [
-        {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
-        },
-        {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3
-        },
-        {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3
-        }
-      ],
-      "goals": [
-        {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
-        },
-        {
-          "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
-        },
-        {
-          "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
-        },
-        {
-          "name": "Lean into this relationship",
-          "description": "You feel very + about Bride. Do something about it"
-        }
-      ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
-      "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
-      ],
-      "firstName": "Felic",
-      "lastName": "Rautmann",
-      "title": "Marriage Officiant",
-      "otherPeople": [
-        {
-          "playerName": "Ostap Beeghley",
-          "playerTitle": "Bride",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Elayne Sebra",
+          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "+"
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "-"
         },
         {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "+"
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Strong",
+          "alignment": "-"
         },
         {
-          "playerName": "Hilario Depta",
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Lamphere Linaman",
-          "playerTitle": "Wedding Planner",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
-      "fullName": "Felic Rautmann"
+      "fullName": "Doggett Giuliana"
     },
     {
       "powers": [
-        {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
-          "usages": 3
-        },
-        {
-          "name": "Special",
-          "description": "Do something specific. If you manage this something special happens",
-          "usages": 2
-        },
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
           "usages": 3
-        }
-      ],
-      "goals": [
-        {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
-        },
-        {
-          "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
-        },
-        {
-          "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
-        }
-      ],
-      "secret": "A dark haunting secret",
-      "information": "A useful tidbit",
-      "blurb": "The thing about interesting people is that they are usually boring",
-      "traits": [
-        "Boring",
-        "Curious",
-        "Smooth Talking"
-      ],
-      "firstName": "Polly",
-      "lastName": "Naraine",
-      "title": "Best Man",
-      "otherPeople": [
-        {
-          "playerName": "Colis Ringham",
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Ostap Beeghley",
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Elayne Sebra",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Felic Rautmann",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Borlase Valkema",
-          "playerTitle": "Groom's Mother",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "-"
-        }
-      ],
-      "fullName": "Polly Naraine"
-    },
-    {
-      "powers": [
-        {
-          "name": "Special",
-          "description": "Do something specific. If you manage this something special happens",
-          "usages": 2
         },
         {
           "name": "Defend",
@@ -563,15 +213,15 @@
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot Secret relationship F",
-          "description": "Secret relationship F: Bride, Marriage Officiant, Wedding Planner"
+          "name": "Resolve plot Secret relationship I",
+          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
         },
         {
-          "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Bride. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -582,79 +232,106 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Lamphere",
-      "lastName": "Linaman",
-      "title": "Wedding Planner",
+      "firstName": "Naldo",
+      "lastName": "Paulat",
+      "title": "Maid of Honor",
+      "optional": false,
       "otherPeople": [
         {
-          "playerName": "Colis Ringham",
+          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
-          "strength": "Weak",
+          "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Ostap Beeghley",
+          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Elayne Sebra",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Felic Rautmann",
+          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Borlase Valkema",
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "+"
         }
       ],
-      "fullName": "Lamphere Linaman"
+      "fullName": "Naldo Paulat"
     },
     {
       "powers": [
-        {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
-        },
         {
           "name": "Secret",
           "description": "Do something specific. If you manage this, the player must show you their secret.",
           "usages": 3
         },
         {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
+        },
+        {
+          "name": "Pickpocket",
+          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "usages": 2
         }
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Flowergirl, Best Man"
         },
         {
-          "name": "Resolve plot Dark past E",
-          "description": "Dark past E: Bride's Father, Flowergirl"
-        },
-        {
-          "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
+          "name": "Resolve plot Secret relationship I",
+          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
         }
       ],
       "secret": "A dark haunting secret",
@@ -665,54 +342,67 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Magen",
-      "lastName": "Tyger",
-      "title": "Bride's Father",
+      "firstName": "Graehl",
+      "lastName": "Argiro",
+      "title": "Flowergirl",
+      "optional": false,
       "otherPeople": [
         {
-          "playerName": "Elayne Sebra",
-          "playerTitle": "Maid of Honor",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Borlase Valkema",
-          "playerTitle": "Groom's Mother",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Colis Ringham",
+          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Felic Rautmann",
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
-      "fullName": "Magen Tyger"
+      "fullName": "Graehl Argiro"
     },
     {
       "powers": [
@@ -722,32 +412,408 @@
           "usages": 3
         },
         {
+          "name": "Information",
+          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "usages": 3
+        },
+        {
+          "name": "Reveal",
+          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "usages": 3
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy E",
+          "description": "Conspiracy E: Wedding Planner, Marriage Officiant"
+        },
+        {
+          "name": "Resolve plot Secret relationship I",
+          "description": "Secret relationship I: Marriage Officiant, Maid of Honor, Flowergirl"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Drunk Uncle. Do something about it"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Prem",
+      "lastName": "Beahr",
+      "title": "Marriage Officiant",
+      "optional": false,
+      "otherPeople": [
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Prem Beahr"
+    },
+    {
+      "powers": [
+        {
+          "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3
+        },
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3
+        },
+        {
+          "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot Get the item D",
+          "description": "Get the item D: Flowergirl, Best Man"
+        },
+        {
+          "name": "Resolve plot I hate that guy in particular H",
+          "description": "I hate that guy in particular H: Best Man, Wedding Planner"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Skantze",
+      "lastName": "Wriedt",
+      "title": "Best Man",
+      "optional": false,
+      "otherPeople": [
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Skantze Wriedt"
+    },
+    {
+      "powers": [
+        {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         },
         {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3
+        },
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot Conspiracy E",
+          "description": "Conspiracy E: Wedding Planner, Marriage Officiant"
+        },
+        {
+          "name": "Resolve plot I hate that guy in particular H",
+          "description": "I hate that guy in particular H: Best Man, Wedding Planner"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very + about Drunk Uncle. Do something about it"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Romeyn",
+      "lastName": "Eminger",
+      "title": "Wedding Planner",
+      "optional": false,
+      "otherPeople": [
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Romeyn Eminger"
+    },
+    {
+      "powers": [
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3
+        },
+        {
+          "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3
+        },
+        {
+          "name": "Reveal",
+          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "usages": 3
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot I hate that guy in particular B",
+          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
+        },
+        {
+          "name": "Resolve plot Get the item J",
+          "description": "Get the item J: Bride's Father"
+        },
+        {
+          "name": "Lean into this relationship",
+          "description": "You feel very - about Bride. Do something about it"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Hassett",
+      "lastName": "Einfalt",
+      "title": "Bride's Father",
+      "optional": false,
+      "otherPeople": [
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Hassett Einfalt"
+    },
+    {
+      "powers": [
+        {
+          "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3
+        },
+        {
+          "name": "Reveal",
+          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "usages": 3
+        },
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
           "usages": 3
         }
       ],
       "goals": [
         {
           "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Best Man, Wedding Planner, Flowergirl, Groom, Bride, Groom's Mother"
+          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
         },
         {
-          "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
-        },
-        {
-          "name": "Resolve plot Get the item G",
-          "description": "Get the item G: Groom, Groom's Mother, Wedding Planner"
+          "name": "Resolve plot Dark past F",
+          "description": "Dark past F: Bride, Groom's Mother, Photographer"
         },
         {
           "name": "Lean into this relationship",
-          "description": "You feel very - about Maid of Honor. Do something about it"
+          "description": "You feel very - about Marriage Officiant. Do something about it"
         }
       ],
       "secret": "A dark haunting secret",
@@ -758,68 +824,138 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Borlase",
-      "lastName": "Valkema",
+      "firstName": "Bisset",
+      "lastName": "Marolla",
       "title": "Groom's Mother",
+      "optional": false,
       "otherPeople": [
         {
-          "playerName": "Colis Ringham",
+          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Ostap Beeghley",
+          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Elayne Sebra",
-          "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Chrisse Riskin",
-          "playerTitle": "Flowergirl",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "-"
         },
         {
-          "playerName": "Lamphere Linaman",
+          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Hilario Depta",
-          "playerTitle": "Drunk Uncle",
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         }
       ],
-      "fullName": "Borlase Valkema"
+      "fullName": "Bisset Marolla"
     },
     {
       "powers": [
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
+        {
+          "name": "Defend",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "usages": 3
+        },
+        {
+          "name": "Special",
+          "description": "Do something specific. If you manage this something special happens",
+          "usages": 2
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
+        },
+        {
+          "name": "Resolve plot Dark past G",
+          "description": "Dark past G: Drunk Uncle, Groom"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Nelie",
+      "lastName": "Daughdrill",
+      "title": "Drunk Uncle",
+      "optional": false,
+      "otherPeople": [
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Nelie Daughdrill"
+    },
+    {
+      "powers": [
         {
           "name": "Defend",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
@@ -829,24 +965,17 @@
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
           "usages": 3
+        },
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3
         }
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Drunk Uncle, Marriage Officiant, Maid of Honor, Bride's Father"
-        },
-        {
-          "name": "Resolve plot I hate that guy in particular C",
-          "description": "I hate that guy in particular C: Groom's Mother, Best Man, Drunk Uncle"
-        },
-        {
-          "name": "Resolve plot Conspiracy H",
-          "description": "Conspiracy H: Drunk Uncle, Marriage Officiant, Bride, Bride's Father"
-        },
-        {
-          "name": "Resolve plot Secret relationship J",
-          "description": "Secret relationship J: Best Man, Groom, Flowergirl, Drunk Uncle"
+          "name": "Resolve plot I hate that guy in particular B",
+          "description": "I hate that guy in particular B: Dog, Bride's Father, Groom"
         }
       ],
       "secret": "A dark haunting secret",
@@ -857,149 +986,222 @@
         "Curious",
         "Smooth Talking"
       ],
-      "firstName": "Hilario",
-      "lastName": "Depta",
-      "title": "Drunk Uncle",
+      "firstName": "Saleem",
+      "lastName": "Bluff",
+      "title": "Dog",
+      "optional": true,
       "otherPeople": [
         {
-          "playerName": "Felic Rautmann",
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Magen Tyger",
-          "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Ostap Beeghley",
-          "playerTitle": "Bride",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Colis Ringham",
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Polly Naraine",
-          "playerTitle": "Best Man",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Elayne Sebra",
+          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Borlase Valkema",
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
+        }
+      ],
+      "fullName": "Saleem Bluff"
+    },
+    {
+      "powers": [
+        {
+          "name": "Pickpocket",
+          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "usages": 2
+        },
+        {
+          "name": "Secret",
+          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "usages": 3
+        },
+        {
+          "name": "Other People",
+          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "usages": 3
+        }
+      ],
+      "goals": [
+        {
+          "name": "Resolve plot Inciting incident A",
+          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
+        },
+        {
+          "name": "Resolve plot Dark past F",
+          "description": "Dark past F: Bride, Groom's Mother, Photographer"
+        }
+      ],
+      "secret": "A dark haunting secret",
+      "information": "A useful tidbit",
+      "blurb": "The thing about interesting people is that they are usually boring",
+      "traits": [
+        "Boring",
+        "Curious",
+        "Smooth Talking"
+      ],
+      "firstName": "Mungo",
+      "lastName": "Joint",
+      "title": "Photographer",
+      "optional": true,
+      "otherPeople": [
+        {
+          "playerName": "Skantze Wriedt",
+          "playerTitle": "Best Man",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
         }
       ],
-      "fullName": "Hilario Depta"
+      "fullName": "Mungo Joint"
     }
   ],
   "plots": [
     {
       "name": "Inciting incident A",
       "playerTitles": [
-        "Best Man",
-        "Wedding Planner",
-        "Flowergirl",
-        "Groom",
-        "Bride",
-        "Groom's Mother"
-      ],
-      "items": []
-    },
-    {
-      "name": "Conspiracy B",
-      "playerTitles": [
-        "Drunk Uncle",
-        "Marriage Officiant",
-        "Maid of Honor",
-        "Bride's Father"
-      ],
-      "items": []
-    },
-    {
-      "name": "I hate that guy in particular C",
-      "playerTitles": [
         "Groom's Mother",
-        "Best Man",
-        "Drunk Uncle"
+        "Drunk Uncle",
+        "Maid of Honor",
+        "Photographer"
+      ],
+      "items": []
+    },
+    {
+      "name": "I hate that guy in particular B",
+      "playerTitles": [
+        "Dog",
+        "Bride's Father",
+        "Groom"
+      ],
+      "items": []
+    },
+    {
+      "name": "Get the item C",
+      "playerTitles": [
+        "Bride"
       ],
       "items": []
     },
     {
       "name": "Get the item D",
       "playerTitles": [
-        "Maid of Honor"
+        "Flowergirl",
+        "Best Man"
       ],
       "items": []
     },
     {
-      "name": "Dark past E",
+      "name": "Conspiracy E",
       "playerTitles": [
-        "Bride's Father",
+        "Wedding Planner",
+        "Marriage Officiant"
+      ],
+      "items": []
+    },
+    {
+      "name": "Dark past F",
+      "playerTitles": [
+        "Bride",
+        "Groom's Mother",
+        "Photographer"
+      ],
+      "items": []
+    },
+    {
+      "name": "Dark past G",
+      "playerTitles": [
+        "Drunk Uncle",
+        "Groom"
+      ],
+      "items": []
+    },
+    {
+      "name": "I hate that guy in particular H",
+      "playerTitles": [
+        "Best Man",
+        "Wedding Planner"
+      ],
+      "items": []
+    },
+    {
+      "name": "Secret relationship I",
+      "playerTitles": [
+        "Marriage Officiant",
+        "Maid of Honor",
         "Flowergirl"
       ],
       "items": []
     },
     {
-      "name": "Secret relationship F",
+      "name": "Get the item J",
       "playerTitles": [
-        "Bride",
-        "Marriage Officiant",
-        "Wedding Planner"
-      ],
-      "items": []
-    },
-    {
-      "name": "Get the item G",
-      "playerTitles": [
-        "Groom",
-        "Groom's Mother",
-        "Wedding Planner"
-      ],
-      "items": []
-    },
-    {
-      "name": "Conspiracy H",
-      "playerTitles": [
-        "Drunk Uncle",
-        "Marriage Officiant",
-        "Bride",
         "Bride's Father"
-      ],
-      "items": []
-    },
-    {
-      "name": "Dark past I",
-      "playerTitles": [
-        "Maid of Honor"
-      ],
-      "items": []
-    },
-    {
-      "name": "Secret relationship J",
-      "playerTitles": [
-        "Best Man",
-        "Groom",
-        "Flowergirl",
-        "Drunk Uncle"
       ],
       "items": []
     }
   ],
   "name": "Shotgun Wedding",
-  "seed": "Shotgun Wedding"
+  "seed": "Shotgun Wedding324234234"
 }

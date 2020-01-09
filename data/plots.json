@@ -2,7 +2,7 @@
   "needed": [
     {
       "name": "Inciting incident",
-      "playerRangeMin": 3,
+      "playerRangeMin": 4,
       "playerRangeMax": 6
     }
   ],
@@ -15,7 +15,7 @@
     {
       "name": "Secret relationship",
       "playerRangeMin": 2,
-      "playerRangeMax": 5
+      "playerRangeMax": 4
     },
     {
       "name": "Dark past",
@@ -25,12 +25,12 @@
     {
       "name": "I hate that guy in particular",
       "playerRangeMin": 2,
-      "playerRangeMax": 4
+      "playerRangeMax": 3
     },
     {
       "name": "Conspiracy",
       "playerRangeMin": 2,
-      "playerRangeMax": 6
+      "playerRangeMax": 5
     }
   ]
 }

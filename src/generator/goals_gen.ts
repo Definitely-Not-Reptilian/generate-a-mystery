@@ -19,6 +19,9 @@ export function assignBonusGoalsFromOtherPeopleInGame(game: Game): void {
       continue;
     }
     const strongFriends = player.relationships.filter((rel) => rel.strength === RelationshipStrength.STRONG);
+    if (strongFriends.length === 0) {
+      continue;
+    }
     const bestFriend = random.spiced('best_friend', player.title).sampleOne(strongFriends);
     const goal = new Goal(
       'Lean into this relationship',

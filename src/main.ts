@@ -10,7 +10,8 @@ import { assignRelationshipsToPlayersInGame } from './generator/relationship_gen
 
 const GAME_NAME = 'Shotgun Wedding';
 const TITLES = [ 'Groom', 'Bride', 'Maid of Honor', 'Flowergirl', 'Marriage Officiant', 'Best Man', 'Wedding Planner', 'Bride\'s Father', 'Groom\'s Mother', 'Drunk Uncle' ];
-const SEED = GAME_NAME;
+const TITLES_OPTIONAL = [ 'Dog', 'Photographer' ];
+const SEED = GAME_NAME + '324234234';
 const NUMBER_OF_POWERS_PER_PLAYER = 3;
 const NUMBER_OF_PLOTS = TITLES.length;
 const MINIMUM_NUMBER_OF_STRONG_RELATIONSHIPS_LOWER = 2;
@@ -20,7 +21,7 @@ const MINIMUM_NUMBER_OF_WEAK_RELATIONSHIPS_UPPER = 4;
 const game = new Game(GAME_NAME);
 game.seed = SEED.toString();
 
-generatePlayersIntoGame(TITLES, game);
+generatePlayersIntoGame(TITLES, TITLES_OPTIONAL, game);
 
 generatePowersIntoGame(NUMBER_OF_POWERS_PER_PLAYER, game);
 
