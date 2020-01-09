@@ -54,7 +54,7 @@ export class DocX {
       }
     }
     // buf is a nodejs buffer, you can either write it to a file or do anything else with it.
-    writeFileSync(`output/${player.fullName}.docx`, buf);
+    writeFileSync(`output/${player.title}.docx`, buf);
 
   }
 
