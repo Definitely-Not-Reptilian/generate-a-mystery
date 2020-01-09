@@ -46,14 +46,14 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
-          "playerTitle": "Bride's Father",
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "-"
         },
@@ -64,22 +64,10 @@
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
-          "playerTitle": "Groom's Mother",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
           "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "+"
-        },
-        {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "-"
         },
         {
           "playerName": "Doggett Giuliana",
@@ -90,6 +78,18 @@
         {
           "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -148,12 +148,6 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
           "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
@@ -166,6 +160,18 @@
           "alignment": "-"
         },
         {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
@@ -176,12 +182,6 @@
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "-"
-        },
-        {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerName": "Mungo Joint",
@@ -238,14 +238,26 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Doggett Giuliana",
-          "playerTitle": "Bride",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Strong",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
@@ -262,8 +274,14 @@
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -274,32 +292,14 @@
           "alignment": "-"
         },
         {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hassett Einfalt",
-          "playerTitle": "Bride's Father",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
+          "playerName": "Mungo Joint",
+          "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
-          "playerTitle": "Dog",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Mungo Joint",
-          "playerTitle": "Photographer",
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -348,12 +348,6 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
           "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Strong",
@@ -364,24 +358,6 @@
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
-        },
-        {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerName": "Hassett Einfalt",
@@ -396,10 +372,34 @@
           "alignment": "-"
         },
         {
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
         }
       ],
       "fullName": "Graehl Argiro"
@@ -450,45 +450,15 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Doggett Giuliana",
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Nelie Daughdrill",
-          "playerTitle": "Drunk Uncle",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
           "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Nelie Daughdrill",
+          "playerTitle": "Drunk Uncle",
           "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Hassett Einfalt",
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
           "alignment": "+"
         },
         {
@@ -498,8 +468,38 @@
           "alignment": "-"
         },
         {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
           "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -554,18 +554,6 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
           "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
@@ -588,6 +576,18 @@
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
           "playerName": "Mungo Joint",
@@ -644,20 +644,8 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
           "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
-          "strength": "Strong",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "+"
         },
@@ -668,8 +656,20 @@
           "alignment": "+"
         },
         {
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
+          "strength": "Strong",
+          "alignment": "+"
+        },
+        {
           "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Saleem Bluff",
+          "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -686,8 +686,8 @@
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
-          "playerTitle": "Dog",
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -740,22 +740,16 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
-          "strength": "Strong",
-          "alignment": "-"
-        },
-        {
           "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
-          "strength": "Weak",
-          "alignment": "+"
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
+          "strength": "Strong",
+          "alignment": "-"
         },
         {
           "playerName": "Naldo Paulat",
@@ -778,6 +772,12 @@
         {
           "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
         }
@@ -830,27 +830,9 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
           "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
-          "playerName": "Hassett Einfalt",
-          "playerTitle": "Bride's Father",
-          "strength": "Weak",
           "alignment": "-"
         },
         {
@@ -860,16 +842,34 @@
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
-          "playerTitle": "Wedding Planner",
+          "playerName": "Hassett Einfalt",
+          "playerTitle": "Bride's Father",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
           "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Romeyn Eminger",
+          "playerTitle": "Wedding Planner",
+          "strength": "Weak",
+          "alignment": "+"
         }
       ],
       "fullName": "Bisset Marolla"
@@ -922,18 +922,6 @@
           "alignment": "-"
         },
         {
-          "playerName": "Doggett Giuliana",
-          "playerTitle": "Bride",
-          "strength": "Weak",
-          "alignment": "+"
-        },
-        {
-          "playerName": "Graehl Argiro",
-          "playerTitle": "Flowergirl",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
           "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
@@ -944,6 +932,18 @@
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "+"
+        },
+        {
+          "playerName": "Doggett Giuliana",
+          "playerTitle": "Bride",
+          "strength": "Weak",
+          "alignment": "+"
+        },
+        {
+          "playerName": "Graehl Argiro",
+          "playerTitle": "Flowergirl",
+          "strength": "Weak",
+          "alignment": "-"
         },
         {
           "playerName": "Naldo Paulat",
@@ -1004,8 +1004,8 @@
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
-          "playerTitle": "Marriage Officiant",
+          "playerName": "Chatav Kosack",
+          "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -1016,8 +1016,8 @@
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
-          "playerTitle": "Groom",
+          "playerName": "Prem Beahr",
+          "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         },
@@ -1078,22 +1078,10 @@
           "alignment": "+"
         },
         {
-          "playerName": "Bisset Marolla",
-          "playerTitle": "Groom's Mother",
-          "strength": "Weak",
-          "alignment": "-"
-        },
-        {
           "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
-        },
-        {
-          "playerName": "Naldo Paulat",
-          "playerTitle": "Maid of Honor",
-          "strength": "Weak",
-          "alignment": "+"
         },
         {
           "playerName": "Graehl Argiro",
@@ -1106,6 +1094,18 @@
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
+        },
+        {
+          "playerName": "Bisset Marolla",
+          "playerTitle": "Groom's Mother",
+          "strength": "Weak",
+          "alignment": "-"
+        },
+        {
+          "playerName": "Naldo Paulat",
+          "playerTitle": "Maid of Honor",
+          "strength": "Weak",
+          "alignment": "+"
         },
         {
           "playerName": "Prem Beahr",

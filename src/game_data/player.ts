@@ -3,6 +3,7 @@ import { Goal } from './goal';
 import { Expose, Exclude, Type } from 'class-transformer';
 import { Relationship, OtherPerson } from './relationship';
 import { Game } from './game';
+import { orderBy } from 'lodash';
 
 export class Player {
   firstName: string;
@@ -35,7 +36,7 @@ export class Player {
     if (this._otherPeople.length !== 0 || this.relationships.length === 0) {
       return this._otherPeople;
     }
-    return this.relationships.map((rel) => OtherPerson.makeFromMe(this, rel));
+    return orderBy(this.relationships.map((rel) => OtherPerson.makeFromMe(this, rel)), ['strength', 'playerTitle']);
   }
 
   set otherPeople(otherPeople: OtherPerson[]) {
