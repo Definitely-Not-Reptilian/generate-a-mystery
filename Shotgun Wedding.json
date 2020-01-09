@@ -45,7 +45,7 @@
         "Casual"
       ],
       "firstName": "Chad",
-      "lastName": "Kosack",
+      "lastName": "Marolla",
       "title": "Groom",
       "optional": false,
       "otherPeople": [
@@ -145,8 +145,8 @@
         "Boisterous",
         "Laser Focused"
       ],
-      "firstName": "Doggett",
-      "lastName": "Giuliana",
+      "firstName": "Corolla",
+      "lastName": "Castro",
       "title": "Bride",
       "optional": false,
       "otherPeople": [
@@ -240,8 +240,8 @@
         "Action Hero",
         "Traumatised"
       ],
-      "firstName": "Naldo",
-      "lastName": "Paulat",
+      "firstName": "Gemini",
+      "lastName": "Belmont",
       "title": "Maid of Honor",
       "optional": false,
       "otherPeople": [
@@ -454,8 +454,8 @@
         "Judgemental",
         "Difficult"
       ],
-      "firstName": "Prem",
-      "lastName": "Beahr",
+      "firstName": "Courtney",
+      "lastName": "Smith",
       "title": "Marriage Officiant",
       "optional": false,
       "otherPeople": [
@@ -546,7 +546,7 @@
         "Sexy"
       ],
       "firstName": "Skantze",
-      "lastName": "Wriedt",
+      "lastName": "Torana",
       "title": "Best Man",
       "optional": false,
       "otherPeople": [
@@ -638,8 +638,8 @@
         "Good hearted",
         "Nervous"
       ],
-      "firstName": "Romeyn",
-      "lastName": "Eminger",
+      "firstName": "Malibu",
+      "lastName": "Singer",
       "title": "Wedding Planner",
       "optional": false,
       "otherPeople": [
@@ -733,8 +733,8 @@
         "Emotional",
         "Broken"
       ],
-      "firstName": "Hassett",
-      "lastName": "Einfalt",
+      "firstName": "Sparkie",
+      "lastName": "Castro",
       "title": "Bride's Father",
       "optional": false,
       "otherPeople": [
@@ -838,7 +838,7 @@
         "Classy",
         "Liar"
       ],
-      "firstName": "Bisset",
+      "firstName": "Caprice",
       "lastName": "Marolla",
       "title": "Groom's Mother",
       "optional": false,
@@ -885,8 +885,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Bisset Marolla"
+      ]
     },
     {
       "powers": [
@@ -924,8 +923,8 @@
         "Understanding",
         "Trickster"
       ],
-      "firstName": "Nelie",
-      "lastName": "Daughdrill",
+      "firstName": "Austin",
+      "lastName": "Marolla",
       "title": "Drunk Uncle",
       "optional": false,
       "otherPeople": [
@@ -997,8 +996,8 @@
         "Hungry",
         "Possessive"
       ],
-      "firstName": "Saleem",
-      "lastName": "Bluff",
+      "firstName": "Lucky",
+      "lastName": "",
       "title": "Dog",
       "optional": true,
       "otherPeople": [
@@ -1038,8 +1037,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Saleem Bluff"
+      ]
     },
     {
       "powers": [
@@ -1128,8 +1126,7 @@
           "strength": "Weak",
           "alignment": "+"
         }
-      ],
-      "fullName": "Mungo Joint"
+      ]
     }
   ],
   "plots": [
