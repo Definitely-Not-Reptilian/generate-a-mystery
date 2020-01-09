@@ -763,7 +763,7 @@
         }
         {
           "name": "Find the real father",
-          "description": "You suspected {Bride f} is pregnant for a few weeks now. But she has only been with {Groom f} for a few months."
+          "description": "You suspected {Bride f} is pregnant for a while now. But she has only been with {Groom f} for that long. Keep it a secret but find out who is the father."
         }
       ],
       "secret": "You have a serious drug problem.",
