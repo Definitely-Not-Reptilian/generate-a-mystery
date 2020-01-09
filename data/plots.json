@@ -9,8 +9,8 @@
   "optional": [
     {
       "name": "Get the item",
-      "playerRangeMin": 1,
-      "playerRangeMax": 3
+      "playerRangeMin": 2,
+      "playerRangeMax": 4
     },
     {
       "name": "Secret relationship",
@@ -19,11 +19,11 @@
     },
     {
       "name": "Dark past",
-      "playerRangeMin": 1,
+      "playerRangeMin": 2,
       "playerRangeMax": 4
     },
     {
-      "name": "I hate that guy in particular",
+      "name": "Feud",
       "playerRangeMin": 2,
       "playerRangeMax": 3
     },
@@ -31,6 +31,11 @@
       "name": "Conspiracy",
       "playerRangeMin": 2,
       "playerRangeMax": 5
+    },
+    {
+      "name": "Misunderstanding",
+      "playerRangeMin": 2,
+      "playerRangeMax": 4
     }
   ]
 }
