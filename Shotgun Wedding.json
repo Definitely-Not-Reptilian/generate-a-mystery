@@ -761,6 +761,10 @@
           "name": "Lean into this relationship",
           "description": "You feel very - about Bride. Do something about it"
         }
+        {
+          "name": "Find the real father",
+          "description": "You suspected {Bride f} is pregnant for a few weeks now. But she has only been with {Groom f} for a few months."
+        }
       ],
       "secret": "You have a serious drug problem.",
       "information": "The Groom's mother tried to get a prenup signed but the Groom blocked it.",
