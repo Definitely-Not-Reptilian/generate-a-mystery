@@ -3,19 +3,24 @@
     {
       "powers": [
         {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
+          "name": "We are all family here",
+          "description": "Get permission and hug someone, then show them this ability. If you do, the player must show you their information.",
           "usages": 3
         },
         {
-          "name": "Pickpocket",
-          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
-          "usages": 2
+          "name": "That's need to know only",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.",
+          "usages": 3
         },
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "I didn't see your wedding present on the table",
+          "description": "If another player has an item in their hands, show them this ability and then get the item.",
           "usages": 3
+        },
+        {
+          "name": "Oh hell no! You're uninvited",
+          "description": "If a player raises their voice to you, you can show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.",
+          "usages": 1
         }
       ],
       "goals": [
@@ -107,19 +112,19 @@
     {
       "powers": [
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "name": "Oh are you talking about me?",
+          "description": "If you overhear someone say your name (or The Bride) walk over and show them this power. If you do, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
         {
-          "name": "Attack",
-          "description": "Do something specific. If you manage this, the player is knocked out.",
-          "usages": 2
+          "name": "Storm Off",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead. Then storm off in a huff.",
+          "usages": 3
         },
         {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
+          "name": "GET OUT!",
+          "description": "Make a huge scene about how a player is ruining your wedding, and show them this power. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.",
+          "usages": 1
         }
       ],
       "goals": [
@@ -134,6 +139,10 @@
         {
           "name": "It's lucky they say...",
           "description": "Find something borrowed, something blue, something old & something new. (Item cards will help you)"
+        },
+        {
+          "name": "Uninvite anyone trying to sabotage the wedding",
+          "description": "If anyone doesn't want you to marry the love of your life, then they need to go."
         },
         {
           "name": "Mercedes is such a bitch",
@@ -200,11 +209,6 @@
         {
           "name": "Information",
           "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3
-        },
-        {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         },
         {
