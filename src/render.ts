@@ -12,8 +12,11 @@ const docx = new DocX();
 const game: Game = plainToClass(Game, readJson<any>(`${GAME_NAME}.json`));
 game.rehydrate();
 for (const player of game.players) {
-  docx.generate(game, player);
+  docx.generatePlayer(game, player);
 }
+console.log(game.items);
+docx.generateItems(game);
+
 interface GraphData {
   nodes: {name: string}[];
   links: {source: number, target: number, strength: string}[];

@@ -8,19 +8,42 @@ import { merge } from 'lodash';
 
 export class DocX {
 
-  generate(game: Game, player: Player) {
+  generateItems(game: Game) {
+    this.generate('items', { game }, 'Items');
+  }
+
+  generatePlayer(game: Game, player: Player) {
+    this.generate('input', { game, player }, player.title);
+  }
+
+  generate(input: string, data: any, output: string) {
     // Get template
-    const content = readFileSync('template/input.docx', 'binary');
+    const content = readFileSync(`template/${input}.docx`, 'binary');
     const zip = new PizZip(content);
     const doc = new Docxtemplater();
     doc.loadZip(zip)
       .setOptions({ parser: angularParser });
 
-    doc.setData({
-      game,
-      player,
-    });
+    doc.setData(data);
 
+    this.safeRender(doc);
+
+    const buf = doc.getZip()
+      .generate({ type: 'nodebuffer' });
+
+    try {
+      mkdirSync('output');
+    } catch (e) {
+      if (e.code !== 'EEXIST') {
+        throw e;
+      }
+    }
+    // buf is a nodejs buffer, you can either write it to a file or do anything else with it.
+    writeFileSync(`output/${output}.docx`, buf);
+
+  }
+
+  safeRender(doc) {
     try {
       // render the document (replace all occurences of {first_name} by John, {last_name} by Doe, ...)
       doc.render();
@@ -42,20 +65,6 @@ export class DocX {
       }
       throw error;
     }
-
-    const buf = doc.getZip()
-      .generate({ type: 'nodebuffer' });
-
-    try {
-      mkdirSync('output');
-    } catch (e) {
-      if (e.code !== 'EEXIST') {
-        throw e;
-      }
-    }
-    // buf is a nodejs buffer, you can either write it to a file or do anything else with it.
-    writeFileSync(`output/${player.title}.docx`, buf);
-
   }
 
 }

@@ -2,6 +2,7 @@ import { Player } from './player';
 import { Plot } from './plot';
 import { Relationship } from './relationship';
 import { Type, Exclude } from 'class-transformer';
+import { Item } from './item';
 
 export class Game {
   name: string;
@@ -10,6 +11,8 @@ export class Game {
   @Type(() => Plot)
   plots: Plot[] = [];
   seed: string;
+  @Type(() => Item)
+  items: Item[] = [];
 
   @Exclude()
   allRelationships: Map<string, Relationship> = new Map();

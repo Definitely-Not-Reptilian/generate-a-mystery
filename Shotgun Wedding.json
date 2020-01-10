@@ -1187,6 +1187,18 @@
       "items": []
     }
   ],
+  "items": [{
+    "name": "$15,000 Cash",
+    "description": "A lot of money neatly rolled up."
+  },
+  {
+    "name": "Certificate of Marriage",
+    "description": "It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It's still valid."
+  },
+  {
+    "name": "Certificate of Marriage (Annulled)",
+    "description": "It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It's has been annulled recently."
+  }],
   "name": "Shotgun Wedding",
   "seed": "Shotgun Wedding324234234"
 }
