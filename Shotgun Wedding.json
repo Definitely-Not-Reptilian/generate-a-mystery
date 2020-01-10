@@ -302,19 +302,19 @@
     {
       "powers": [
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "We have ways of making you talk",
+          "description": "If someone is drunk or high, show them this power. The player must show you their secret.",
           "usages": 3
         },
         {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
-          "usages": 3
-        },
-        {
-          "name": "Pickpocket",
-          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "name": "You can't do that with a child here!",
+          "description": "If someone uses an ability on you or someone else while you are watching, show this power to them and their ability fails.",
           "usages": 2
+        },
+        {
+          "name": "Secret stash",
+          "description": "Talk to an Organiser and get some more drugs from you stash. Usable once per round.",
+          "usages": -1
         }
       ],
       "goals": [
@@ -331,7 +331,7 @@
           "description": "She tried to have you taken away, and you ended up on the streets. Now she is gonna pay."
         },
         {
-          "name": "Don't give out any more free samples",
+          "name": "End the wedding with as much valuables as possible",
           "description": "Sparkie never pays, its now $1000 a hit for that loser. Perhaps someone else will buy?"
         }
       ],
@@ -408,18 +408,13 @@
     {
       "powers": [
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "Confession",
+          "description": "Have a brief private conversation with someone. If you manage this, the player must show you their secret.",
           "usages": 3
         },
         {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3
-        },
-        {
-          "name": "Reveal",
-          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "name": "No secrets from God",
+          "description": "Give a small speech about the virtues of marriage. If a player sticks around to listens, that player must show you all items they have on them.",
           "usages": 3
         }
       ],
