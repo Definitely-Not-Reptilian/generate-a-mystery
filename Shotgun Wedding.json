@@ -28,11 +28,11 @@
           "description": "Make sure no-one (especially Corolla) knows what you did with Dave last night."
         },
         {
-          "name": "Convince your monster Mother",
+          "name": "Convince your monster mother",
           "description": "Your mother has been completely against the marriage ever since the first time you introduced Corolla. Make her see how wonderful you are together."
         },
         {
-          "name": "Repay your Uncle",
+          "name": "Repay your uncle",
           "description": "Make sure he knows you are thankful, even though he doesnt want to talk about the money, maybe drop a nod to him in your vows?"
         },
         {
@@ -58,55 +58,46 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "-"
@@ -163,49 +154,41 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
@@ -266,55 +249,46 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
@@ -371,67 +345,56 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "-"
@@ -488,49 +451,41 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "+"
@@ -583,43 +538,36 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "+"
@@ -651,7 +599,7 @@
       ],
       "goals": [
         {
-          "name": "Interupt the ceremony",
+          "name": "Interrupt the ceremony",
           "description": "Declare your love for {Bride f}. Annouce she can't marry someone else if she is already married. Make a big speech."
         },
         {
@@ -681,49 +629,41 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
@@ -750,17 +690,17 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Dog, Bride's Father, Groom"
+          "name": "Get through the ceremony without crying",
+          "description": "You better have some drugs on hand to make it through the ceremony. You need to hold it together for your little girl."
         },
         {
-          "name": "Resolve plot Dark past H",
-          "description": "Dark past H: Bride's Father, Dog"
+          "name": "Impress {Groom's Mother}",
+          "description": "It was a long time ago, but she is still as smoking as ever. If you could find a way to impress her maybe there is still something there."
         },
         {
-          "name": "Lean into this relationship",
-          "description": "You feel very - about Bride. Do something about it"
-        }
+          "name": "Keep {Dog f} out of mischief",
+          "description": "Make sure if the dog takes anything you return it to its rightful owner. And keeps its nose out of the trash!"
+        },
         {
           "name": "Find the real father",
           "description": "You suspected {Bride f} is pregnant for a while now. But she has only been with {Groom f} for that long. Keep it a secret but find out who is the father."
@@ -780,55 +720,46 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Saleem Bluff",
           "playerTitle": "Dog",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Nelie Daughdrill",
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
@@ -855,20 +786,20 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
+          "name": "Stop the Wedding!",
+          "description": "While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get."
         },
         {
-          "name": "Resolve plot Get the item D",
-          "description": "Get the item D: Marriage Officiant, Bride, Groom's Mother"
+          "name": "Don't let anyone know you took the BIG rings at the Bachelorette party",
+          "description": "You threw them in the trash, but people are putting together the dots from last night."
         },
         {
-          "name": "Resolve plot Get the item I",
-          "description": "Get the item I: Wedding Planner, Groom's Mother, Groom"
+          "name": "Get a pre-nup signed by the Bride and Groom",
+          "description": "Your brother is loaded, and you can't stand the thought that the Castro's get their hands on that money."
         },
         {
-          "name": "Lean into this relationship",
-          "description": "You feel very + about Flowergirl. Do something about it"
+          "name": "Mercedes is in need of a mother",
+          "description": "Her mother is no longer in the picture, it's the right thing to do."
         }
       ],
       "secret": "20 years ago you had an affair with Bride's Father.",
@@ -885,43 +816,36 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Mungo Joint",
           "playerTitle": "Photographer",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
@@ -948,12 +872,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
+          "name": "Get onto the wedding party",
+          "description": "You don't care what role you take, but being in the crowd is no fun."
         },
         {
-          "name": "Resolve plot Misunderstanding E",
-          "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
+          "name": "That ring is an family heirloom, make sure its not lost",
+          "description": "Find the ring and hold on to it for the ceremony. It was your nan's!"
+        },
+        {
+          "name": "Hide your wealth",
+          "description": "Make sure no one realises, or talks about that it was you that gave money to {Groom f} or {Wedding Officiant f}."
         }
       ],
       "secret": "You are filthy rich.",
@@ -970,31 +898,26 @@
       "optional": false,
       "otherPeople": [
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Strong",
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
           "alignment": "+"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "+"
@@ -1021,12 +944,24 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Conspiracy B",
-          "description": "Conspiracy B: Dog, Bride's Father, Groom"
+          "name": "Be the flowergirl",
+          "description": "You would look amazing, the star of the show!"
         },
         {
-          "name": "Resolve plot Dark past H",
-          "description": "Dark past H: Bride's Father, Dog"
+          "name": "Find out why {Groom f} and {Bride's Father f} smell similiar",
+          "description": "They must like playing together!"
+        },
+        {
+          "name": "Find a way to get back to your old owner",
+          "description": "If you could only explain who they were, or had a picture, someone might take you back to them."
+        },
+        {
+          "name": "Catch the bouquet",
+          "description": "Catch? Thats my favourite!"
+        },
+        {
+          "name": "Be a good dog",
+          "description": "If anyone feeds you, make sure to help them out when you can."
         }
       ],
       "secret": "You were a stunt dog from the famous TV show WoWza.",
@@ -1043,37 +978,31 @@
       "optional": true,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Hassett Einfalt",
           "playerTitle": "Bride's Father",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Romeyn Eminger",
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
           "alignment": "+"
@@ -1100,16 +1029,16 @@
       ],
       "goals": [
         {
-          "name": "Resolve plot Inciting incident A",
-          "description": "Inciting incident A: Groom's Mother, Drunk Uncle, Maid of Honor, Photographer"
+          "name": "Object at the wedding!",
+          "description": "There is definitly something fishy going on here. If you find evidence make sure to object and explain the whole travesty."
         },
         {
-          "name": "Resolve plot Misunderstanding E",
-          "description": "Misunderstanding E: Photographer, Drunk Uncle, Groom"
+          "name": "Find out why the {Drunk Uncle f} gave {Groom f} a large sum of money",
+          "description": "Confront them and try to find why money is changing hands."
         },
         {
-          "name": "Resolve plot Get the item J",
-          "description": "Get the item J: Flowergirl, Photographer"
+          "name": "Get a photo of {Flowergirl f} doing something illegal (Use you phone)",
+          "description": "{Flowergirl f} didn't want their photo taken at the Bachelorette party. Weird."
         }
       ],
       "secret": "Driving late at night you hit someone. It was dark, but you kept on driving...",
@@ -1126,43 +1055,36 @@
       "optional": true,
       "otherPeople": [
         {
-          "playerName": "Skantze Wriedt",
           "playerTitle": "Best Man",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Doggett Giuliana",
           "playerTitle": "Bride",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Graehl Argiro",
           "playerTitle": "Flowergirl",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Chatav Kosack",
           "playerTitle": "Groom",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Bisset Marolla",
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
           "alignment": "-"
         },
         {
-          "playerName": "Naldo Paulat",
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
           "alignment": "+"
         },
         {
-          "playerName": "Prem Beahr",
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
           "alignment": "+"
