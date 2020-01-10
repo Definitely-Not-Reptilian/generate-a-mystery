@@ -14,7 +14,6 @@ game.rehydrate();
 for (const player of game.players) {
   docx.generatePlayer(game, player);
 }
-console.log(game.items);
 docx.generateItems(game);
 
 interface GraphData {
