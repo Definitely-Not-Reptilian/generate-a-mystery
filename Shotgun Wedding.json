@@ -57,6 +57,7 @@
         "Joyous",
         "Casual"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Chad",
       "lastName": "Marolla",
       "title": "Groom",
@@ -157,6 +158,7 @@
         "Boisterous",
         "Laser Focused"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Corolla",
       "lastName": "Castro",
       "title": "Bride",
@@ -247,6 +249,7 @@
         "Action Hero",
         "Traumatised"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Gemini",
       "lastName": "Belmont",
       "title": "Maid of Honor",
@@ -343,6 +346,7 @@
         "Moody",
         "Cynical Teenager"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Mercedes",
       "lastName": "Bennie",
       "title": "Flowergirl",
@@ -444,6 +448,7 @@
         "Judgemental",
         "Difficult"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Robin",
       "lastName": "Smith",
       "title": "Marriage Officiant",
@@ -531,6 +536,7 @@
         "Manipulative",
         "Sexy"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Dave",
       "lastName": "Torana",
       "title": "Best Man",
@@ -622,6 +628,7 @@
         "Good hearted",
         "Nervous"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Malibu",
       "lastName": "Singer",
       "title": "Wedding Planner",
@@ -713,6 +720,7 @@
         "Emotional",
         "Broken"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Sparkie",
       "lastName": "Castro",
       "title": "Bride's Father",
@@ -809,6 +817,7 @@
         "Classy",
         "Liar"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Vectra",
       "lastName": "Marolla",
       "title": "Groom's Mother",
@@ -891,6 +900,7 @@
         "Understanding",
         "Trickster"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Austin",
       "lastName": "Marolla",
       "title": "Drunk Uncle",
@@ -971,6 +981,7 @@
         "Hungry",
         "Possessive"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Lucky",
       "lastName": "",
       "title": "Dog",
@@ -1048,6 +1059,7 @@
         "Desperate",
         "Well-researched"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Mungo",
       "lastName": "Joint",
       "title": "Photographer",
@@ -1182,55 +1194,56 @@
       "items": []
     }
   ],
-  "items": [{
-    "name": "$15,000 Cash",
-    "description": "A lot of money neatly rolled up."
-  },
-  {
-    "name": "Certificate of Marriage",
-    "description": "It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It's still valid."
-  },
-  {
-    "name": "Certificate of Marriage (Annulled)",
-    "description": "It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It's has been annulled recently."
-  },
-  {
-    "name": "Blue drugs",
-    "description": "This stuff will mess you up! If someone eats or drink something you provide them, show this to the Organiser and they will be innebriated for a time."
-  },
-  {
-    "name": "Ultrasound",
-    "description": "It shows a 3 month old baby. This counts as 'something new'"
-  },
-  {
-    "name": "Photos of bachelorette party",
-    "description": "These photos show {Bride f} and {Groom's Mother f} pole dancing. It also shows {Maid of Honor f} wearing a BIG wedding ring."
-  },
-  {
-    "name": "Dog bone",
-    "description": "Delicious... for a dog! This counts as 'something borrowed'"
-  },
-  {
-    "name": "Scissors",
-    "description": "Tell an Organiser you wish to cut up someones invitation (other than the Bride and Groom). They will be uninvited, preventing them from attending the ceremony. Then this item is destroyed."
-  },
-  {
-    "name": "Spare Invite",
-    "description": "This might be useful if you get uninvited from the wedding. Give this to an organiser to slip back in."
-  },
-  {
-    "name": "Receipt for Strippers",
-    "description": "$600 receipt for Strippers last night. It looks like it was refunded because someone cancelled."
-  },
-  {
-    "name": "Pair of BIG rings",
-    "description": "Huge stones, 24ct gold, these things are old but impressive!"
-  },
-  {
-    "name": "Pair of rings",
-    "description": "The most plain wedding rings you can imagine. Boring but might do in a pinch."
-  }
-],
+  "items": [
+    {
+      "name": "$15,000 Cash",
+      "description": "A lot of money neatly rolled up."
+    },
+    {
+      "name": "Certificate of Marriage",
+      "description": "It says that {'Bride' | f} and {'Wedding Planner' | f} was married 2 years ago. It's still valid."
+    },
+    {
+      "name": "Certificate of Marriage (Annulled)",
+      "description": "It says that {'Bride' | f} and {'Wedding Planner' | f} was married 2 years ago. It's has been annulled recently."
+    },
+    {
+      "name": "Blue drugs",
+      "description": "This stuff will mess you up! If someone eats or drink something you provide them, show this to the Organiser and they will be innebriated for a time."
+    },
+    {
+      "name": "Ultrasound",
+      "description": "It shows a 3 month old baby. This counts as 'something new'"
+    },
+    {
+      "name": "Photos of bachelorette party",
+      "description": "These photos show {'Bride' | f} and {'Grooms Mother' | f} pole dancing. It also shows {'Maid of Honor' | f} wearing a BIG wedding ring."
+    },
+    {
+      "name": "Dog bone",
+      "description": "Delicious... for a dog! This counts as 'something borrowed'"
+    },
+    {
+      "name": "Scissors",
+      "description": "Tell an Organiser you wish to cut up someones invitation (other than the Bride and Groom). They will be uninvited, preventing them from attending the ceremony. Then this item is destroyed."
+    },
+    {
+      "name": "Spare Invite",
+      "description": "This might be useful if you get uninvited from the wedding. Give this to an organiser to slip back in."
+    },
+    {
+      "name": "Receipt for Strippers",
+      "description": "$600 receipt for Strippers last night. It looks like it was refunded because someone cancelled."
+    },
+    {
+      "name": "Pair of BIG rings",
+      "description": "Huge stones, 24ct gold, these things are old but impressive!"
+    },
+    {
+      "name": "Pair of rings",
+      "description": "The most plain wedding rings you can imagine. Boring but might do in a pinch."
+    }
+  ],
   "name": "Shotgun Wedding",
   "seed": "Shotgun Wedding324234234"
 }

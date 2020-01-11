@@ -1,4 +1,5 @@
 import { Player } from './player';
+import { Exclude } from 'class-transformer';
 
 export enum RelationshipStrength {
   STRONG = 'Strong',
@@ -33,12 +34,16 @@ export class Relationship implements IRelationship {
   }
 }
 export class OtherPerson implements IRelationship {
+  @Exclude()
+  public playerName: string
   constructor(
-    public playerName: string,
+    playerName: string,
     public playerTitle: string,
     public strength: RelationshipStrength,
     public alignment: RelationshipAlignment,
-  ) { }
+  ) {
+    this.playerName = playerName;
+  }
 
   static makeFromMe(me: Player, relationship: Relationship): OtherPerson {
     const notMe = relationship.theFriendThatsNotMe(me);
