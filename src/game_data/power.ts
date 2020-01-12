@@ -9,6 +9,9 @@ export class Power {
   weight: number;
 
   get usagesAsCircles(): string {
+    if (this.usages === -1) {
+      return 'Special';
+    }
     return times(this.usages, () => 'O')
       .join(' ');
   }

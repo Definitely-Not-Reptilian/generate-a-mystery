@@ -19,6 +19,7 @@ export class Player {
   information = 'A useful tidbit';
   blurb = 'The thing about interesting people is that they are usually boring';
   traits = [ 'Boring', 'Curious', 'Smooth Talking' ];
+  shortDescription = `A ${this.traits.join(', ')} individual.`;
   optional: boolean;
 
   @Exclude()
@@ -43,7 +44,6 @@ export class Player {
     this._otherPeople = otherPeople;
   }
 
-  @Expose()
   get fullName(): string {
     return `${this.firstName} ${this.lastName}`;
   }

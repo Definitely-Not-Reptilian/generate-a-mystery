@@ -68,23 +68,42 @@ export class DocX {
   }
 
 }
-
+function replacer(input: string, game: Game) {
+  const tagRegex = /{(.*)}/g;
+  return input.replace(tagRegex, (_match, tagContents: string) => {
+    for (const player of game.players) {
+      if (tagContents.toLowerCase().includes(player.title.toLowerCase())) {
+        const tagSplit = tagContents.split(' ')
+        if (tagSplit.includes('f')) {
+          return player.firstName;
+        } else if (tagSplit.includes('l')) {
+          return player.lastName;
+        } else {
+          return player.fullName;
+        }
+      }
+    }
+    return 'ERROR SUSTITUTING SOMETHING HERE';
+  });
+}
+function contextToObject(context) {
+  return merge({}, ...context.scopeList);
+}
 function angularParser(tag) {
   if (tag === '.') {
     return {
-      get: (s) => s,
+      get: (scope, context) => replacer(scope, contextToObject(context).game),
     };
   }
   const expr = expressions.compile(tag.replace(/(’|“|”|‘)/g, "'"));
   return {
     get: (scope, context) => {
-      let obj = {};
-      const scopeList = context.scopeList;
-      const num = context.num;
-      for (let i = 0, len = num + 1; i < len; i++) {
-        obj = merge(obj, scopeList[i]);
+      const obj = contextToObject(context);
+      const result = expr(scope, obj);
+      if (typeof result !== 'string') {
+        return result;
       }
-      return expr(scope, obj);
+      return replacer(result, obj.game);
     },
   };
 }

@@ -21,9 +21,6 @@ export class Plot {
   @Transform((_titles, plot: Plot) => plot.players.map((player) => player.title), { toPlainOnly: true })
   playerTitles: string[] = [];
 
-  @Type(() => Item)
-  items: Item[] = [];
-
   get plotSummary(): string {
     const playerNameList = this.players.length === 0 ? this.playerTitles : this.players.map((p) => p.title);
     return `${this.name}: ${playerNameList.join(', ')}`;
