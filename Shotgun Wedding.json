@@ -417,6 +417,11 @@
           "usages": 3
         },
         {
+          "name": "We need more people like you",
+          "description": "Pick a player that has been uninvited from the wedding. They are re-invited.",
+          "usages": 1
+        },
+        {
           "name": "No secrets from God",
           "description": "Give a small speech about the virtues of marriage. If a player sticks around to listens, that player must show you all items they have on them.",
           "usages": 3
@@ -499,17 +504,17 @@
     {
       "powers": [
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "Sweet Talker",
+          "description": "Flirt with another character. If you manage this, the player must show you their information.",
           "usages": 3
         },
         {
           "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "description": "Offer someone a cigarette/lighter. If you accept it, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
         {
-          "name": "Defend",
+          "name": "I never kiss and tell",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         }
@@ -582,23 +587,23 @@
     {
       "powers": [
         {
-          "name": "Defend",
+          "name": "I'm too busy",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         },
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "I'll let you in on a secret",
+          "description": "Show someone your 'Other People' section about them (this power does not work on players not in your Other people section). If you manage this, the player must show you their secret.",
           "usages": 3
         },
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "name": "SHHHHH!!",
+          "description": "Scold someone for ruining the atmosphere you have carefully created. If you manage this, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
         {
           "name": "Legal paperwork",
-          "description": "You can draw up any contract for anyone. (Ask an Organiser for help)",
+          "description": "You can draw up any legally binding contract for anyone. (Ask an Organiser for help)",
           "usages": -1
         }
       ],
@@ -628,7 +633,6 @@
         "Good hearted",
         "Nervous"
       ],
-      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Malibu",
       "lastName": "Singer",
       "title": "Wedding Planner",
@@ -679,19 +683,24 @@
     {
       "powers": [
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "name": "Of course, we are family",
+          "description": "Do someone a favour. If you manage this, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "Want a drink?",
+          "description": "Have a drink with someone. If you manage this, they must play rock-paper-scissors with you. If you win the player becomes drunk and cannot use powers for a brief period. If you lose; you become drunk. (Ask an Organiser)",
           "usages": 3
         },
         {
-          "name": "Reveal",
-          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "name": "What's that I feel in you pockets?",
+          "description": "Cry and hug someone (with their permission). If you manage this, the player must show you all items they have on them.",
           "usages": 3
+        },
+        {
+          "name": "Drug-Resillient",
+          "description": "You cannot be poisoned. If you are, you become coherent and calm instead.",
+          "usages": -1
         }
       ],
       "goals": [
@@ -776,18 +785,18 @@
     {
       "powers": [
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "We haven't caught up in ages",
+          "description": "If you sustain a conversation for a minute with at least two other players simultaneously, each player in the conversation needs to reveal their information to everyone else in conversation (you included.)",
           "usages": 3
         },
         {
-          "name": "Reveal",
-          "description": "Do something specific. If you manage this, the player must show you all items they have on them.",
+          "name": "They are a theif!",
+          "description": "Give an item to an Organiser and name a player. The organiser will anonymously give them this item.",
           "usages": 3
         },
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "name": "Never ask a lady her age",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         }
       ],
@@ -868,7 +877,7 @@
           "usages": 3
         },
         {
-          "name": "Defend",
+          "name": "What? Speak up son.",
           "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
           "usages": 3
         },
@@ -885,7 +894,7 @@
         },
         {
           "name": "That ring is an family heirloom, make sure its not lost",
-          "description": "Find the ring and hold on to it for the ceremony. It was your nan's!"
+          "description": "Find the ring and hold on to it for the ceremony. It was your Nan's!"
         },
         {
           "name": "Hide your wealth",
