@@ -872,9 +872,9 @@
     {
       "powers": [
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3
+          "name": "Stumble",
+          "description": "Bump into someone and show them this ability. Shuffle all your items with theirs and then get half, randomly each.",
+          "usages": 2
         },
         {
           "name": "What? Speak up son.",
@@ -882,9 +882,9 @@
           "usages": 3
         },
         {
-          "name": "Special",
-          "description": "Do something specific. If you manage this something special happens",
-          "usages": 2
+          "name": "I can see right through ya lass",
+          "description": "Chat with someone who is intoxicated (or poisoned). If you manage this they must show the title (the part in bold) of their FIRST goal to you.",
+          "usages": 3
         }
       ],
       "goals": [
