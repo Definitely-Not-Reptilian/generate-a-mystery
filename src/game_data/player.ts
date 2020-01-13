@@ -82,6 +82,7 @@ export class Player {
           console.warn(`The relationship from ${this.title} to ${otherPlayer.title} does not seem to match. this could screw some stuff up`);
         }
       }
+      relationship.setMyWordsAboutThem(this, otherPerson.words || null);
       this.relationships.push(relationship);
     }
     this._otherPeople = []; // relationships set, go back to calculated

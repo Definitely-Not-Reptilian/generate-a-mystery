@@ -66,47 +66,56 @@
         {
           "playerTitle": "Bride's Father",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         }
       ]
     },
@@ -167,42 +176,50 @@
         {
           "playerTitle": "Bride's Father",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Best Man",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         }
       ]
     },
@@ -258,47 +275,56 @@
         {
           "playerTitle": "Best Man",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Drunk Uncle",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -355,57 +381,68 @@
         {
           "playerTitle": "Bride",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Best Man",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         }
       ]
     },
@@ -462,42 +499,50 @@
         {
           "playerTitle": "Best Man",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -550,37 +595,44 @@
         {
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -633,6 +685,7 @@
         "Good hearted",
         "Nervous"
       ],
+      "shortDescription": "A Boring, Curious, Smooth Talking individual.",
       "firstName": "Malibu",
       "lastName": "Singer",
       "title": "Wedding Planner",
@@ -641,42 +694,50 @@
         {
           "playerTitle": "Best Man",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -738,47 +799,56 @@
         {
           "playerTitle": "Bride",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Dog",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Drunk Uncle",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -835,37 +905,44 @@
         {
           "playerTitle": "Flowergirl",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Photographer",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -918,27 +995,32 @@
         {
           "playerTitle": "Groom",
           "strength": "Strong",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Strong",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -1004,32 +1086,38 @@
         {
           "playerTitle": "Best Man",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride's Father",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Wedding Planner",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     },
@@ -1082,37 +1170,44 @@
         {
           "playerTitle": "Best Man",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Bride",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Flowergirl",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Groom's Mother",
           "strength": "Weak",
-          "alignment": "-"
+          "alignment": "-",
+          "words": null
         },
         {
           "playerTitle": "Maid of Honor",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         },
         {
           "playerTitle": "Marriage Officiant",
           "strength": "Weak",
-          "alignment": "+"
+          "alignment": "+",
+          "words": null
         }
       ]
     }
