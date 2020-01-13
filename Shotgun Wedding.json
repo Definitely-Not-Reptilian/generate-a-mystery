@@ -945,19 +945,24 @@
     {
       "powers": [
         {
-          "name": "Defend",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "name": "Look what I found!",
+          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "usages": 4
+        },
+        {
+          "name": "Something smell fishy",
+          "description": "Follow someone around for a minute. If you manage this, the player must show you their secret or their information your choice.",
           "usages": 3
         },
         {
-          "name": "Information",
-          "description": "Do something specific. If you manage this, the player must show you their information.",
-          "usages": 3
+          "name": "Bury it!",
+          "description": "Give an item to an Organiser. They will hold on to it for you. Ask them again if you wish to get it back.",
+          "usages": -1
         },
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
-          "usages": 3
+          "name": "What's that boy? Charlie fell down a well?",
+          "description": "You may never talk, only bark. However, as long as no one sees you, you may write notes and pass them to other players.",
+          "usages": -1
         }
       ],
       "goals": [
@@ -1031,18 +1036,18 @@
     {
       "powers": [
         {
-          "name": "Pickpocket",
-          "description": "Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn’t, you will steal an item at random.",
+          "name": "Research",
+          "description": "Bring an item to an Organiser. They will tell you something useful about it.",
           "usages": 2
         },
         {
-          "name": "Secret",
-          "description": "Do something specific. If you manage this, the player must show you their secret.",
+          "name": "Say cheese",
+          "description": "Ask somone if you can take a photo of someone. If you take a photo of them, the player must show you their secret.",
           "usages": 3
         },
         {
-          "name": "Other People",
-          "description": "Do something specific. If you manage this, the player must show you their other people section for the character of your choice.",
+          "name": "What are we all talking about?",
+          "description": "Interupt another private conversation between two people, and get them to ask you to go away. If you manage this, those players must show you their other people section for the character of your choice.",
           "usages": 3
         }
       ],
