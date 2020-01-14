@@ -72,17 +72,18 @@ function replacer(input: string, game: Game) {
   const tagRegex = /{(.*)}/g;
   return input.replace(tagRegex, (_match, tagContents: string) => {
     for (const player of game.players) {
-      if (tagContents.toLowerCase().includes(player.title.toLowerCase())) {
-        const tagSplit = tagContents.split(' ')
-        if (tagSplit.includes('f')) {
-          return player.firstName;
-        } else if (tagSplit.includes('l')) {
+      if (tagContents.toLowerCase().replace(/[^\w]/gi, '').includes(player.title.toLowerCase().replace(/[^\w]/gi, ''))) {
+        const tagSplit = tagContents.toLowerCase().split(' ')
+        if (tagSplit.includes('fullname')) {
+          return player.fullName;
+        } else if (tagSplit.includes('l') || tagSplit.includes('lastname')) {
           return player.lastName;
         } else {
-          return player.fullName;
+          return player.firstName;
         }
       }
     }
+    console.warn('There was an error trying to substitute a name with the directive', tagContents)
     return 'ERROR SUSTITUTING SOMETHING HERE';
   });
 }

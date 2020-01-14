@@ -5,14 +5,14 @@ players:
     lastName: Marolla
     firstName: Chad
     blurb: >-
-      Last Night: It was your bachelor party. {Best Man f}, {Drunk Uncle f}, {Wedding Planner f}, {Bride’s Father f}, and {Dog f} were there. You were grabbed from your bed, black bagged and taken on a 8
+      Last Night: It was your bachelor party. {Best Man}, {Drunk Uncle}, {Wedding Planner}, {Bride’s Father}, and {Dog} were there. You were grabbed from your bed, black bagged and taken on a 8
       hour pub crawl. You had to drink everytime anyone else did and got pretty blasted. Bride's Father left at some point, you think he was worse than you. You all went to a
       hotel, and were told there would be some 'friends' coming voer soon by your Drunk Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you
       hadn't experienced all there was in the single life yet. The sex was fantastic. You still love your bride and want to get married.
-    information: '{Drunk Uncle f} gave me a huge cash gift before the wedding.'
+    information: '{Drunk Uncle} gave me a huge cash gift before the wedding.'
     optional: false
     secret: Hooked up with my Best Man at the Bachelor party.
-    shortDescription: The soon to be husband. A bit nervous about the wedding, but is letting {Bride f} take care of the hard stuff.
+    shortDescription: The soon to be husband. A bit nervous about the wedding, but is letting {Bride} take care of the hard stuff.
     traits:
       - Airhead
       - Joyous
@@ -34,18 +34,18 @@ players:
         usages: 1
     goals:
       - name: The more the merrier
-        description: 'Get the best of both worlds, marry {Bride f} and {Best Man f}. They may need a bit of convincing.'
+        description: 'Get the best of both worlds, marry {Bride} and {Best Man}. They may need a bit of convincing.'
       - name: What happens on Buck's night...
-        description: Make sure no-one (especially {Bride f}) knows what you did with {Best Man f} last night.
+        description: Make sure no-one (especially {Bride}) knows what you did with {Best Man} last night.
       - name: Convince your monster mother
-        description: Your mother has been completely against the marriage ever since the first time you introduced {Bride f}. Make her see how wonderful you are together.
+        description: Your mother has been completely against the marriage ever since the first time you introduced {Bride}. Make her see how wonderful you are together.
       - name: Repay your uncle
         description: 'Make sure he knows you are thankful, even though he doesnt want to talk about the money, maybe drop a nod to him in your vows?'
       - name: Rip up any Prenups you are asked to sign.
         description: Make a show of it. Unless there is a good reason to sign something...
       - name: Father in LOSER
         description: >-
-          {Bride's Father} hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
+          {Brides Father} hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
     otherPeople:
       - playerTitle: Bride's Father
         alignment: '-'
@@ -116,14 +116,14 @@ players:
         usages: 1
     goals:
       - name: Have the perfect wedding
-        description: 'BIG ring. {Flowergirl f} as Flowergirl. No drunks, any groom (meh I''m easy).'
-      - name: Get divorced from {Wedding Planner f}
+        description: 'BIG ring. {Flowergirl} as Flowergirl. No drunks, any groom (meh I''m easy).'
+      - name: Get divorced from {Wedding Planner}
         description: You can't get married until you first get divorced. Find out who or how to get it annulled and keep it a secret.
       - name: It's lucky they say...
         description: 'Find something borrowed, something blue, something old & something new. (Item cards will help you)'
       - name: Uninvite anyone trying to sabotage the wedding
         description: 'If anyone doesn''t want you to marry the love of your life, then they need to go.'
-      - name: '{Flowergirl f} is such a bitch'
+      - name: '{Flowergirl} is such a bitch'
         description: 'She thinks she is so tough, well she HAS to be here and wear that dress. Don''t let her get uninvited and generally make her time here unpleasant.'
     otherPeople:
       - playerTitle: Bride's Father
@@ -186,9 +186,9 @@ players:
       - name: Don't get married
         description: 'Make sure the Bride makes it down the aisle in one piece, you definitly dont want to accidently get married.'
       - name: Find the ring before anyone else
-        description: 'You lost it, so you must find it to restore {Bride f}''s faith in you. Someone must of seen it after last night.'
-      - name: Make {Flowergirl f} act her age
-        description: '{Flowergirl f} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
+        description: 'You lost it, so you must find it to restore {Bride}''s faith in you. Someone must of seen it after last night.'
+      - name: Make {Flowergirl} act her age
+        description: '{Flowergirl} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
         description: 'If you are the Maid of Honor its only natural you get with the Best Man, whoever that is...'
       - name: Don't work on your day off
@@ -257,12 +257,12 @@ players:
     goals:
       - name: Get out of this horrorshow
         description: 'Get uninvited from the wedding, this dress is not your style.'
-      - name: Find a reason {Bride f} can't marry
+      - name: Find a reason {Bride} can't marry
         description: She has to have some skeletons in her closet. You certainly do at this age.
-      - name: Sabotage {Maid of Honor f}'s every move
+      - name: Sabotage {Maid of Honor}'s every move
         description: 'She tried to have you taken away, and you ended up on the streets. Now she is gonna pay.'
       - name: End the wedding with as much valuables as possible
-        description: '{Bride's Father f} never pays, its now $1000 a hit for that loser. Perhaps someone else will buy?'
+        description: '{Brides Father} never pays, it''s now $1000 a hit for that loser. Perhaps someone else will buy?'
     otherPeople:
       - playerTitle: Bride
         alignment: '-'
@@ -339,7 +339,7 @@ players:
           marriage.
       - name: Run this wedding
         description: 'You are the one in charge around here. Make sure no one else thinks otherwise. You have a great speech planned for the ceremony you have to give. (note: maybe write one?)'
-      - name: '{Groom''s Mother f} is your nemisis'
+      - name: '{Grooms Mother} is your nemisis'
         description: 'She acts like she is better than the rest, but she is just another bogan scum. Make sure she knows that at every opportunity.'
     otherPeople:
       - playerTitle: Best Man
@@ -405,8 +405,8 @@ players:
         description: You love that gorgious son of a gun.
       - name: Rekindle Mailbu's old love
         description: Mailbu seemed real broken up at the bucks about an old flame. Help them.
-      - name: 'Get {Marriage Officiant f} fired'
-        description: They think they are better than us. Get {Groom f} or someone else to kick them out of the wedding.
+      - name: 'Get {Marriage Officiant} fired'
+        description: They think they are better than us. Get {Groom} or someone else to kick them out of the wedding.
     otherPeople:
       - playerTitle: Maid of Honor
         alignment: '-'
@@ -440,7 +440,7 @@ players:
     lastName: Singer
     firstName: Malibu
     blurb: >-
-      Last Night: You had a great time at the bachelor party. You kidnapped {Groom f}, went on a HUGE pub crawl, and even got lucky with a local lass, who you took back to the
+      Last Night: You had a great time at the bachelor party. You kidnapped {Groom}, went on a HUGE pub crawl, and even got lucky with a local lass, who you took back to the
       hotel that night.
     information: You got a one night stand at the last pub and brought them back to the hotel. From the banging on the walls it sounded like everyone else got lucky too.
     optional: false
@@ -469,13 +469,13 @@ players:
         usages: -1
     goals:
       - name: Interrupt the ceremony
-        description: 'Declare your love for {Bride f}. Annouce she can''t marry someone else if she is already married. Make a big speech.'
-      - name: 'Stay married to {Bride f}'
+        description: 'Declare your love for {Bride}. Annouce she can''t marry someone else if she is already married. Make a big speech.'
+      - name: 'Stay married to {Bride}'
         description: Steal some private moments alone with her. Maybe she will remember the good old days.
       - name: Officiate this shingdig
         description: 'If you are the marriage boss, you can just fake the paperwork and it wont count! Your big speech can be longer too!'
-      - name: '{Bride''s Father f} needs a hand'
-        description: '{Bride''s Father f} needs help getting down the aisle with his daughter. Make sure he stays upright.'
+      - name: '{Brides Father} needs a hand'
+        description: '{Brides Father} needs help getting down the aisle with his daughter. Make sure he stays upright.'
     otherPeople:
       - playerTitle: Best Man
         alignment: +
@@ -542,12 +542,12 @@ players:
     goals:
       - name: Get through the ceremony without crying
         description: You better have some drugs on hand to make it through the ceremony. You need to hold it together for your little girl.
-      - name: 'Impress {Groom''s Mother}'
+      - name: 'Impress {Grooms Mother}'
         description: 'It was a long time ago, but she is still as smoking as ever. If you could find a way to impress her maybe there is still something there.'
-      - name: 'Keep {Dog f} out of mischief'
+      - name: 'Keep {Dog} out of mischief'
         description: Make sure if the dog takes anything you return it to its rightful owner. And keeps its nose out of the trash!
       - name: Find the real father
-        description: 'You suspected {Bride f} is pregnant for a while now. But she has only been with {Groom f} for that long. Keep it a secret but find out who is the father.'
+        description: 'You suspected {Bride} is pregnant for a while now. But she has only been with {Groom} for that long. Keep it a secret but find out who is the father.'
       - name: Daddy hugs
         description: Hug everyone at the wedding. Tell them how much you love them and why. They must hug back.
     otherPeople:
@@ -620,7 +620,7 @@ players:
         description: 'You threw them in the trash, but people are putting together the dots from last night.'
       - name: Get a pre-nup signed by the Groom and whomever he marries
         description: If you can't stop the wedding, as least save the family money. Your brother is loaded, and you can't stand the thought that anyone else get their hands on that money.
-      - name: '{Flowergirl f} is in need of a mother'
+      - name: '{Flowergirl} is in need of a mother'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
     otherPeople:
       - playerTitle: Flowergirl
@@ -681,7 +681,7 @@ players:
       - name: 'That ring is an family heirloom, make sure its not lost'
         description: Find the ring and hold on to it for the ceremony. It was your Nan's!
       - name: Hide your wealth
-        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom f} or {Wedding Officiant f}.'
+        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Wedding Officiant}.'
     otherPeople:
       - playerTitle: Groom
         alignment: '-'
@@ -712,7 +712,7 @@ players:
     information: The Groom and Best Man stayed in the same hotel room.
     optional: true
     secret: You were a stunt dog from the famous TV show WoWza.
-    shortDescription: A good dog. *bark* *bark* "What's that {Dog f}? You want pats?"
+    shortDescription: A good dog. *bark* *bark* "What's that {Dog}? You want pats?"
     traits:
       - Loyal
       - Hungry
@@ -735,7 +735,7 @@ players:
     goals:
       - name: Be the flowergirl
         description: 'You would look amazing, the star of the show!'
-      - name: 'Find out why {Groom f} and {Bride''s Father f} smell similiar'
+      - name: 'Find out why {Groom} and {Brides Father} smell similiar'
         description: They must like playing together!
       - name: Find a way to get back to your old owner
         description: 'If you could only explain who they were, or had a picture, someone might take you back to them.'
@@ -797,10 +797,10 @@ players:
     goals:
       - name: Object at the wedding!
         description: There is definitly something fishy going on here. If you find evidence make sure to object and explain the whole travesty.
-      - name: 'Find out why the {Drunk Uncle f} gave {Groom f} a large sum of money'
+      - name: 'Find out why the {Drunk Uncle} gave {Groom} a large sum of money'
         description: Confront them and try to find why money is changing hands.
-      - name: 'Get a photo of {Flowergirl f} doing something illegal (Use you phone)'
-        description: '{Flowergirl f} didn''t want their photo taken at the Bachelorette party. Weird.'
+      - name: 'Get a photo of {Flowergirl} doing something illegal (Use you phone)'
+        description: '{Flowergirl} didn''t want their photo taken at the Bachelorette party. Weird.'
     otherPeople:
       - playerTitle: Best Man
         alignment: +
@@ -834,16 +834,16 @@ items:
   - name: '$15,000 Cash'
     description: A lot of money neatly rolled up. Dolla Dolla bills, y'all!
   - name: Certificate of Marriage
-    description: 'It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It''s still valid.'
+    description: 'It says that {Bride} and {Wedding Planner} was married 2 years ago. It''s still valid.'
   - name: Certificate of Marriage (Annulled)
-    description: 'It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It''s has been annulled recently.'
+    description: 'It says that {Bride} and {Wedding Planner} was married 2 years ago. It''s has been annulled recently.'
   - name: Blue drugs
     description: 'This stuff will mess you up! If someone eats or drink something you provide them, show this to the Organiser and they will be innebriated for a time.'
     limitedUses: 3
   - name: Ultrasound
     description: It shows a 3 month old baby. This counts as 'something new'
   - name: Photos of bachelorette party
-    description: 'These photos show {Bride f} and {Grooms Mother f} pole dancing. It also shows {Maid of Honor f} wearing a BIG wedding ring.'
+    description: 'These photos show {Bride} and {Grooms Mother} pole dancing. It also shows {Maid of Honor} wearing a BIG wedding ring.'
   - name: Dog bone
     description: Delicious... for a dog! This counts as 'something borrowed'
   - name: Scissors
