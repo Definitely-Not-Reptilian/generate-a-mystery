@@ -4,12 +4,19 @@ import { Game } from './game_data/game';
 import { readJson } from './json';
 import { plainToClass } from 'class-transformer';
 import { readFileSync, writeFileSync } from 'fs';
+import * as commander from 'commander';
 
-const GAME_NAME = 'Shotgun Wedding';
+const program = new commander.Command();
+program.version('1.0.0');
+
+program
+  .requiredOption('-g, --game <game>', 'Game name');
+
+program.parse(process.argv);
 
 const docx = new DocX();
 
-const game: Game = plainToClass(Game, readJson<any>(`${GAME_NAME}.json`));
+const game: Game = plainToClass(Game, readJson<any>(`${program.game}.json`));
 game.rehydrate();
 for (const player of game.players) {
   docx.generatePlayer(game, player);
