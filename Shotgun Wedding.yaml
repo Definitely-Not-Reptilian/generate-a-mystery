@@ -5,11 +5,11 @@ players:
     lastName: Marolla
     firstName: Chad
     blurb: >-
-      Last Night: It was your bachelor party. Best Man, Drunk Uncle, Wedding Planner, Bride’s Father, Dog was there. You were grabbed from your bed, black bagged and taken on a 8
+      Last Night: It was your bachelor party. {Best Man f}, {Drunk Uncle f}, {Wedding Planner f}, {Bride’s Father f}, and {Dog f} were there. You were grabbed from your bed, black bagged and taken on a 8
       hour pub crawl. You had to drink everytime anyone else did and got pretty blasted. Bride's Father left at some point, you think he was worse than you. You all went to a
       hotel, and were told there would be some 'friends' coming voer soon by your Drunk Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you
       hadn't experienced all there was in the single life yet. The sex was fantastic. You still love your bride and want to get married.
-    information: Drunk Uncle gave me a huge cash gift before the wedding.
+    information: '{Drunk Uncle f} gave me a huge cash gift before the wedding.'
     optional: false
     secret: Hooked up with my Best Man at the Bachelor party.
     shortDescription: The soon to be husband. A bit nervous about the wedding, but is letting {Bride f} take care of the hard stuff.
@@ -34,17 +34,18 @@ players:
         usages: 1
     goals:
       - name: The more the merrier
-        description: 'Get the best of both worlds, marry Corolla and Dave. They may need a bit of convincing.'
+        description: 'Get the best of both worlds, marry {Bride f} and {Best Man f}. They may need a bit of convincing.'
       - name: What happens on Buck's night...
-        description: Make sure no-one (especially Corolla) knows what you did with Dave last night.
+        description: Make sure no-one (especially {Bride f}) knows what you did with {Best Man f} last night.
       - name: Convince your monster mother
-        description: Your mother has been completely against the marriage ever since the first time you introduced Corolla. Make her see how wonderful you are together.
+        description: Your mother has been completely against the marriage ever since the first time you introduced {Bride f}. Make her see how wonderful you are together.
       - name: Repay your uncle
         description: 'Make sure he knows you are thankful, even though he doesnt want to talk about the money, maybe drop a nod to him in your vows?'
       - name: Rip up any Prenups you are asked to sign.
         description: Make a show of it. Unless there is a good reason to sign something...
       - name: Father in LOSER
-        description: Sparkie Castro hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
+        description: >-
+          {Bride's Father} hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
     otherPeople:
       - playerTitle: Bride's Father
         alignment: '-'
@@ -116,7 +117,7 @@ players:
     goals:
       - name: Have the perfect wedding
         description: 'BIG ring. {Flowergirl f} as Flowergirl. No drunks, any groom (meh I''m easy).'
-      - name: Get divorced from Malibu
+      - name: Get divorced from {Wedding Planner f}
         description: You can't get married until you first get divorced. Find out who or how to get it annulled and keep it a secret.
       - name: It's lucky they say...
         description: 'Find something borrowed, something blue, something old & something new. (Item cards will help you)'
@@ -185,7 +186,7 @@ players:
       - name: Don't get married
         description: 'Make sure the Bride makes it down the aisle in one piece, you definitly dont want to accidently get married.'
       - name: Find the ring before anyone else
-        description: 'You lost it, so you must find it to restore Corolla''s faith in you. Someone must of seen it after last night.'
+        description: 'You lost it, so you must find it to restore {Bride f}''s faith in you. Someone must of seen it after last night.'
       - name: Make {Flowergirl f} act her age
         description: '{Flowergirl f} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
@@ -256,12 +257,12 @@ players:
     goals:
       - name: Get out of this horrorshow
         description: 'Get uninvited from the wedding, this dress is not your style.'
-      - name: Find a reason Corolla can't marry
+      - name: Find a reason {Bride f} can't marry
         description: She has to have some skeletons in her closet. You certainly do at this age.
-      - name: Sabotage Gemini's every move
+      - name: Sabotage {Maid of Honor f}'s every move
         description: 'She tried to have you taken away, and you ended up on the streets. Now she is gonna pay.'
       - name: End the wedding with as much valuables as possible
-        description: 'Sparkie never pays, its now $1000 a hit for that loser. Perhaps someone else will buy?'
+        description: '{Bride's Father f} never pays, its now $1000 a hit for that loser. Perhaps someone else will buy?'
     otherPeople:
       - playerTitle: Bride
         alignment: '-'
@@ -338,8 +339,8 @@ players:
           marriage.
       - name: Run this wedding
         description: 'You are the one in charge around here. Make sure no one else thinks otherwise. You have a great speech planned for the ceremony you have to give. (note: maybe write one?)'
-      - name: Vectra is your nemisis
-        description: 'She acts like she is better than the rest, but she is just another bogan scum. Make sure she knows that.'
+      - name: '{Groom''s Mother f} is your nemisis'
+        description: 'She acts like she is better than the rest, but she is just another bogan scum. Make sure she knows that at every opportunity.'
     otherPeople:
       - playerTitle: Best Man
         alignment: '-'
@@ -405,7 +406,7 @@ players:
       - name: Rekindle Mailbu's old love
         description: Mailbu seemed real broken up at the bucks about an old flame. Help them.
       - name: 'Get {Marriage Officiant f} fired'
-        description: They think they are better than us. Get Chad or someone else to kick them out of the wedding.
+        description: They think they are better than us. Get {Groom f} or someone else to kick them out of the wedding.
     otherPeople:
       - playerTitle: Maid of Honor
         alignment: '-'
