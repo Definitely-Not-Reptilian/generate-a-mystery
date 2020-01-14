@@ -48,21 +48,16 @@ export class Relationship implements IRelationship {
   }
 }
 export class OtherPerson implements IRelationship {
-  @Exclude()
-  public playerName: string;
   constructor(
-    playerName: string,
     public playerTitle: string,
     public strength: RelationshipStrength,
     public alignment: RelationshipAlignment,
     public words: string,
-  ) {
-    this.playerName = playerName;
-  }
+  ) { }
 
   static makeFromMe(me: Player, relationship: Relationship): OtherPerson {
     const notMe = relationship.theFriendThatsNotMe(me);
     const words = relationship.getMyWordsAboutThem(me);
-    return new OtherPerson(notMe.fullName, notMe.title, relationship.strength, relationship.alignment, words);
+    return new OtherPerson(notMe.title, relationship.strength, relationship.alignment, words);
   }
 }

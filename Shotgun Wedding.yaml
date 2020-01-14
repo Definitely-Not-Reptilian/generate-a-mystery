@@ -62,7 +62,9 @@ players:
       - playerTitle: Bride
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          The love of your life. She's pretty nice. You like her ok. You wonder if you are just falling into this marriage because it is your first serious relationship.
+          She wants to control this wedding like a genocidal dictator and it's easier to just let her.
       - playerTitle: Dog
         alignment: +
         strength: Weak
