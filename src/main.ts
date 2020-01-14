@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { Game } from './game_data/game';
 import { classToPlain } from 'class-transformer';
-import { writeJSON } from './json';
+import { writeYaml } from './json';
 import { generatePlayersIntoGame } from './generator/player_gen';
 import { generatePowersIntoGame } from './generator/power_gen';
 import { generatePlotsIntoGame, assignPlotsToPlayersInGame } from './generator/plots_gen';
@@ -44,4 +44,4 @@ console.log(
     .join('\n'),
 );
 
-writeJSON(GAME_NAME, classToPlain(game));
+writeYaml(GAME_NAME, classToPlain(game));

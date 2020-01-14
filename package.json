@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/JamesHDuffield/generate-a-mystery#readme",
   "devDependencies": {
+    "@types/js-yaml": "^3.12.1",
     "@types/lodash": "^4.14.149",
     "@types/node": "^13.1.4",
     "@types/seedrandom": "^2.4.28",
@@ -32,6 +33,7 @@
     "angular-expressions": "^1.0.0",
     "class-transformer": "^0.2.3",
     "docxtemplater": "^3.15.4",
+    "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "pizzip": "^3.0.6",
     "reflect-metadata": "^0.1.13",
