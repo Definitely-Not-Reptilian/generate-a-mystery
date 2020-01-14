@@ -12,7 +12,7 @@ players:
     information: Drunk Uncle gave me a huge cash gift before the wedding.
     optional: false
     secret: Hooked up with my Best Man at the Bachelor party.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: The soon to be husband. A bit nervous about the wedding, but is letting {Bride f} take care of the hard stuff.
     traits:
       - Airhead
       - Joyous
@@ -92,7 +92,7 @@ players:
     information: Maid of Honor got hammered last night.
     optional: false
     secret: You are 3 months pregnant.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: She knows what kind of wedding she wants, and thats the kind of wedding we are having! NO EXCEPTIONS!
     traits:
       - Bridezilla
       - Boisterous
@@ -115,14 +115,14 @@ players:
         usages: 1
     goals:
       - name: Have the perfect wedding
-        description: 'BIG ring. Mercedes as Flowergirl. No drunks, any groom (meh I''m easy).'
+        description: 'BIG ring. {Flowergirl f} as Flowergirl. No drunks, any groom (meh I''m easy).'
       - name: Get divorced from Malibu
         description: You can't get married until you first get divorced. Find out who or how to get it annulled and keep it a secret.
       - name: It's lucky they say...
         description: 'Find something borrowed, something blue, something old & something new. (Item cards will help you)'
       - name: Uninvite anyone trying to sabotage the wedding
         description: 'If anyone doesn''t want you to marry the love of your life, then they need to go.'
-      - name: Mercedes is such a bitch
+      - name: '{Flowergirl f} is such a bitch'
         description: 'She thinks she is so tough, well she HAS to be here and wear that dress. Don''t let her get uninvited and generally make her time here unpleasant.'
     otherPeople:
       - playerTitle: Bride's Father
@@ -167,7 +167,7 @@ players:
     information: You heard the ring came from the Drunk Uncle.
     optional: false
     secret: During cop academy you became an alcoholic.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: She carries herself like she just escaped a warzone. Maybe she did? She's real quiet and might throught punch you if you ask stupid questions.
     traits:
       - Steely
       - Action Hero
@@ -186,8 +186,8 @@ players:
         description: 'Make sure the Bride makes it down the aisle in one piece, you definitly dont want to accidently get married.'
       - name: Find the ring before anyone else
         description: 'You lost it, so you must find it to restore Corolla''s faith in you. Someone must of seen it after last night.'
-      - name: Make Mercedes act her age
-        description: 'Mercedes acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
+      - name: Make {Flowergirl f} act her age
+        description: '{Flowergirl f} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
         description: 'If you are the Maid of Honor its only natural you get with the Best Man, whoever that is...'
       - name: Don't work on your day off
@@ -238,7 +238,7 @@ players:
     information: I saw the Maid of Honor trying on the wedding ring at the bachelorette party.
     optional: false
     secret: I run the entire town's drug trade.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: She's 12 but everyone knows better than to treat her like a 12 year old. Punk AF and will burn this all down on a whim.
     traits:
       - Anarchist
       - Moody
@@ -314,7 +314,7 @@ players:
     information: 'The Wedding Planner is married, but didn''t bring their partner.'
     optional: false
     secret: 'You have been paid $15,000 anonymously to make sure this wedding goes ahead.'
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: Not from here. Better than everyone else (or at least thinks so)
     traits:
       - Polite
       - Judgemental
@@ -384,7 +384,7 @@ players:
     information: The Groom's Mother recovered from last night better than anyone else.
     optional: false
     secret: The stripper's never showed up to the hotel last night.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: Childhood friends with the Groom. He was the smooth talking hottie that picked up enough for both of them. But that part of his life is over now.
     traits:
       - Smooth talker
       - Manipulative
@@ -444,7 +444,7 @@ players:
     information: You got a one night stand at the last pub and brought them back to the hotel. From the banging on the walls it sounded like everyone else got lucky too.
     optional: false
     secret: You are already married to the Bride.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: For a professional organiser, not very organised. Has just managed to keep everything running so far.
     traits:
       - Clumsy
       - Good hearted
@@ -518,7 +518,7 @@ players:
     information: The Groom's mother tried to get a prenup signed but the Groom blocked it.
     optional: false
     secret: You have a serious drug problem.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: He's been waiting his whole life for this moment. His baby girl is finally gonna get married and he knows just how to get through the day without crying...
     traits:
       - Drug Addict
       - Emotional
@@ -547,6 +547,8 @@ players:
         description: Make sure if the dog takes anything you return it to its rightful owner. And keeps its nose out of the trash!
       - name: Find the real father
         description: 'You suspected {Bride f} is pregnant for a while now. But she has only been with {Groom f} for that long. Keep it a secret but find out who is the father.'
+      - name: Daddy hugs
+        description: Hug everyone at the wedding. Tell them how much you love them and why. They must hug back.
     otherPeople:
       - playerTitle: Bride
         alignment: '-'
@@ -593,7 +595,7 @@ players:
     information: You brought the nicer boxed wine to the Bachorette party.
     optional: false
     secret: 20 years ago you had an affair with Bride's Father.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: The Queen that runs this town. Knows where the bodies are burried, but will never tell. Everyone respects her.
     traits:
       - Protective
       - Classy
@@ -615,9 +617,9 @@ players:
         description: 'While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get.'
       - name: Don't let anyone know you took the BIG rings at the Bachelorette party
         description: 'You threw them in the trash, but people are putting together the dots from last night.'
-      - name: Get a pre-nup signed by the Bride and Groom
-        description: 'Your brother is loaded, and you can''t stand the thought that the Castro''s get their hands on that money.'
-      - name: Mercedes is in need of a mother
+      - name: Get a pre-nup signed by the Groom and whomever he marries
+        description: If you can't stop the wedding, as least save the family money. Your brother is loaded, and you can't stand the thought that anyone else get their hands on that money.
+      - name: '{Flowergirl f} is in need of a mother'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
     otherPeople:
       - playerTitle: Flowergirl
@@ -657,7 +659,7 @@ players:
     information: The Groom's father died in drag race 2 years ago.
     optional: false
     secret: You are filthy rich.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: He's maybe had a few too many. Started stumbling around and saying weird things. Every wedding has one.
     traits:
       - Smart
       - Understanding
@@ -701,13 +703,15 @@ players:
         strength: Weak
         words: null
   - title: Dog
-    lastName: ''
+    lastName: 'the Wonder Dog'
     firstName: Lucky
-    blurb: 'Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.'
+    blurb: >-
+      Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.
+      You hope to one day reverse this curse, but its probably not happening soon. Plus this dog life is pretty good, no need to rush it.
     information: The Groom and Best Man stayed in the same hotel room.
     optional: true
     secret: You were a stunt dog from the famous TV show WoWza.
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    shortDescription: A good dog. *bark* *bark* "What's that {Dog f}? You want pats?"
     traits:
       - Loyal
       - Hungry
@@ -771,8 +775,8 @@ players:
       Flowergirl would not let herself be photographed.
     information: You heard there is an off duty cop at the wedding.
     optional: true
-    secret: 'Driving late at night you hit someone. It was dark, but you kept on driving...'
-    shortDescription: 'A Boring, Curious, Smooth Talking individual.'
+    secret: 'Years ago, while driving late at night you hit someone. It was dark, but you kept on driving...'
+    shortDescription: Seems like they are creeping on everyone, but they were hired to take wedding photos so it's probably fine
     traits:
       - Nosey
       - Desperate
@@ -827,17 +831,18 @@ players:
         words: null
 items:
   - name: '$15,000 Cash'
-    description: A lot of money neatly rolled up.
+    description: A lot of money neatly rolled up. Dolla Dolla bills, y'all!
   - name: Certificate of Marriage
-    description: 'It says that {''Bride'' | f} and {''Wedding Planner'' | f} was married 2 years ago. It''s still valid.'
+    description: 'It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It''s still valid.'
   - name: Certificate of Marriage (Annulled)
-    description: 'It says that {''Bride'' | f} and {''Wedding Planner'' | f} was married 2 years ago. It''s has been annulled recently.'
+    description: 'It says that {Bride f} and {Wedding Planner f} was married 2 years ago. It''s has been annulled recently.'
   - name: Blue drugs
     description: 'This stuff will mess you up! If someone eats or drink something you provide them, show this to the Organiser and they will be innebriated for a time.'
+    limitedUses: 3
   - name: Ultrasound
     description: It shows a 3 month old baby. This counts as 'something new'
   - name: Photos of bachelorette party
-    description: 'These photos show {''Bride'' | f} and {''Grooms Mother'' | f} pole dancing. It also shows {''Maid of Honor'' | f} wearing a BIG wedding ring.'
+    description: 'These photos show {Bride f} and {Grooms Mother f} pole dancing. It also shows {Maid of Honor f} wearing a BIG wedding ring.'
   - name: Dog bone
     description: Delicious... for a dog! This counts as 'something borrowed'
   - name: Scissors
@@ -854,61 +859,51 @@ items:
     description: The most plain wedding rings you can imagine. Boring but might do in a pinch.
 plots:
   - name: Inciting incident A
-    items: []
     playerTitles:
       - Groom's Mother
       - Drunk Uncle
       - Maid of Honor
       - Photographer
   - name: Conspiracy B
-    items: []
     playerTitles:
       - Dog
       - Bride's Father
       - Groom
   - name: Secret relationship C
-    items: []
     playerTitles:
       - Bride
       - Flowergirl
       - Best Man
       - Wedding Planner
   - name: Get the item D
-    items: []
     playerTitles:
       - Marriage Officiant
       - Bride
       - Groom's Mother
   - name: Misunderstanding E
-    items: []
     playerTitles:
       - Photographer
       - Drunk Uncle
       - Groom
   - name: Feud F
-    items: []
     playerTitles:
       - Best Man
       - Wedding Planner
       - Marriage Officiant
   - name: Feud G
-    items: []
     playerTitles:
       - Maid of Honor
       - Flowergirl
   - name: Dark past H
-    items: []
     playerTitles:
       - Bride's Father
       - Dog
   - name: Get the item I
-    items: []
     playerTitles:
       - Wedding Planner
       - Groom's Mother
       - Groom
   - name: Get the item J
-    items: []
     playerTitles:
       - Flowergirl
       - Photographer
