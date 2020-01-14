@@ -114,17 +114,17 @@
       "powers": [
         {
           "name": "Oh are you talking about me?",
-          "description": "If you overhear someone say your name (or The Bride) walk over and show them this power. If you do, the player must show you their other people section for the character of your choice.",
+          "description": "If you overhear someone say your name (or The Bride) walk over and show them this ability. If you do, the player must show you their other people section for the character of your choice.",
           "usages": 3
         },
         {
           "name": "Storm Off",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead. Then storm off in a huff.",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead. Then storm off in a huff.",
           "usages": 3
         },
         {
           "name": "GET OUT!",
-          "description": "Make a huge scene about how a player is ruining your wedding, and show them this power. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.",
+          "description": "Make a huge scene about how a player is ruining your wedding, and show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.",
           "usages": 1
         }
       ],
@@ -306,12 +306,12 @@
       "powers": [
         {
           "name": "We have ways of making you talk",
-          "description": "If someone is drunk or high, show them this power. The player must show you their secret.",
+          "description": "If someone is drunk or high, show them this ability. The player must show you their secret.",
           "usages": 3
         },
         {
           "name": "You can't do that with a child here!",
-          "description": "If someone uses an ability on you or someone else while you are watching, show this power to them and their ability fails.",
+          "description": "If someone uses an ability on you or someone else while you are watching, show this ability to them and their ability fails.",
           "usages": 2
         },
         {
@@ -515,7 +515,7 @@
         },
         {
           "name": "I never kiss and tell",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.",
           "usages": 3
         }
       ],
@@ -588,12 +588,12 @@
       "powers": [
         {
           "name": "I'm too busy",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.",
           "usages": 3
         },
         {
           "name": "I'll let you in on a secret",
-          "description": "Show someone your 'Other People' section about them (this power does not work on players not in your Other people section). If you manage this, the player must show you their secret.",
+          "description": "Show someone your 'Other People' section about them (this ability does not work on players not in your Other people section). If you manage this, the player must show you their secret.",
           "usages": 3
         },
         {
@@ -689,7 +689,7 @@
         },
         {
           "name": "Want a drink?",
-          "description": "Have a drink with someone. If you manage this, they must play rock-paper-scissors with you. If you win the player becomes drunk and cannot use powers for a brief period. If you lose; you become drunk. (Ask an Organiser)",
+          "description": "Have a drink with someone. If you manage this, they must play rock-paper-scissors with you. If you win the player becomes drunk and cannot use abilities for a brief period. If you lose; you become drunk. (Ask an Organiser)",
           "usages": 3
         },
         {
@@ -796,7 +796,7 @@
         },
         {
           "name": "Never ask a lady her age",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.",
           "usages": 3
         }
       ],
@@ -878,7 +878,7 @@
         },
         {
           "name": "What? Speak up son.",
-          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this power to them and keep your information or secret hidden instead.",
+          "description": "If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.",
           "usages": 3
         },
         {
