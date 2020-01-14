@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { DocX } from './docx';
 import { Game } from './game_data/game';
-import { readJson } from './json';
+import { readYaml } from './json';
 import { plainToClass } from 'class-transformer';
 import { readFileSync, writeFileSync } from 'fs';
 import * as commander from 'commander';
@@ -16,7 +16,7 @@ program.parse(process.argv);
 
 const docx = new DocX();
 
-const game: Game = plainToClass(Game, readJson<any>(`${program.game}.json`));
+const game: Game = plainToClass(Game, readYaml<any>(`${program.game}.yaml`));
 game.rehydrate();
 for (const player of game.players) {
   docx.generatePlayer(game, player);

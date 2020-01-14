@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint -p . -c tslint.json",
-    "start": "ts-node src/main.ts --game \"Shotgun Wedding\" --titles \"Groom,Bride,Maid of Honor,Flowergirl,Marriage Officiant,Best Man,Wedding Planner,Bride's Father,Groom's Mother,Drunk Uncle\" -o \"Dog,Photographer\"",
-    "render": "ts-node src/render.ts --game \"Shotgun Wedding\"",
+    "start": "ts-node --transpile-only src/main.ts --game \"Shotgun Wedding\" --titles \"Groom,Bride,Maid of Honor,Flowergirl,Marriage Officiant,Best Man,Wedding Planner,Bride's Father,Groom's Mother,Drunk Uncle\" -o \"Dog,Photographer\"",
+    "render": "ts-node --transpile-only src/render.ts --game \"Shotgun Wedding\"",
     "both": "npm start && npm run render"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/JamesHDuffield/generate-a-mystery#readme",
   "devDependencies": {
+    "@types/js-yaml": "^3.12.1",
     "@types/lodash": "^4.14.149",
     "@types/node": "^13.1.4",
     "@types/seedrandom": "^2.4.28",
@@ -33,6 +34,7 @@
     "class-transformer": "^0.2.3",
     "commander": "^4.1.0",
     "docxtemplater": "^3.15.4",
+    "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "pizzip": "^3.0.6",
     "reflect-metadata": "^0.1.13",

@@ -40,6 +40,12 @@ export class Player {
     return orderBy(this.relationships.map((rel) => OtherPerson.makeFromMe(this, rel)), ['strength', 'playerTitle']);
   }
 
+  visableRelationships(game: Game): Relationship[] {
+    return this.relationships
+      .filter((rel) => rel.getMyWordsAboutThem(this) != null)
+      .sort((a, b) => game.players.indexOf(b.theFriendThatsNotMe(this)) - game.players.indexOf(a.theFriendThatsNotMe(this)));
+  }
+
   set otherPeople(otherPeople: OtherPerson[]) {
     this._otherPeople = otherPeople;
   }
@@ -82,6 +88,7 @@ export class Player {
           console.warn(`The relationship from ${this.title} to ${otherPlayer.title} does not seem to match. this could screw some stuff up`);
         }
       }
+      relationship.setMyWordsAboutThem(this, otherPerson.words || null);
       this.relationships.push(relationship);
     }
     this._otherPeople = []; // relationships set, go back to calculated

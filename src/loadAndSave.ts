@@ -1,11 +1,11 @@
 import 'reflect-metadata';
 import { Game } from './game_data/game';
-import { readJson, writeJSON } from './json';
+import { writeYaml, readYaml } from './json';
 import { plainToClass, classToPlain } from 'class-transformer';
 
 const GAME_NAME = 'Shotgun Wedding';
 //this is, like, for migrating json to newer formats
 
-const game: Game = plainToClass(Game, readJson<any>(`${GAME_NAME}.json`));
+const game: Game = plainToClass(Game, readYaml<any>(`${GAME_NAME}.yaml`));
 game.rehydrate();
-writeJSON(GAME_NAME, classToPlain(game));
+writeYaml(GAME_NAME, classToPlain(game));

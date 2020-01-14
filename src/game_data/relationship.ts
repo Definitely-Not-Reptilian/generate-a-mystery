@@ -18,6 +18,8 @@ interface IRelationship {
 export class Relationship implements IRelationship {
   players: [Player, Player] = [ null, null ];
 
+  words: [string, string] = [ null, null ];
+
   constructor(player1: Player, player2: Player, public strength: RelationshipStrength, public alignment: RelationshipAlignment) {
     this.players[0] = player1;
     this.players[1] = player2;
@@ -32,21 +34,30 @@ export class Relationship implements IRelationship {
       .sort();
     return `${playersString}${this.strength}${this.alignment}`;
   }
+
+  getMyWordsAboutThem(me: Player): string {
+    return this.players[0] === me ? this.words[1] : this.words[0];
+  }
+
+  setMyWordsAboutThem(me: Player, words: string): void {
+    if (this.players[0] === me) {
+      this.words[1] = words;
+    } else {
+      this.words[0] = words;
+    }
+  }
 }
 export class OtherPerson implements IRelationship {
-  @Exclude()
-  public playerName: string
   constructor(
-    playerName: string,
     public playerTitle: string,
     public strength: RelationshipStrength,
     public alignment: RelationshipAlignment,
-  ) {
-    this.playerName = playerName;
-  }
+    public words: string,
+  ) { }
 
   static makeFromMe(me: Player, relationship: Relationship): OtherPerson {
     const notMe = relationship.theFriendThatsNotMe(me);
-    return new OtherPerson(notMe.fullName, notMe.title, relationship.strength, relationship.alignment);
+    const words = relationship.getMyWordsAboutThem(me);
+    return new OtherPerson(notMe.title, relationship.strength, relationship.alignment, words);
   }
 }
