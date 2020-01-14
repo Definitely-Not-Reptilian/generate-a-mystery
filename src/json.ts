@@ -17,7 +17,7 @@ export function writeJSON(filename: string, data: any): void {
   writeFileSync(`${filename}.json`, JSON.stringify(data, undefined, JSON_FORMATTING_SPACES), { encoding: 'UTF8' });
 }
 const HIGH_PRIORITY_KEYS = new Set(['title', 'name', 'seed']);
-const PRIORITY_KEYS = new Set(['firstName', 'lastName', 'players']);
+const PRIORITY_KEYS = new Set(['firstName', 'lastName', 'players', 'playerTitle']);
 const LOW_PRIORITY_KEYS = new Set(['powers', 'goals', 'otherPeople']);
 function keySortCompare(a: string, b: string): number {
   let weight = 0;

@@ -46,40 +46,40 @@ players:
       - name: Father in LOSER
         description: Sparkie Castro hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
     otherPeople:
-      - alignment: '-'
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Drunk Uncle
+      - playerTitle: Drunk Uncle
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: '-'
         strength: Weak
         words: null
   - title: Bride
@@ -125,36 +125,36 @@ players:
       - name: Mercedes is such a bitch
         description: 'She thinks she is so tough, well she HAS to be here and wear that dress. Don''t let her get uninvited and generally make her time here unpleasant.'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Drunk Uncle
+      - playerTitle: Drunk Uncle
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: '-'
         strength: Weak
         words: null
   - title: Maid of Honor
@@ -193,40 +193,40 @@ players:
       - name: Don't work on your day off
         description: 'You are an off-duty cop, you absolutely refuse to do any police work at this wedding.'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Drunk Uncle
+      - playerTitle: Drunk Uncle
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: +
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Weak
         words: null
   - title: Flowergirl
@@ -263,48 +263,48 @@ players:
       - name: End the wedding with as much valuables as possible
         description: 'Sparkie never pays, its now $1000 a hit for that loser. Perhaps someone else will buy?'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: +
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Drunk Uncle
+      - playerTitle: Drunk Uncle
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: '-'
         strength: Weak
         words: null
   - title: Marriage Officiant
@@ -341,36 +341,36 @@ players:
       - name: Vectra is your nemisis
         description: 'She acts like she is better than the rest, but she is just another bogan scum. Make sure she knows that.'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: +
         strength: Weak
         words: null
   - title: Best Man
@@ -407,32 +407,32 @@ players:
       - name: 'Get {Marriage Officiant f} fired'
         description: They think they are better than us. Get Chad or someone else to kick them out of the wedding.
     otherPeople:
-      - alignment: '-'
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: +
         strength: Weak
         words: null
   - title: Wedding Planner
@@ -476,36 +476,36 @@ players:
       - name: '{Bride''s Father f} needs a hand'
         description: '{Bride''s Father f} needs help getting down the aisle with his daughter. Make sure he stays upright.'
     otherPeople:
-      - alignment: +
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: +
         strength: Weak
         words: null
   - title: Bride's Father
@@ -548,40 +548,40 @@ players:
       - name: Find the real father
         description: 'You suspected {Bride f} is pregnant for a while now. But she has only been with {Groom f} for that long. Keep it a secret but find out who is the father.'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Dog
+      - playerTitle: Dog
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Drunk Uncle
+      - playerTitle: Drunk Uncle
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: +
         strength: Weak
         words: null
   - title: Groom's Mother
@@ -620,32 +620,32 @@ players:
       - name: Mercedes is in need of a mother
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
     otherPeople:
-      - alignment: +
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: +
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: '-'
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Photographer
+      - playerTitle: Photographer
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Weak
         words: null
   - title: Drunk Uncle
@@ -680,24 +680,24 @@ players:
       - name: Hide your wealth
         description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom f} or {Wedding Officiant f}.'
     otherPeople:
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: +
         strength: Strong
         words: null
-      - alignment: +
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: +
         strength: Weak
         words: null
   - title: Dog
@@ -739,28 +739,28 @@ players:
       - name: Be a good dog
         description: 'If anyone feeds you, make sure to help them out when you can.'
     otherPeople:
-      - alignment: +
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Bride's Father
+      - playerTitle: Bride's Father
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Wedding Planner
+      - playerTitle: Wedding Planner
+        alignment: +
         strength: Weak
         words: null
   - title: Photographer
@@ -797,32 +797,32 @@ players:
       - name: 'Get a photo of {Flowergirl f} doing something illegal (Use you phone)'
         description: '{Flowergirl f} didn''t want their photo taken at the Bachelorette party. Weird.'
     otherPeople:
-      - alignment: +
-        playerTitle: Best Man
+      - playerTitle: Best Man
+        alignment: +
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Bride
+      - playerTitle: Bride
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Flowergirl
+      - playerTitle: Flowergirl
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom
+      - playerTitle: Groom
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: '-'
-        playerTitle: Groom's Mother
+      - playerTitle: Groom's Mother
+        alignment: '-'
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Maid of Honor
+      - playerTitle: Maid of Honor
+        alignment: +
         strength: Weak
         words: null
-      - alignment: +
-        playerTitle: Marriage Officiant
+      - playerTitle: Marriage Officiant
+        alignment: +
         strength: Weak
         words: null
 items:
