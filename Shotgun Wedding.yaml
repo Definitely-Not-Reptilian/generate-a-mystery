@@ -40,7 +40,7 @@ players:
       - name: Convince your monster mother
         description: Your mother has been completely against the marriage ever since the first time you introduced {Bride}. Make her see how wonderful you are together.
       - name: Repay your uncle
-        description: 'Make sure he knows you are thankful, even though he doesnt want to talk about the money, maybe drop a nod to him in your vows?'
+        description: Make sure he knows you are thankful, even though he doesn't want to talk about the money, maybe drop a nod to him in your vows?
       - name: Rip up any Prenups you are asked to sign.
         description: Make a show of it. Unless there is a good reason to sign something...
       - name: Father in LOSER
@@ -50,15 +50,21 @@ players:
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          Bit of a scumbag. He seemed ok with you dating his daughter, but you could never get past the fact he was a dole bludger loser.
+          He seemed way too into {Bride}, but whenever you tried to connect he always disappeared. Just one of those things. 
       - playerTitle: Drunk Uncle
         alignment: '-'
         strength: Strong
-        words: null
-      - playerTitle: Maid of Honor
-        alignment: '-'
+        words: >-
+          He is kinda a controlling nightmare. He came into money a bit ago, but insists everyone keep it secret while also insisting everything that him for paying for everything.
+          How can you do both? You like the stuff you give, but a tired of always keeping up appearances around him.
+      - playerTitle: Best Man
+        alignment: +
         strength: Strong
-        words: null
+        words: >-
+          He has been your best mate since you were tiny menaces. He was always the charmer that managed to do all the talking for you and you would go along with it.
+          Great for picking up chicks at the pub. The wedding has made you nervous about missing that part of your life, so you have decided to go out on a bang. Literally. You totally banged that guy last night.
       - playerTitle: Bride
         alignment: '-'
         strength: Weak
@@ -68,23 +74,32 @@ players:
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          What a good dog. Maybe the best dog. Way smarter then you would think a dog could be. Like some dog out of a children's TV show.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          Your cousin or something. She thinks she's cool, but she's just posing. {Bride} thought she would make a cute Flowergirl. Punks generally aren't that cute, but you just went with it.
       - playerTitle: Groom's Mother
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          She's ya mum. Ya love ya mum don't ya? She always wanted you to be a mumma's boy, but you don't think you are.
+          Sure, she still buys all your clothes and does your laundry and makes you dinner when you want it, but that doesn't make you a mumma's boy.
+          She never approved of {Bride}, but wanted you to be happy anyway.
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          They are the cheapest wedding photographer in town. {Bride} wanted pictures of he magical day, but {Photographer} has inserted themselves into your life for this.
+          You just want a bit of privacy, but it all has to be documented supposedly.
       - playerTitle: Wedding Planner
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          An old friend of {Bride}. {Bride} insisted on them helping plan everything. You reckon {Bride} and {Wedding Planner} had a fling in the past, but they have never admitted it.
+          You know it is petty, but you don't like the idea of an old flame being at the wedding.
   - title: Bride
     lastName: Castro
     firstName: Corolla
@@ -131,35 +146,47 @@ players:
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          Ya dad. Ya love ya dad, don't ya? Well not really. That dude is clingy. You don't know how a Dad manages to be so dependant on his daughter, but this guy found a way.
+          If he isn't missing for days, he is asking you about your every waking moment and how it is going. At least he is supportive of the wedding. 
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          {Groom}'s cousin or something. She seems a bit punk but you need a cute Flowergirl for a perfect wedding. You'd figured she would compromise and be a cute girl in a nice dress for at least one day. It's your wedding, after all.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
-        words: null
+        words: >-
+          You and {Wedding Planner} used to be married. You figured you just wanted to be married so bad, that {Wedding Planner} would do. It didn't really pan out and you got separated. Never did finalise that divorce though.
+          You are still good friends and so naturally you asked them to help plan the wedding.
       - playerTitle: Best Man
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          {Groom}'s best mate. They get along great. If {Groom} isn't with you, he is usually with {Best Man}.
+          You appreciate that they have such a strong friendship but have made it clear that you need to be the priority after the wedding. {Best Man} understood and agreed completely.
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Someone's uncle. {Groom}'s you think. There's always someone that goes a bit too hard at these things, and {Drunk Uncle} already has it seems.
+          Seems like a cool enough guy, but you don't know too much about him.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          Maybe one day you'll grow to love him. You managed to trick this guy into asking you to marry him. Great job. Good thing too, because you are up the duff with his baby. You'll tell him eventually.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          The only person who would agree to all your terms for your perfect wedding. They seem like they think this is their event though. Don't they know the Bride is the most important person here?
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          The cheapest photographer you could find. You want a perfect wedding, but any rube can push buttons on a camera. They are everywhere.
   - title: Maid of Honor
     lastName: Belmont
     firstName: Gemini
@@ -206,10 +233,6 @@ players:
         words: null
       - playerTitle: Flowergirl
         alignment: +
-        strength: Strong
-        words: null
-      - playerTitle: Groom
-        alignment: '-'
         strength: Strong
         words: null
       - playerTitle: Bride's Father
@@ -410,6 +433,10 @@ players:
       - name: 'Get {Marriage Officiant} fired'
         description: They think they are better than us. Get {Groom} or someone else to kick them out of the wedding.
     otherPeople:
+      - playerTitle: Groom
+        alignment: +
+        strength: Strong
+        words: You fucked
       - playerTitle: Maid of Honor
         alignment: '-'
         strength: Strong
