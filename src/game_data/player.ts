@@ -40,10 +40,10 @@ export class Player {
     return orderBy(this.relationships.map((rel) => OtherPerson.makeFromMe(this, rel)), ['strength', 'playerTitle']);
   }
 
-  visableRelationships(game: Game): Relationship[] {
+  visibleRelationships(game: Game): Relationship[] {
     return this.relationships
       .filter((rel) => rel.getMyWordsAboutThem(this) != null)
-      .sort((a, b) => game.players.indexOf(b.theFriendThatsNotMe(this)) - game.players.indexOf(a.theFriendThatsNotMe(this)));
+      .sort((a, b) => game.players.indexOf(a.theFriendThatsNotMe(this)) - game.players.indexOf(b.theFriendThatsNotMe(this)));
   }
 
   set otherPeople(otherPeople: OtherPerson[]) {

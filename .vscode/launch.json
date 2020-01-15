@@ -27,7 +27,8 @@
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
                 "${workspaceFolder}/dist/*.js"
-            ]
+            ],
+            "args": ["--game", "Shotgun Wedding"]
         },{
             "type": "node",
             "request": "launch",
