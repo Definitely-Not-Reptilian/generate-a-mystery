@@ -248,7 +248,7 @@ players:
       - Cynical Teenager
     powers:
       - name: We have ways of making you talk
-        description: 'If someone is drunk or high, show them this ability. The player must show you their secret.'
+        description: 'If someone is intoxicated, show them this ability. The player must show you their secret or information: your choice.'
         usages: 3
       - name: You can't do that with a child here!
         description: 'If someone uses an ability on you or someone else while you are watching, show this ability to them and their ability fails.'
@@ -532,8 +532,8 @@ players:
         usages: 3
       - name: Want a drink?
         description: >-
-          Have a drink with someone. If you manage this, they must play rock-paper-scissors with you. If you win the player becomes drunk and cannot use abilities for a brief period.
-          If you lose; you become drunk. (Ask an Organiser)
+          Have a drink with someone. If you manage this, they must play rock-paper-scissors with you. If you win the player becomes intoxicated and cannot use abilities for a brief period.
+          If you lose; you become intoxicated. (Ask an Organiser)
         usages: 3
       - name: What's that I feel in you pockets?
         description: 'Cry and hug someone (with their permission). If you manage this, the player must show you all items they have on them.'
@@ -860,6 +860,8 @@ items:
     description: 'Huge stones, 24ct gold, these things are old but impressive!'
   - name: Pair of rings
     description: The most plain wedding rings you can imagine. Boring but might do in a pinch.
+  - name: Victoria Bitters
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
 plots:
   - name: Inciting incident A
     playerTitles:
