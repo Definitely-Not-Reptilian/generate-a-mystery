@@ -170,7 +170,7 @@ players:
     information: You heard the ring came from the Drunk Uncle.
     optional: false
     secret: During cop academy you became an alcoholic.
-    shortDescription: She carries herself like she just escaped a warzone. Maybe she did? She's real quiet and might throught punch you if you ask stupid questions.
+    shortDescription: She carries herself like she just escaped a warzone. Maybe she did? She's real quiet and might throat punch you if you ask stupid questions.
     traits:
       - Steely
       - Action Hero
@@ -317,7 +317,7 @@ players:
     information: 'The Wedding Planner is married, but didn''t bring their partner.'
     optional: false
     secret: 'You have been paid $15,000 anonymously to make sure this wedding goes ahead.'
-    shortDescription: Not from here. Better than everyone else (or at least thinks so)
+    shortDescription: Not from here. Better than everyone else (or at least thinks so).
     traits:
       - Polite
       - Judgemental
@@ -598,7 +598,7 @@ players:
     information: You brought the nicer boxed wine to the Bachorette party.
     optional: false
     secret: 20 years ago you had an affair with Bride's Father.
-    shortDescription: The Queen that runs this town. Knows where the bodies are burried, but will never tell. Everyone respects her.
+    shortDescription: The Queen that runs this town. Knows where the bodies are buried, but will never tell. Everyone respects her.
     traits:
       - Protective
       - Classy
@@ -726,7 +726,7 @@ players:
           random.
         usages: 4
       - name: Something smell fishy
-        description: 'Follow someone around for a minute. If you manage this, the player must show you their secret or their information your choice.'
+        description: 'Follow someone around for a minute. If you manage this, the player must show you their secret or their information: your choice.'
         usages: 3
       - name: Bury it!
         description: Give an item to an Organiser. They will hold on to it for you. Ask them again if you wish to get it back.
@@ -779,7 +779,7 @@ players:
     information: You heard there is an off duty cop at the wedding.
     optional: true
     secret: 'Years ago, while driving late at night you hit someone. It was dark, but you kept on driving...'
-    shortDescription: Seems like they are creeping on everyone, but they were hired to take wedding photos so it's probably fine
+    shortDescription: Seems like they are creeping on everyone, but they were hired to take wedding photos so it's probably fine.
     traits:
       - Nosey
       - Desperate
