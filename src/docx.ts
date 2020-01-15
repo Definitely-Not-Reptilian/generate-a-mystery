@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { Player } from './game_data/player';
 import { Game } from './game_data/game';
 import * as expressions from 'angular-expressions';
-import { merge } from 'lodash';
+import { merge, trimEnd } from 'lodash';
 
 export class DocX {
 
@@ -69,11 +69,11 @@ export class DocX {
 
 }
 function replacer(input: string, game: Game) {
-  const tagRegex = /{(.*)}/g;
+  const tagRegex = /{(.*?)}/g;
   return input.replace(tagRegex, (_match, tagContents: string) => {
     for (const player of game.players) {
-      if (tagContents.toLowerCase().replace(/[^\w]/gi, '').includes(player.title.toLowerCase().replace(/[^\w]/gi, ''))) {
-        const tagSplit = tagContents.toLowerCase().split(' ')
+      if (tagContents.toLowerCase().replace(/(l|lastname|fullname)$|[^\w]/gi, '') === (player.title.toLowerCase().replace(/(l|lastname|fullname)$|[^\w]/gi, ''))) {
+        const tagSplit = tagContents.toLowerCase().split(' ');
         if (tagSplit.includes('fullname')) {
           return player.fullName;
         } else if (tagSplit.includes('l') || tagSplit.includes('lastname')) {
@@ -83,7 +83,7 @@ function replacer(input: string, game: Game) {
         }
       }
     }
-    console.warn('There was an error trying to substitute a name with the directive', tagContents)
+    console.warn('There was an error trying to substitute a name with the directive', tagContents);
     return 'ERROR SUSTITUTING SOMETHING HERE';
   });
 }

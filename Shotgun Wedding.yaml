@@ -683,7 +683,7 @@ players:
       - name: 'That ring is an family heirloom, make sure its not lost'
         description: Find the ring and hold on to it for the ceremony. It was your Nan's!
       - name: Hide your wealth
-        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Wedding Officiant}.'
+        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Marriage Officiant}.'
     otherPeople:
       - playerTitle: Groom
         alignment: '-'
