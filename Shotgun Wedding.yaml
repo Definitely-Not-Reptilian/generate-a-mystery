@@ -527,7 +527,8 @@ players:
       - playerTitle: Bride
         alignment: +
         strength: Strong
-        words: null
+        words: >-
+          The love of your life. You are even already married! If you can just make her see that...
       - playerTitle: Bride's Father
         alignment: +
         strength: Strong
@@ -609,7 +610,8 @@ players:
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          A dog from a TV show you liked called "WoWza". You liked {Dog} so much, you stole them from the set. {Dog} clearly likes the new life more though, so it was the right thing to do.
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
@@ -747,26 +749,30 @@ players:
         alignment: +
         strength: Strong
         words: >-
-          She was responsible for losing the ring
+          She was responsible for losing the ring. She's a cop now so she probably thinks she's above the law. You can probably shake her down and get the ring back.
       - playerTitle: Bride
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          You like her well enough. She's a good fit for {Groom} but you just don't trust her with your money.
       - playerTitle: Bride's Father
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          You saw him weeping in his car before the start of the wedding. Seemed a bit odd to you. Maybe he just needs a tinny to calm his nerves.
       - playerTitle: Flowergirl
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Someone who seems to understand a honest day work. Bit rough about the edges, but pobody's nerfect.
   - title: Dog
     lastName: 'the Wonder Dog'
     firstName: Lucky
     blurb: >-
       Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.
       You hope to one day reverse this curse, but its probably not happening soon. Plus this dog life is pretty good, no need to rush it.
-    information: The Groom and Best Man stayed in the same hotel room.
+    information: >-
+      {Groom} and {Best Man} stayed in the same hotel room after the bucks.
     optional: true
     secret: You were a stunt dog from the famous TV show WoWza.
     shortDescription: A good dog. *bark* *bark* "What's that {Dog}? You want pats?"
@@ -792,7 +798,7 @@ players:
     goals:
       - name: Be the flowergirl
         description: 'You would look amazing, the star of the show!'
-      - name: 'Find out why {Groom} and {Brides Father} smell similiar'
+      - name: 'Find out why {Groom} and {Brides Father} smell similar'
         description: They must like playing together!
       - name: Find a way to get back to your old owner
         description: 'If you could only explain who they were, or had a picture, someone might take you back to them.'
@@ -804,27 +810,33 @@ players:
       - playerTitle: Best Man
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Smells like sex. Gives out good treats. Knows how to scratch behind the ears just right.
       - playerTitle: Bride's Father
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Smells like dirt and {Groom}. Never has treats for you. Great pats though. {Brides Father} your new owner after you lost track of your old owners.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          Smells like cigarettes. Never has treats for you. Never gives you pats. Smaller than the rest of the people for some reason.
       - playerTitle: Groom
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Smells like dirt and {Brides Father}. Never has treats for you. Great pats though. Mostly just ignores you. 
       - playerTitle: Marriage Officiant
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Smells like soap. Snuck you some of the wedding food as a treat. Bad pats, but they try. The way they walk and talk reminds you of your old owners.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          Smells like sweat and {Bride}. Give you the BEST treats. No pats. You figure they are just trying to keep you out of way. Maybe if you help MORE, they will love you.
   - title: Photographer
     lastName: Joint
     firstName: Mungo
@@ -917,6 +929,17 @@ items:
     description: The most plain wedding rings you can imagine. Boring but might do in a pinch.
   - name: Victoria Bitters
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+  - name: Hammer and Tongs
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+  - name: Rivet Ale
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+  - name: XXXX Gold
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+  - name: Carlton Mid
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+  - name: Cascade Premium
+    description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a very short period (it's light beer).
+  
 plots:
   - name: Inciting incident A
     playerTitles:
