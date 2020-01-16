@@ -153,7 +153,7 @@ players:
         alignment: '-'
         strength: Strong
         words: >-
-          {Groom}'s cousin or something. She seems a bit punk but you need a cute Flowergirl for a perfect wedding. You'd figured she would compromise and be a cute girl in a nice dress for at least one day. It's your wedding, after all.
+          Your dad adopted her when her parents died, so she is kinda like your foster sister. She's always rude to you but you need a cute Flowergirl for a perfect wedding. You'd figured she would compromise and be a cute girl in a nice dress for at least one day. It's your wedding, after all.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
@@ -187,6 +187,11 @@ players:
         strength: Weak
         words: >-
           The cheapest photographer you could find. You want a perfect wedding, but any rube can push buttons on a camera. They are everywhere.
+      - playerTitle: Maid of Honor
+        alignment: '+'
+        strength: Weak
+        words: >-
+          Your maid of honor and best friend. She has only recently returned from police academy and you just want her close by on this important day. Just like back at school.
   - title: Maid of Honor
     lastName: Belmont
     firstName: Gemini
@@ -219,42 +224,48 @@ players:
       - name: Make {Flowergirl} act her age
         description: '{Flowergirl} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
-        description: 'If you are the Maid of Honor its only natural you get with the Best Man, whoever that is...'
+        description: 'If you are the maid of honor its only natural you get with the Best Man, whomever that is...'
       - name: Don't work on your day off
         description: 'You are an off-duty cop, you absolutely refuse to do any police work at this wedding.'
     otherPeople:
       - playerTitle: Best Man
         alignment: '-'
         strength: Strong
-        words: null
+        words: He seems a little much. Too confident and far too much chest hair. If he wasn't the best man you would not be interested at all. Alas he is.
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Strong
-        words: null
+        words: Your police training has made you hyper aware of creepy old men like {Drunk Uncle}. You are certain he has been watching you closely since arriving. Hopefully it is ring related.
       - playerTitle: Flowergirl
         alignment: +
         strength: Strong
-        words: null
+        words: You used to be {Flowergirl}'s babysitter before your career started. Her attitude has completely changed since you came back and you can't help but feel somehow she holds you responsible.
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          {Bride} asked you to keep {Bride's Father} away as he is 'ruining the mood'. He doesn't seem that bad but family can be weird sometimes.
       - playerTitle: Groom's Mother
         alignment: '-'
         strength: Weak
-        words: null
+        words: You met for the first time at the Bachelorette party, and she was a wild animal. You and her got your drink on and you feel like you bonded over her daughter.
       - playerTitle: Marriage Officiant
         alignment: +
         strength: Weak
-        words: null
+        words: Where does {Bride} find these people. {Marriage Officiant} is so obviously out of place that you can't help but feel sorry for them.
       - playerTitle: Photographer
         alignment: +
         strength: Weak
-        words: null
+        words: Looks tired. Perhaps you should offer a hand if you get a spare second.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          {Wedding Planner} is {Bride}'s other best friend. These is a friendly rivalry that has developed over the years, and it seems that as maid of honor, you have won.
+      - playerTitle: Bride
+        alignment: +
+        strength: Weak
+        words: Like a whirlwind, {Bride} makes the world revolve around her. Deep down you know she cares for you deeply, but she rarely stops long enough to show it.
   - title: Flowergirl
     lastName: Bennie
     firstName: Mercedes
@@ -292,47 +303,47 @@ players:
       - playerTitle: Bride
         alignment: '-'
         strength: Strong
-        words: null
+        words: You can't believe your foster sister is making you go to this gag worthy wedding. She has no taste. She never wanted you as a sister, time to show her why.
       - playerTitle: Groom's Mother
         alignment: +
         strength: Strong
-        words: null
+        words: She looks like a doll all dressed up but you can't deny she knows how to kick arse and get things done. She must be hella loaded...
       - playerTitle: Maid of Honor
         alignment: +
         strength: Strong
-        words: null
+        words: She used to be your babysitter, then when she left for police academy. Your parents couldn't handle you, got drunk and then died in a car crash. Why did she leave, why would she let them die like that!
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Strong
-        words: null
+        words: You know police when you see one and {Marriage Officiant} is just square enough to be an undercover cop.
       - playerTitle: Best Man
         alignment: '-'
         strength: Weak
-        words: null
+        words: You have seen {Best Man} at the one local night club (Barrels) a few times, never with anyone though.
       - playerTitle: Bride's Father
         alignment: +
         strength: Weak
-        words: null
+        words: He fostered you when your parents died. He is so vacant he might of well have not bothered. He is the closest thing you have to parent now, you just wish he would stop buying your supply...
       - playerTitle: Dog
         alignment: '-'
         strength: Weak
-        words: null
+        words: You are more of a cat person. You wonder what kinda tricks they would do with a little pick me up.
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: null
+        words: He looks grubby, but has a head on his shoulders. You reckon he must be running some kind of con. Game recongnise Game yo.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
-        words: null
+        words: Classic choice for your foster sister. Thick as a brick, with a matching personality.
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: null
+        words: A little too eager with the camera. You've had to dive outta the way of some shots earlier. What a narc.
       - playerTitle: Wedding Planner
         alignment: '-'
         strength: Weak
-        words: null
+        words: Often visited {Bride} when {Maid of Honor} was away. Didn't take up your offer to 'cater' for the wedding. Shame.
   - title: Marriage Officiant
     lastName: Smith
     firstName: Robin
@@ -647,19 +658,19 @@ players:
         description: 'While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get.'
       - name: Don't let anyone know you took the BIG rings at the Bachelorette party
         description: 'You threw them in the trash, but people are putting together the dots from last night.'
-      - name: Get a pre-nup signed by the Groom and whomever he marries
-        description: If you can't stop the wedding, as least save the family money. Your brother is loaded, and you can't stand the thought that anyone else get their hands on that money.
       - name: '{Flowergirl} is in need of a mother'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
     otherPeople:
       - playerTitle: Flowergirl
         alignment: +
         strength: Strong
-        words: null
+        words: >-
+          Your neice. You love this little tyrant. She knows what she wants, and know just who and what to stomp on to get it. She reminds you of you when you were young.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          They think they are in charge. You are in charge. They are standing in the way of you stopping this wedding
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Weak
@@ -709,6 +720,8 @@ players:
         description: 'You don''t care what role you take, but being in the crowd is no fun.'
       - name: 'That ring is an family heirloom, make sure its not lost'
         description: Find the ring and hold on to it for the ceremony. It was your Nan's!
+      - name: Get a pre-nup signed by the Groom and whomever he marries
+        description: Save the family money. You are loaded and you whilst you don't want anyone to know, you also don't want to lose the fortune to some floozy.
       - name: Hide your wealth
         description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Marriage Officiant}.'
     otherPeople:
@@ -808,9 +821,9 @@ players:
     secret: 'Years ago, while driving late at night you hit someone. It was dark, but you kept on driving...'
     shortDescription: Seems like they are creeping on everyone, but they were hired to take wedding photos so it's probably fine.
     traits:
-      - Nosey
+      - Messy
       - Desperate
-      - Well-researched
+      - Wracked with guilt
     powers:
       - name: Research
         description: Bring an item to an Organiser. They will tell you something useful about it.
