@@ -331,7 +331,7 @@ players:
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: He looks grubby, but has a head on his shoulders. You reckon he must be running some kind of con. Game recongnise Game yo.
+        words: He looks grubby, but has a head on his shoulders. You reckon he must be running some kind of con. Game recognise Game yo.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
@@ -339,7 +339,7 @@ players:
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: A little too eager with the camera. You've had to dive outta the way of some shots earlier. What a narc.
+        words: A little too eager with the camera. You've had to dive outta the way of some shots earlier. What a nark.
       - playerTitle: Wedding Planner
         alignment: '-'
         strength: Weak
@@ -348,7 +348,7 @@ players:
     lastName: Smith
     firstName: Robin
     blurb: 'Last Night: You were not at either of the Bachelor or Bachelorette parties, but everyone seems real hung over.'
-    information: 'The Wedding Planner is married, but didn''t bring their partner.'
+    information: '{Wedding Planner} is married, but didn''t bring their partner.'
     optional: false
     secret: 'You have been paid $15,000 anonymously to make sure this wedding goes ahead.'
     shortDescription: Not from here. Better than everyone else (or at least thinks so).
@@ -375,41 +375,43 @@ players:
           marriage.
       - name: Run this wedding
         description: 'You are the one in charge around here. Make sure no one else thinks otherwise. You have a great speech planned for the ceremony you have to give. (note: maybe write one?)'
+      - name: Get {Best Man} uninvited
+        description: You can't risk them ruining everything by being Best Man. If you cannot get them uninvited at least get them replaced.
       - name: '{Grooms Mother} is your nemisis'
         description: 'She acts like she is better than the rest, but she is just another bogan scum. Make sure she knows that at every opportunity.'
     otherPeople:
       - playerTitle: Best Man
         alignment: '-'
         strength: Strong
-        words: null
+        words: You hate it when a womanizer starts sleeping his way through the bridal party. The number one reason for drama at a wedding is people like {Best Man} getting with someone they shouldn't.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Strong
-        words: null
+        words: Of all the 12 year old flowergirls that have been at YOUR weddings, this has to be the most disinterested, bad mouthed, drongo you've ever met. Perhaps these is someone more appropriate for the role out there.
       - playerTitle: Groom's Mother
         alignment: '-'
         strength: Strong
-        words: null
+        words: Sometimes, a backwater country hick gets it in their head that they are 'classy' or 'sophisticated'. They could hardly spell those words. There has to be some way to show her how little she has crawled from her origins.
       - playerTitle: Bride
         alignment: '-'
         strength: Weak
-        words: null
+        words: It was clear that she was the one that wanted you hired. Excellent taste. Now if she would only stop fussing and let you deal with the wedding. It is kind of your expertise.
       - playerTitle: Bride's Father
         alignment: +
         strength: Weak
-        words: null
+        words: $15,000 dollars in cash is not what you expected from this bumbly, barely sober man. Stranger again that he had it delivered anonymously.
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: null
+        words: When you were told there would be a dog at the wedding you presumed a mangley old thing, dirtying the decorations. {Dog} however is an absolutely lovely and well behaved creature! 
       - playerTitle: Maid of Honor
         alignment: +
         strength: Weak
-        words: null
+        words: She is one of the few that are trying to keep everything from falling apart. A practical lady. She just might be your only ally in fixing this wedding.
       - playerTitle: Photographer
         alignment: +
         strength: Weak
-        words: null
+        words: You've seen {Photographer} taking photos for other weddings you've conducted. Capable but always deathly tired looking.
   - title: Best Man
     lastName: Torana
     firstName: Dave
@@ -438,7 +440,7 @@ players:
         usages: 3
     goals:
       - name: Marry the Groom.
-        description: You love that gorgious son of a gun.
+        description: You love that gorgeous son of a gun.
       - name: Rekindle Mailbu's old love
         description: Mailbu seemed real broken up at the bucks about an old flame. Help them.
       - name: 'Get {Marriage Officiant} fired'
@@ -447,35 +449,36 @@ players:
       - playerTitle: Groom
         alignment: +
         strength: Strong
-        words: You fucked
+        words: Last night at the Bachelor party fulfilled a long lasting dream for you. You now know {Groom} is the one. I'm sure he feels the same way, after all you've never had a problem getting others to love you back when you put your charm on.
       - playerTitle: Maid of Honor
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          {Maid of Honor} is firey, which in your world means trouble. She is not your type, and you think keeping a big distance is a solid idea, but you've had to date worse to keep your secrets in the past.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Strong
-        words: null
+        words: Pretty fit for his age, perhaps his harsh exterior is only an act for the job and with a little persuasion could be convinced to have some fun.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
-        words: null
+        words: You really connected last night at the bachelor party. {Wedding Planner} might of got laid but you can tell a broken heart when you see one (after all you;ve broken so many). Time to be a best-wing-man.
       - playerTitle: Bride
         alignment: +
         strength: Weak
-        words: null
+        words: Honestly she is lovely. You can see {Groom}'s eyes light up when they see her. Which is a BIG problem. She must go.
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: null
+        words: Likes belly rubs, just like you. Is a great wing-man in a pinch.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: null
+        words: You are pretty sure you;ve seen her at the local night club (Barrels). How a 12 year old regularly gets in there is beyond you.
       - playerTitle: Photographer
         alignment: +
         strength: Weak
-        words: null
+        words: Takes a mean photo. You should get {Photographer} to shoot you some new smoking hot pics for instagram.
   - title: Wedding Planner
     lastName: Singer
     firstName: Malibu
@@ -658,39 +661,46 @@ players:
         description: 'While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get.'
       - name: Don't let anyone know you took the BIG rings at the Bachelorette party
         description: 'You threw them in the trash, but people are putting together the dots from last night.'
-      - name: '{Flowergirl} is in need of a mother'
+      - name: Find the love of your life
+        description: Weddings (even ones that need stopping) are so romantic. Maybe the love of your life is in the crowd. Find them and lock that shit down, you are too old to play games.
+      - name: '{Flowergirl} is in need of a mother figure'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
     otherPeople:
       - playerTitle: Flowergirl
         alignment: +
         strength: Strong
         words: >-
-          Your neice. You love this little tyrant. She knows what she wants, and know just who and what to stomp on to get it. She reminds you of you when you were young.
+          You love this little tyrant. She knows what she wants, and knows just who and what to stomp on to get it. She reminds you of you when you were young.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Strong
         words: >-
-          They think they are in charge. You are in charge. They are standing in the way of you stopping this wedding
+          They think they are in charge. You are in charge. They are standing in the way of you stopping this wedding. Boozed up weirdo needs to go.
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          A long time ago, you had a fling. {Brides Father} couldn't get his shit together though, and you cut him loose. Luckily he never noticed that 9 months later you had {Groom}. Unluckily, that means...
       - playerTitle: Groom
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          He's ya son. Ya love ya son, don't ya? Of course. He is the most special, most handsome, most interesting person ever. Even if others say he's a bit boring. You would do anything for him. 
       - playerTitle: Maid of Honor
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          Just because she left town for school doesn't make her smart enough to not be over fed drinks. You have that drunky wrapped around your finger.
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+          You get what you pay for. They are meant to be cronicling this special day, but you have caught them just vacantly staring into space a little too often.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+          They are a good enough person, but they are just incompetant enough to crash and burn this whole ship. That good for you, so best to just leave them be.
   - title: Drunk Uncle
     lastName: Marolla
     firstName: Wayne
@@ -715,6 +725,9 @@ players:
       - name: I can see right through ya lass
         description: Chat with someone who is intoxicated (or poisoned). If you manage this they must show the title (the part in bold) of their FIRST goal to you.
         usages: 3
+      - name: Go get me a beer
+        description: Interrupt another player trying to talk to you. Show them this ability. That player must then go to an Organiser, get a beer item and then hand you that item.
+        usages: 3
     goals:
       - name: Get onto the wedding party
         description: 'You don''t care what role you take, but being in the crowd is no fun.'
@@ -728,11 +741,13 @@ players:
       - playerTitle: Groom
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+          Ya nephew. Ya love ya nephew, dont ya? You want him to be happy, but that idiot might just sink this whole empire. Your money is worth too much to you to for him to get married without signing the pre-nup.
       - playerTitle: Maid of Honor
         alignment: +
         strength: Strong
-        words: null
+        words: >-
+          She was responsible for losing the ring
       - playerTitle: Bride
         alignment: +
         strength: Weak
@@ -946,7 +961,7 @@ plots:
   - name: Get the item I
     playerTitles:
       - Wedding Planner
-      - Groom's Mother
+      - Drunk Uncle
       - Groom
   - name: Get the item J
     playerTitles:
