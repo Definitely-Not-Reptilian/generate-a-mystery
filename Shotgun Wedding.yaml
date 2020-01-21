@@ -462,7 +462,7 @@ players:
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
-        words: You really connected last night at the bachelor party. {Wedding Planner} might of got laid but you can tell a broken heart when you see one (after all you;ve broken so many). Time to be a best-wing-man.
+        words: You really connected last night at the bachelor party. {Wedding Planner} might of got laid but you can tell a broken heart when you see one (after all you've broken so many). Time to be a best-wing-man.
       - playerTitle: Bride
         alignment: +
         strength: Weak
@@ -523,7 +523,7 @@ players:
       - playerTitle: Best Man
         alignment: +
         strength: Strong
-        words: null
+        words: You really connected with {Best Man} last night at the bachelor party. You needed a distraction and he certainly knows how to party.
       - playerTitle: Bride
         alignment: +
         strength: Strong
@@ -532,27 +532,29 @@ players:
       - playerTitle: Bride's Father
         alignment: +
         strength: Strong
-        words: null
+        words: You've always had a good relationship with {Bride's Father}, whenever you visited {Bride} you would chat but he has become less talkative since {Bride}'s engagement.
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: null
+        words: This dog is better behaved than some of the groom's family. {Dog} has such intelligent eyes, you often feel like they are trying to tell you something.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+        {Bride}'s foster sister. She was always stomping around the house in a huff when you visited.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
-        words: null
+        words: You can't believe {Groom} is trying to steal {Bride} away, so what if he benches 200kg? He couldnt hold up 1 minute of conversation.
       - playerTitle: Groom's Mother
         alignment: +
         strength: Weak
-        words: null
+        words: She's so controlling that she might turn {Bride} off {Groom}. What a nightmare.
       - playerTitle: Maid of Honor
         alignment: +
         strength: Weak
-        words: null
+        words: >-
+        {Bride}'s best friend, you have heard they are a steadfast badass, but have never met.
   - title: Bride's Father
     lastName: Castro
     firstName: Sparkie
