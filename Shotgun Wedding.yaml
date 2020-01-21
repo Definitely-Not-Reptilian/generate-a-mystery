@@ -600,15 +600,18 @@ players:
       - playerTitle: Bride
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+        {Bride} is getting married. Today! It only felt like days ago that she was your little girl who needed sheltering from the world. What happened to those days.
       - playerTitle: Groom
         alignment: '-'
         strength: Strong
-        words: null
+        words: >-
+        Well at least you know {Bride} has no Father issues, {Groom} is about as dis-similiar to you as you could imagine. Who could be so relaxed at their own wedding?
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
-        words: null
+        words: >-
+        {Wedding Planner} would often visit {Bride} after {Maid of Honor} left for police training. She needs friends. You would often stay up late chatting to {Wedding Planner} and you know you can trust them.
       - playerTitle: Dog
         alignment: +
         strength: Weak
@@ -617,23 +620,24 @@ players:
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: null
+        words: Your brother. He was always in his own world, making up crazy ideas. Now he is just crazy. It might have been the booze. Terrible stuff. Last time you spoke was at your mother's funeral and you punched him cold out. Maybe it's time to make up.
       - playerTitle: Flowergirl
         alignment: +
         strength: Weak
-        words: null
+        words: You foster daughter. Her parents were killed when she was 8. You took her in, but she is a HANDFUL. Good thing she also supplies you with a coping mechanism. Clever girl.
       - playerTitle: Groom's Mother
         alignment: '-'
         strength: Weak
-        words: null
+        words: When {Bride} introduced you to {Groom} you wouldn't have guessed she was {Groom's Mother}'s son. She still looks amazing! Just like she did during highschool when you had dated for a week. I wonder if she would like to ignite old flames? 
       - playerTitle: Maid of Honor
         alignment: '-'
         strength: Weak
-        words: null
+        words: >-
+        {Maid of Honor} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
       - playerTitle: Marriage Officiant
         alignment: +
         strength: Weak
-        words: null
+        words: A little preachy, but at least they think your bloodshot eyes are from lack of sleep.
   - title: Groom's Mother
     lastName: Marolla
     firstName: Vectra
