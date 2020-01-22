@@ -1,22 +1,19 @@
 seed: Shotgun Wedding324234234
 name: Not here to wed spiders
-blurb: >-
+blurb: |-
   In the small town of Duck Rise, Victoria, Stralya live: BOGANS. Bogans are much like the regular folk, but drunker and louder. Some of them even fall in love. But before they settle down and poop out a mess of kids, they gotta have a wedding! Weddings are the best. Everyone gets proper plastered. Lots of kissing. Lots of drama. Fun times for all. Nothing ever goes wrong at a wedding...
-
   **ominous thunder clack**
 players:
   - title: Groom
     lastName: Marolla
     firstName: Chad
-    blurb: >-
-      Life is easy for {Groom fullname}. No one know that better than {Groom fullname}. That's you. You are {Groom fullname}. Nice!
+    blurb: |-
+      Life is easy for {Groom fullname}. No one knows that better than {Groom fullname}. That's you. You are {Groom fullname}. Nice!
       A bit ago you met {Bride} and liked her well enough. She nagged enough to get married, and your figured "Sure. Sounds easy.".
       But it's all going a bit wrong. Ehh, things usually work out for the best when you are {Groom fullname}. Don't stress it.
 
-      Last Night: It was your bachelor party. {Best Man}, {Drunk Uncle}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You were grabbed from your bed, black bagged and taken on a 8
-      hour pub crawl. You had to drink every time anyone else did and got pretty blasted. {Bride's Father} left at some point, you think he was worse than you. You all went to a
-      hotel, and were told there would be some 'friends' coming over soon by your Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you
-      hadn't experienced all there was in the single life yet. The sex was fantastic. You still love your bride and want to get married.
+      Last Night: It was your bachelor party. {Best Man}, {Drunk Uncle}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You were grabbed from your bed, black bagged and taken on an 8 hour pub crawl. You had to drink every time anyone else did and got pretty blasted. {Bride's Father} left at some point, you think he was worse than you. You all went to a hotel, and were told there would be some 'friends' coming over soon by your Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you hadn't experienced all there was in the single life yet. One thing led to antoher and well... The sex with {Best Man} was fantastic. You still love your bride but getting married seems a little rude at this point.
+      Best call it off now and try to fix it later.
     information: '{Drunk Uncle} gave me a huge cash gift before the wedding.'
     optional: false
     secret: Hooked up with my Best Man at the Bachelor party.
@@ -37,12 +34,12 @@ players:
         usages: 3
       - name: Oh hell no! You're uninvited
         description: >-
-          If a player raises their voice to you, you can show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an
-          Organiser when this happens.
+          If a player raises their voice to you, you can show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.
         usages: 1
     goals:
       - name: The more the merrier
         description: 'Get the best of both worlds, marry {Bride} and {Best Man}. They may need a bit of convincing.'
+        #TODO with the current ceremony rules, how could this happen?
       - name: What happens on Buck's night...
         description: Make sure no-one (especially {Bride}) knows what you did with {Best Man} last night.
       - name: Convince your monster mother
@@ -50,7 +47,7 @@ players:
       - name: Repay your uncle
         description: Make sure he knows you are thankful, even though he doesn't want to talk about the money, maybe drop a nod to him in your vows?
       - name: Rip up any Prenups you are asked to sign.
-        description: Make a show of it. Unless there is a good reason to sign something...
+        description: Love isn't about money, man. Unless there is a good reason to sign something...
       - name: Father in LOSER
         description: >-
           {Brides Father} hasn't paid a dime for this wedding. Isn't that meant to be his job? Make sure he knows what that means to you.
@@ -58,66 +55,65 @@ players:
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Strong
-        words: >-
+        words: |-
           Bit of a scumbag. He seemed ok with you dating his daughter, but you could never get past the fact he was a dole bludger loser.
           He seemed way too into {Bride}, but whenever you tried to connect he always disappeared. Just one of those things. 
       - playerTitle: Drunk Uncle
         alignment: '-'
         strength: Strong
-        words: >-
+        words: |-
           He is kinda a controlling nightmare. He came into money a bit ago, but insists everyone keep it secret while also insisting everything that him for paying for everything.
           How can you do both? You like the stuff you give, but a tired of always keeping up appearances around him.
       - playerTitle: Best Man
         alignment: +
         strength: Strong
-        words: >-
+        words: |-
           He has been your best mate since you were tiny menaces. He was always the charmer that managed to do all the talking for you and you would go along with it.
           Great for picking up chicks at the pub. The wedding has made you nervous about missing that part of your life, so you have decided to go out on a bang. Literally. You totally banged that guy last night.
       - playerTitle: Bride
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           The love of your life. She's pretty nice. You like her ok. You wonder if you are just falling into this marriage because it is your first serious relationship.
           She wants to control this wedding like a genocidal dictator and it's easier to just let her.
       - playerTitle: Dog
         alignment: +
         strength: Weak
-        words: >-
+        words: |-
           What a good dog. Maybe the best dog. Way smarter then you would think a dog could be. Like some dog out of a children's TV show.
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           Your cousin or something. She thinks she's cool, but she's just posing. {Bride} thought she would make a cute Flowergirl. Punks generally aren't that cute, but you just went with it.
       - playerTitle: Groom's Mother
         alignment: +
         strength: Weak
-        words: >-
+        words: |-
           She's ya mum. Ya love ya mum don't ya? She always wanted you to be a mumma's boy, but you don't think you are.
           Sure, she still buys all your clothes and does your laundry and makes you dinner when you want it, but that doesn't make you a mumma's boy.
           She never approved of {Bride}, but wanted you to be happy anyway.
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           They are the cheapest wedding photographer in town. {Bride} wanted pictures of he magical day, but {Photographer} has inserted themselves into your life for this.
           You just want a bit of privacy, but it all has to be documented supposedly.
       - playerTitle: Wedding Planner
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           An old friend of {Bride}. {Bride} insisted on them helping plan everything. You reckon {Bride} and {Wedding Planner} had a fling in the past, but they have never admitted it.
           You know it is petty, but you don't like the idea of an old flame being at the wedding.
   - title: Bride
     lastName: Castro
     firstName: Corolla
-    blurb: >-
+    blurb: |-
       Every since you were little, you loved a wedding. You got to be the Flowergirl for your cousin's friend's mother's wedding when you were young and loved it.
       You met {Groom} and convinced him to ask so now it is your turn and it WILL BE P E R F E C T!!!
 
-      Last Night: It was your Bachelorette party. You asked for a night in of party games & Rom Coms but the Maid of Honor had other plans. She and the Groom's Mother rocked up,
-      drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honor puked over your favourite party dress and you yelled at her
-      for ruining your bachelorette party.
+      Last Night: It was your Bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You asked for a night in of party games & Rom Coms but {Maid of Honor} had other plans. She and {Groom's Mother} rocked up, drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honor puked over your favourite party dress and you yelled at her for ruining your bachelorette party.
+      Somewhere in the calamity, {Maid of Honor} lost the ring.
     information: Maid of Honor got hammered last night.
     optional: false
     secret: You are 3 months pregnant.
@@ -129,22 +125,19 @@ players:
     powers:
       - name: Oh are you talking about me?
         description: >-
-          If you overhear someone say your name (or The Bride) walk over and show them this ability. If you do, the player must show you their other people section for the character
-          of your choice.
+          If you overhear someone say your name (or The Bride) walk over and show them this ability. If you do, the player must show you their other people section for the character of your choice.
         usages: 3
       - name: Storm Off
         description: >-
-          If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead. Then
-          storm off in a huff.
+          If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead. Then storm off in a huff.
         usages: 3
       - name: GET OUT!
         description: >-
-          Make a huge scene about how a player is ruining your wedding, and show them this ability. If you do, that player is uninvited from the wedding and cannot attend the
-          ceremony. Tell an Organiser when this happens.
+          Make a huge scene about how a player is ruining your wedding, and show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.
         usages: 1
     goals:
       - name: Have the perfect wedding
-        description: 'BIG ring. {Flowergirl} as Flowergirl. No drunks, any groom (meh I''m easy).'
+        description: 'BIG ring. {Flowergirl} as Flowergirl. No drunks. Any groom (meh I''m easy).'
       - name: Get divorced from {Wedding Planner}
         description: You can't get married until you first get divorced. Find out who or how to get it annulled and keep it a secret.
       - name: It's lucky they say...
@@ -152,84 +145,86 @@ players:
       - name: Uninvite anyone trying to sabotage the wedding
         description: >-
           If anyone doesn't want you to marry the love of your life, then they need to go.
+      - name: Keep the baby a secret
+        description: >-
+          You don't want anyone to know. It would ruin the wedding. Also, no drinking while pregnant.
       - name: '{Flowergirl} is such a bitch'
-        description: 'She thinks she is so tough, well she HAS to be here and wear that dress. Don''t let her get uninvited and generally make her time here unpleasant.'
+        description: She thinks she is so tough, well she HAS to be here and wear that dress. Don't let her get uninvited and generally make her time here unpleasant.
     otherPeople:
       - playerTitle: Bride's Father
         alignment: '-'
         strength: Strong
-        words: >-
+        words: |-
           Ya dad. Ya love ya dad, don't ya? Well not really. That dude is clingy. You don't know how a Dad manages to be so dependant on his daughter, but this guy found a way.
           If he isn't missing for days, he is asking you about your every waking moment and how it is going. At least he is supportive of the wedding. 
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Strong
-        words: >-
+        words: |-
           Your dad adopted her when her parents died, so she is kinda like your foster sister. She's always rude to you but you need a cute Flowergirl for a perfect wedding. You'd figured she would compromise and be a cute girl in a nice dress for at least one day. It's your wedding, after all.
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
-        words: >-
+        words: |-
           You and {Wedding Planner} used to be married. You figured you just wanted to be married so bad, that {Wedding Planner} would do. It didn't really pan out and you got separated. Never did finalise that divorce though.
           You are still good friends and so naturally you asked them to help plan the wedding.
       - playerTitle: Best Man
         alignment: +
         strength: Weak
-        words: >-
+        words: |-
           {Groom}'s best mate. They get along great. If {Groom} isn't with you, he is usually with {Best Man}.
           You appreciate that they have such a strong friendship but have made it clear that you need to be the priority after the wedding. {Best Man} understood and agreed completely.
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: >-
+        words: |-
           Someone's uncle. {Groom}'s you think. There's always someone that goes a bit too hard at these things, and {Drunk Uncle} already has it seems.
           Seems like a cool enough guy, but you don't know too much about him.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           Maybe one day you'll grow to love him. You managed to trick this guy into asking you to marry him. Great job. Good thing too, because you are up the duff with his baby. You'll tell him eventually.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           The only person who would agree to all your terms for your perfect wedding. They seem like they think this is their event though. Don't they know the Bride is the most important person here?
       - playerTitle: Photographer
         alignment: '-'
         strength: Weak
-        words: >-
+        words: |-
           The cheapest photographer you could find. You want a perfect wedding, but any rube can push buttons on a camera. They are everywhere.
       - playerTitle: Maid of Honor
         alignment: '+'
         strength: Weak
-        words: >-
+        words: |-
           Your maid of honor and best friend. She has only recently returned from police academy and you just want her close by on this important day. Just like back at school.
   - title: Maid of Honor
     lastName: Belmont
     firstName: Gemini
-    blurb: >-
+    blurb: |-
       You suffer no fools. Too bad the fools are all you can get in this wasteland. You like {Bride} well enough. More like her please. You figured this wedding would be a good last hurra before you bailed on this town forever, and you are just hoping it goes well.
 
-      Last Night: You attended the Bachelorette party. You had planned for it to be a night in of party games and romcoms, but {Groom's Mother} had other ideas. She brought a bunch
-      of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You have a
-      massive headache and have vowed to never drink again. After the wedding.
+      Last Night: You attended the Bachelorette party. It was you, {Bride}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You had planned for it to be a night in of party games and romcoms, but {Groom's Mother} had other ideas. She brought a bunch of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You have a massive headache and have vowed to never drink again. After the wedding.
     information: You heard the ring came from the Drunk Uncle.
     optional: false
     secret: During cop academy you became an alcoholic.
+    #TODO maybe this should be something about the ring?
     shortDescription: She carries herself like she just escaped a warzone. Maybe she did? She's real quiet and might throat punch you if you ask stupid questions.
     traits:
       - Steely
       - Action Hero
       - Traumatised
     powers:
-      - name: Information
-        description: 'Do something specific. If you manage this, the player must show you their information.'
+      - name: Bust some heads
+        description: 'Glare at someone from across the room for 30 seconds. March over to them and then demand they tell you the truth. The player must show you their information.'
         usages: 3
-      - name: Pickpocket
+      - name: I take what I need
         description: >-
-          Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn't, you will steal an item at
-          random.
+          Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn't, you will steal an item at random.
         usages: 2
+      #TODO more powers
     goals:
       - name: Don't get married
         description: 'Make sure the Bride makes it down the aisle in one piece, you definitely don''t want to accidentally get married.'
@@ -241,6 +236,8 @@ players:
         description: 'If you are the maid of honor its only natural you get with the Best Man, whomever that is...'
       - name: Don't work on your day off
         description: 'You are an off-duty cop, you absolutely refuse to do any police work at this wedding.'
+      - name: Catch the bouquet
+        description: You are the Maid of Honour. It is the correct action if you catch the bouquet.
     otherPeople:
       - playerTitle: Best Man
         alignment: '-'
@@ -283,11 +280,11 @@ players:
   - title: Flowergirl
     lastName: Bennie
     firstName: Mercedes
-    blurb: >-
-      There are two kinds of people in this world. Rubes and You. (Takes a long drag of the cigarette) 😎.You might be 12 years old, but you've lived longer than anybody you know.
+    blurb: |-
+      There are two kinds of people in this world. Rubes and You. (Takes a long drag of the cigarette) 😎.You might be 12 years old, but you've lived longer and harder than anybody you know.
       You have to be here, but maybe you can make it worth your while.
 
-      Last Night: You were too young to be there, but someone had to make it a real party. You gave the Maid of Honor a small dose of Ketamine and she took it hard. Oops. You weren't allowed in the Casino, so you left and made a few sales.
+      Last Night: You were at the bachelorette party. It was you, {Maid of Honor}, {Bride}, {Groom's Mother}, and {Photographer}. You were too young to be there, but someone had to make it a real party. You gave the Maid of Honor a small dose of Ketamine and she took it hard. Oops. You weren't allowed in the Casino, so you left and made a few sales. Everyone else was too drunk to care that you bailed.
     information: I saw the Maid of Honor trying on the wedding ring at the bachelorette party.
     optional: false
     secret: I run the entire town's drug trade.
@@ -315,6 +312,8 @@ players:
         description: 'She tried to have you taken away, and you ended up on the streets. Now she is gonna pay.'
       - name: End the wedding with as much valuables as possible
         description: '{Brides Father} never pays, it''s now $1000 a hit for that loser. Perhaps someone else will buy?'
+      - name: Catch the bouquet
+        description: It would ruin everyone's fun.
     otherPeople:
       - playerTitle: Bride
         alignment: '-'
@@ -363,7 +362,7 @@ players:
   - title: Marriage Officiant
     lastName: Smith
     firstName: Robin
-    blurb: >-
+    blurb: |-
       Your mother always told you to act proper. You figured marriage was a good career for creating order. But you came out from the big city for this?!?!
       Maybe something can be done to teach these Bogans how they are meant to be.
 
@@ -392,8 +391,7 @@ players:
         description: SOMEONE is getting married. You don't really care who.
       - name: Make the wedding proper
         description: >-
-          The bride needs something borrowed, something blue, something old & something new or this wedding is just pedestrian. Don't let these Bogans sully the sanctity of
-          marriage.
+          The bride needs something borrowed, something blue, something old & something new or this wedding is just pedestrian. Don't let these Bogans sully the sanctity of marriage.
       - name: Run this wedding
         description: 'You are the one in charge around here. Make sure no one else thinks otherwise. You have a great speech planned for the ceremony you have to give. (note: maybe write one?)'
       - name: Get {Best Man} uninvited
@@ -436,12 +434,10 @@ players:
   - title: Best Man
     lastName: Torana
     firstName: Dave
-    blurb: >-
+    blurb: |-
       You always worked very hard on your appearance. You wanted people to like you. But even your off days {Groom} still liked you and that made things easier. When the wedding came up, you were so happy for him. Everything is looking like sunshine and rainbows.
-      Last night: You were at the Bachelor party. You kidnapped the Groom and brought him on the greatest pub crawl of all time. You went light on the drinks because you wanted to
-      be sharp for your best friend's wedding the next day. After the last bar you all went back to a hotel and you and the Groom and you split a room. One thing led to another and
-      you both boned down. Hard. It was something you had always thought about, but didn't think would ever happen. Everyone thinks you got strippers for the night, and you've
-      decided to let everything think that.
+      Last night: You were at the Bachelor party. {Groom}, {Drunk Uncle}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You kidnapped the Groom and brought him on the greatest pub crawl of all time. You went light on the drinks because you wanted to be sharp for your best friend's wedding the next day. You had to put {Bride's Father} in a taxi at some point, as he was too far gone. After the last bar you all went back to a hotel and you and the Groom and you split a room.
+      One thing led to another and you both boned down. Hard. (Sex). It was something you had always thought about, but didn't think would ever happen. Everyone thinks you got strippers for the night, and you've decided to let everything think that.
     information: The Groom's Mother recovered from last night better than anyone else.
     optional: false
     secret: The stripper's never showed up to the hotel last night.
@@ -462,12 +458,13 @@ players:
         usages: 3
     goals:
       - name: Marry the Groom.
-        description: You love that gorgeous son of a gun.
+        description: You love that gorgeous son of a gun. You want him all to yourself
       - name: Rekindle {Wedding Planner}'s old love
         description: >-
           {Wedding Planner} seemed real broken up at the bucks about an old flame. Help them.
       - name: 'Get {Marriage Officiant} fired'
         description: They think they are better than us. Get {Groom} or someone else to kick them out of the wedding.
+      #TODO needs more side interactions
     otherPeople:
       - playerTitle: Groom
         alignment: +
@@ -505,12 +502,11 @@ players:
   - title: Wedding Planner
     lastName: Singer
     firstName: Malibu
-    blurb: >-
+    blurb: |-
       The whole world seems to be against you. You are always so kind, but *gosh*, things just never seem to go your way. 😢.
       Maybe today is the day everything turns around? Yeah... maybe everything is coming up {Wedding Planner}! 😁
 
-      Last Night: You had a great time at the bachelor party. You kidnapped {Groom}, went on a HUGE pub crawl, and even got lucky with a local lass, who you took back to the
-      hotel that night.
+      Last Night: You had a great time at the bachelor party. {Best Man}, {Drunk Uncle}, {Groom}, {Bride's Father}, and {Dog} were there. You kidnapped {Groom}, went on a HUGE pub crawl, and even got lucky with a local lass, who you took back to the hotel that night. 
     information: You got a one night stand at the last pub and brought them back to the hotel. From the banging on the walls it sounded like everyone else got lucky too.
     optional: false
     secret: You are already married to the Bride.
@@ -545,6 +541,8 @@ players:
         description: 'If you are the marriage boss, you can just fake the paperwork and it wont count! Your big speech can be longer too!'
       - name: '{Brides Father} needs a hand'
         description: '{Brides Father} needs help getting down the aisle with his daughter. Make sure he stays upright.'
+      - name: Catch the bouquet
+        description: If you catch it, your whole life will turn around. You can feel it.
     otherPeople:
       - playerTitle: Best Man
         alignment: +
@@ -584,14 +582,14 @@ players:
   - title: Bride's Father
     lastName: Castro
     firstName: Sparkie
-    blurb: >-
+    blurb: |-
       You just love Drugs! Uppers, Downers, and everything in between. The non-stop party has messed with your brain a bit, but fortunately you know a good, sensible, fix.
       Ketamine. That is the exact thing you need right now to even you out. Just gotta score some K and everything will be great.
       You also seem to be a wedding of some kind? What's that about? Oh, no... your little {Bride}. 😢😢😢😢😢. Keep it together {Brides Father}.
 
-      Last Night: You were at the Bachelor party. You kidnapped the Groom and brought him on a pretty nice pub crawl. You managed to get quite turped up. Plus you found your dealer and scored some Ketamine.
+      Last Night: You were at the Bachelor party. {Best Man}, {Drunk Uncle}, {Wedding Planner}, {Groom}, and {Dog} were there. You kidnapped the Groom and brought him on a pretty nice pub crawl. You managed to get quite turped up. Plus you found your dealer and scored some Ketamine.
       Rest of the night is pretty blurry but at one point everyone put you in a taxi to go home. You have woken up with a hangover, and are ready for a bonza wedding.
-    information: The Groom's mother tried to get a prenup signed but the Groom blocked it.
+    information: The Groom's Uncle tried to get a prenup signed but the Groom blocked it.
     optional: false
     secret: You have a serious drug problem.
     shortDescription: He's been waiting his whole life for this moment. His baby girl is finally gonna get married and he knows just how to get through the day without crying...
@@ -622,7 +620,7 @@ players:
       - name: 'Keep {Dog} out of mischief'
         description: Make sure if the dog takes anything you return it to its rightful owner. And keeps its nose out of the trash!
       - name: Find the real father
-        description: 'You suspected {Bride} is pregnant for a while now. But she has only been with {Groom} for that long. Keep it a secret but find out who is the father.'
+        description: 'You suspected {Bride} is pregnant for a while now. But she has only been with {Groom} for so long. Keep it a secret but find out who is the father.'
       - name: Daddy hugs
         description: Hug everyone at the wedding. Tell them how much you love them and why. They must hug back.
     otherPeople:
@@ -649,7 +647,7 @@ players:
       - playerTitle: Drunk Uncle
         alignment: +
         strength: Weak
-        words: Your brother. He was always in his own world, making up crazy ideas. Now he is just crazy. It might have been the booze. Terrible stuff. Last time you spoke was at your mother's funeral and you punched him cold out. Maybe it's time to make up.
+        words: An old friend from school. He was always in his own world, making up crazy ideas. Now he is just crazy. It might have been the booze. Terrible stuff. Last time you spoke was at your mother's funeral and you punched him cold out. Maybe it's time to make up.
       - playerTitle: Flowergirl
         alignment: +
         strength: Weak
@@ -670,13 +668,15 @@ players:
   - title: Groom's Mother
     lastName: Marolla
     firstName: Vectra
-    blurb: >-
-      You are the unofficial Queen of this town. Nothing happens without your say so and everyone respects that. And it is good to be the Queen.
-      Everything you do today, you do for the good of your son! He just doesn't know what is best right now, but you are confident he will come around.
+    blurb: |-
+      You are the unofficial Queen of this town. Nothing happens without your say so and everyone respects that. And it is good to be the Queen. If only you could find your King...
+      When you found out that {Groom} was marrying his secret half-sister, you knew you had to stop it. Even if you couldn't say the reason why. Everything you do today, you do for the good of your son! He just doesn't know what is best right now, but you are confident he will come around. 
 
-      Last Night: Brought drinks, got Maid of Honor drunk. When she brought out the wedding ring you stole it. You threw it in the trash just before getting to the wedding today.
-      You didn't drink a drop.
-    information: You brought the nicer boxed wine to the Bachelorette party.
+      Last Night: You were are the bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Bride}, and {Photographer}. Brought drinks, got Maid of Honor drunk. You lead everyone on a wild night of the Casino, Pole Dancing and car hooning. {Flowergirl} left when y'all got to the casino.
+      When {Maid of Honor} brought out the wedding ring you stole it. You threw it in the trash just before getting to the wedding today.
+      You didn't drink a drop last night.
+    #TODO the ring needs a more complicated journey than "in the trash"
+    information: You brought the nicer boxed wine to the Bachelorette party and made it a real party.
     optional: false
     secret: 20 years ago you had an affair with Bride's Father.
     shortDescription: The Queen that runs this town. Knows where the bodies are buried, but will never tell. Everyone respects her.
@@ -687,8 +687,7 @@ players:
     powers:
       - name: We haven't caught up in ages
         description: >-
-          If you sustain a conversation for a minute with at least two other players simultaneously, each player in the conversation needs to reveal their information to everyone
-          else in conversation (you included.)
+          If you sustain a conversation for a minute with at least two other players simultaneously, each player in the conversation needs to reveal their information to everyone else in conversation (you included.)
         usages: 3
       - name: They are a thief!
         description: Give an item to an Organiser and name a player. The organiser will anonymously give them this item.
@@ -697,7 +696,7 @@ players:
         description: 'If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.'
         usages: 3
     goals:
-      - name: Stop the Wedding!
+      - name: Make sure {Groom} and {Bride} do NOT get married!
         description: 'While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get.'
       - name: Don't let anyone know you took the BIG rings at the Bachelorette party
         description: 'You threw them in the trash, but people are putting together the dots from last night.'
@@ -705,6 +704,9 @@ players:
         description: Weddings (even ones that need stopping) are so romantic. Maybe the love of your life is in the crowd. Find them and lock that shit down, you are too old to play games.
       - name: '{Flowergirl} is in need of a mother figure'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
+      - name: Catch the bouquet
+        description: It would be ever so romantic...
+      #TODO needs a meatier side plot to consume. I reckon a new one. Maybe a new Item play?
     otherPeople:
       - playerTitle: Flowergirl
         alignment: +
@@ -744,13 +746,13 @@ players:
   - title: Drunk Uncle
     lastName: Marolla
     firstName: Wayne
-    blurb: >-
+    blurb: |-
       Life's a laugh, isn't it? You are just here to have a good time. Why does everyone have to be such a downer about everything all the time?
       You have fixed it so this is gonna the best wedding ever. Just gotta ride it out.
 
-      Last Night: You were at the Bachelor party. You wanted to treat everyone so you paid for drinks on the pub crawl the whole night and also the hotel afterwards. You didn't
-      stay until the end because you got a bit too drunk. You were planning on setting everyone up with strippers at the hotel, but you never got a chance to set it up.
+      Last Night: You were at the Bachelor party. {Best Man}, {Groom}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You wanted to treat everyone so you paid for drinks on the pub crawl the whole night and also the hotel afterwards. You got a bit too drunk and passed out as soon as you got to the hotel. You were planning on setting everyone up with strippers at the hotel, but you never got a chance.
     information: The Groom's father died in drag race 2 years ago.
+    #TODO this information sucks. it doens't matter
     optional: false
     secret: You are filthy rich.
     shortDescription: He's maybe had a few too many. Started stumbling around and saying weird things. Every wedding has one.
@@ -780,6 +782,8 @@ players:
         description: Save the family money. You are loaded and you whilst you don't want anyone to know, you also don't want to lose the fortune to some floozy.
       - name: Hide your wealth
         description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Marriage Officiant}.'
+      - name: Catch the bouquet
+        description: Bit of a laugh, eh?
     otherPeople:
       - playerTitle: Groom
         alignment: '-'
@@ -809,14 +813,13 @@ players:
   - title: Dog
     lastName: 'the Wonder Dog'
     firstName: Lucky
-    blurb: >-
+    blurb: |-
       Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.
       You hope to one day reverse this curse, but its probably not happening soon. Plus this dog life is pretty good, no need to rush it.
       You got a job as a stunt dog on a TV show called WoWza and then left that to live with {Bride's Father}.
       (You are a dog and like most dogs, you cannot speak English. No talking).
 
-      Last night: It was the bachelor party. {Groom}, {Best Man}, {Drunk Uncle}, {Wedding Planner}, and {Bride's Father} were there. The humans grabbed {Groom} from his bed, black bagged and took him on an 8
-      hour pub crawl. Each bar was great. Everyone gave you pats and treats made lots of noise! You ended up at a hotel and everyone went to their rooms and you slept on the floor in the hallway. Nobody looked good the next day.
+      Last night: It was the bachelor party. {Groom}, {Best Man}, {Drunk Uncle}, {Wedding Planner}, and {Bride's Father} were there. The humans grabbed {Groom} from his bed, black bagged and took him on an 8 hour pub crawl. Each bar was great. Everyone gave you pats and treats made lots of noise! You ended up at a hotel and everyone went to their rooms and you slept on the floor in the hallway. Nobody looked good the next day.
     information: >-
       {Groom} and {Best Man} stayed in the same hotel room after the bucks.
     optional: true
@@ -848,6 +851,7 @@ players:
         description: They must like playing together!
       - name: Find a way to get back to your old owner
         description: 'If you could only explain who they were, or had a picture, someone might take you back to them.'
+        #TODO is there a lead here?
       - name: Catch the bouquet
         description: Catch? That's my favourite!
       - name: Be a good dog
@@ -886,12 +890,12 @@ players:
   - title: Photographer
     lastName: Joint
     firstName: Mungo
-    blurb: >-
+    blurb: |-
       Most days you just sit alone in your apartment in the dark. You watch TV, but don't pay attention enough to remember. You cook, but all food tastes like ash so you mostly just have tinned soup.
       Some days, the phone rings. Someone wants you to take pictures of their wedding. You always say yes. Gotta pay for the soup.
       This is weird wedding though. It actually intrigues you. Finally... something.
-      
-      Last Night: You were hired to join the Bachelorette party. Strange but they are country folk. You got some great shots, the Maid of Honor was super blasted, and the
+
+      Last Night: You were hired to join the Bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Bride}, and {Bride}. Strange but they are country folk. You got some great shots, the Maid of Honor was super blasted, and the
       Flowergirl would not let herself be photographed.
     information: You heard there is an off duty cop at the wedding.
     optional: true
@@ -910,8 +914,7 @@ players:
         usages: 3
       - name: What are we all talking about?
         description: >-
-          Interrupt another private conversation between two people, and get them to ask you to go away. If you manage this, those players must show you their other people section
-          for the character of your choice.
+          Interrupt another private conversation between two people, and get them to ask you to go away. If you manage this, those players must show you their other people section for the character of your choice.
         usages: 3
     goals:
       - name: Object at the wedding!
@@ -921,6 +924,7 @@ players:
       - name: 'Get a photo of {Flowergirl} doing something illegal (Use you phone)'
         description: >-
           {Flowergirl} didn't want their photo taken at the Bachelorette party. Weird.
+      #TODO needs more, but they are super optional so whatevs
     otherPeople:
       - playerTitle: Best Man
         alignment: +
@@ -1001,22 +1005,22 @@ items:
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a very short period (it's light beer).
     limitedUses: 1
   - name: You are the Bride
-    description: Not an Item. You are the Bride. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it.
+    description: Not an Item. You are the Bride. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Groom
-    description: Not an Item. You are the Groom. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it.
+    description: Not an Item. You are the Groom. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Best Man
-    description: Not an Item. You are the Best Man. This card cannot change hands unless the current Groom chooses to take it and hand it over and the receiver accepts it.
+    description: Not an Item. You are the Best Man. This card cannot change hands unless the current Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Maid of Honor
-    description: Not an Item. You are the Maid of Honor. This card cannot change hands unless the current Bride chooses to take it and hand it over and the receiver accepts it.
+    description: Not an Item. You are the Maid of Honor. This card cannot change hands unless the current Bride chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Flowergirl
-    description: Not an Item. You are the Flowergirl. This card cannot change hands unless the current Bride or Groom chooses to take it and hand it over and the receiver accepts it.
+    description: Not an Item. You are the Flowergirl. This card cannot change hands unless the current Bride or Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Marriage Officiant
-    description: Not an Item. You are the Marriage Officiant. This card cannot change hands unless the current Bride AND Groom chooses to take it and hand it over and the receiver accepts it.
+    description: Not an Item. You are the Marriage Officiant. This card cannot change hands unless the current Bride AND Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are drunk
     description: You are drunk. Act like it. You cannot use any abilities. You remain drunk until an organiser takes this card away.
