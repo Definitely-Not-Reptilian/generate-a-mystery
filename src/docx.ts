@@ -22,7 +22,7 @@ export class DocX {
     const zip = new PizZip(content);
     const doc = new Docxtemplater();
     doc.loadZip(zip)
-      .setOptions({ parser: angularParser });
+      .setOptions({ parser: angularParser, linebreaks: true });
 
     doc.setData(data);
 

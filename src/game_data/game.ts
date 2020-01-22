@@ -6,6 +6,7 @@ import { Item } from './item';
 
 export class Game {
   name: string;
+  blurb: string;
   @Type(() => Player)
   players: Player[] = [];
   @Type(() => Plot)
@@ -30,7 +31,7 @@ export class Game {
     return printables;
   }
   public getPlayer(title: string, nullable: boolean = false) {
-    const player = this.players.find((player) => player.title === title);
+    const player = this.players.find((p) => p.title === title);
     if (!player && !nullable) {
       console.warn('tried to get player', title, 'but they dont exist. A probable misspelling');
     }
