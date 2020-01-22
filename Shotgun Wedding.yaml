@@ -5,9 +5,12 @@ players:
     lastName: Marolla
     firstName: Chad
     blurb: >-
+      Life is easy for {Groom fullname}. No one know that better than {Groom fullname}. Thats you. You are {Groom fullname}. Nice!
+      A bit ago you met {Bride} and liked her well enough. She nagged enough to get married, and your figured "Sure. Sounds easy.".
+      But it's all going a bit wrong. Ehh, things usually work out for the best when you are {Groom fullname}. Don't stress it.
       Last Night: It was your bachelor party. {Best Man}, {Drunk Uncle}, {Wedding Planner}, {Bride’s Father}, and {Dog} were there. You were grabbed from your bed, black bagged and taken on a 8
-      hour pub crawl. You had to drink everytime anyone else did and got pretty blasted. Bride's Father left at some point, you think he was worse than you. You all went to a
-      hotel, and were told there would be some 'friends' coming voer soon by your Drunk Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you
+      hour pub crawl. You had to drink everytime anyone else did and got pretty blasted. {Bride's Father} left at some point, you think he was worse than you. You all went to a
+      hotel, and were told there would be some 'friends' coming over soon by your Uncle. They never rocked up, and as you sat talking to your Best Man you realised that you
       hadn't experienced all there was in the single life yet. The sex was fantastic. You still love your bride and want to get married.
     information: '{Drunk Uncle} gave me a huge cash gift before the wedding.'
     optional: false
@@ -104,6 +107,8 @@ players:
     lastName: Castro
     firstName: Corolla
     blurb: >-
+      Every since you were little, you loved a wedding. You got to be the Flowergirl for your cousin's friend's mother's wedding when you were young and loved it.
+      You met {Groom} and convinced him to ask so now it is your turn and it WILL BE P E R F E C T!!!
       Last Night: It was your Bachelorette party. You asked for a night in of party games & Rom Coms but the Maid of Honor had other plans. She and the Groom's Mother rocked up,
       drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honor puked over your favourite party dress and you yelled at her
       for ruining your bachelorette party.
@@ -196,6 +201,7 @@ players:
     lastName: Belmont
     firstName: Gemini
     blurb: >-
+      You suffer no fools. Too bad the fools are all you can get in this wasteland. You like {Bride} well enough. More like her please. You figured this wedding would be a good last hurra before you bailed on this town forever, and you are just hoping it goes well.
       Last Night: You attended the Bachorette party. You had planned for it to be a night in of party games and romcoms, but the Groom’s Mother had other ideas. She brought a bunch
       of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You have a
       massive headache and have vowed to never drink again. After the wedding.
@@ -218,7 +224,7 @@ players:
         usages: 2
     goals:
       - name: Don't get married
-        description: 'Make sure the Bride makes it down the aisle in one piece, you definitly dont want to accidently get married.'
+        description: 'Make sure the Bride makes it down the aisle in one piece, you definitely don\'t want to accidentally get married.'
       - name: Find the ring before anyone else
         description: 'You lost it, so you must find it to restore {Bride}''s faith in you. Someone must of seen it after last night.'
       - name: Make {Flowergirl} act her age
@@ -270,6 +276,8 @@ players:
     lastName: Bennie
     firstName: Mercedes
     blurb: >-
+      There are two kinds of people in this world. Rubes and You. (Takes a long drag of the cigarette) 😎.You might be 12 years old, but you've lived longer than anybody you know.
+      You have to be here, but maybe you can make it worth your while.
       Last Night: You were too young to be there, but someone had to make it a real party. You gave the Maid of Honor a small dose of Ketamine and she took it hard. Oops. You
       werent allowed in the Casino, so you left and made a few sales.
     information: I saw the Maid of Honor trying on the wedding ring at the bachelorette party.
@@ -347,7 +355,10 @@ players:
   - title: Marriage Officiant
     lastName: Smith
     firstName: Robin
-    blurb: 'Last Night: You were not at either of the Bachelor or Bachelorette parties, but everyone seems real hung over.'
+    blurb: >-
+      Your mother always told you to act proper. You figured marriage was a good career for creating order. But you came out from the big city for this?!?!
+      Maybe something can be done to teach these Bogans how they are meant to be.
+      Last Night: You were not at either of the Bachelor or Bachelorette parties, but everyone seems real hung over.
     information: '{Wedding Planner} is married, but didn''t bring their partner.'
     optional: false
     secret: 'You have been paid $15,000 anonymously to make sure this wedding goes ahead.'
@@ -416,6 +427,7 @@ players:
     lastName: Torana
     firstName: Dave
     blurb: >-
+      You always worked very hard on your appearance. You wanted people to like you. But even your off days {Groom} still liked you and that made things easier. When the wedding came up, you were so happy for him. Everything is looking like sunshine and rainbows.
       Last night: You were at the Bachelor party. You kidnapped the Groom and brought him on the greatest pub crawl of all time. You went light on the drinks because you wanted to
       be sharp for your best friend’s wedding the next day. After the last bar you all went back to a hotel and you and the Groom and you split a room. One thing led to another and
       you both boned down. Hard. It was something you had always thought about, but didn’t think would ever happen. Everyone thinks you got strippers for the night, and you’ve
@@ -483,6 +495,8 @@ players:
     lastName: Singer
     firstName: Malibu
     blurb: >-
+      The whole world seems to be against you. You are always so kind, but *gosh*, things just never seem to go your way. 😢.
+      Maybe today is the day everything turns around? Yeah... maybe everything is coming up {Wedding Planner}! 😁
       Last Night: You had a great time at the bachelor party. You kidnapped {Groom}, went on a HUGE pub crawl, and even got lucky with a local lass, who you took back to the
       hotel that night.
     information: You got a one night stand at the last pub and brought them back to the hotel. From the banging on the walls it sounded like everyone else got lucky too.
@@ -512,7 +526,7 @@ players:
         usages: -1
     goals:
       - name: Interrupt the ceremony
-        description: 'Declare your love for {Bride}. Annouce she can''t marry someone else if she is already married. Make a big speech.'
+        description: 'Declare your love for {Bride}. Announce she can''t marry someone else if she is already married. Make a big speech.'
       - name: 'Stay married to {Bride}'
         description: Steal some private moments alone with her. Maybe she will remember the good old days.
       - name: Officiate this shingdig
@@ -559,6 +573,9 @@ players:
     lastName: Castro
     firstName: Sparkie
     blurb: >-
+      You just love Drugs! Uppers, Downers, and everything in between. The non-stop party has messed with your brain a bit, but fortunately you know a good, sensible, fix.
+      Ketamine. That is the exact thing you need right now to even you out. Just gotta score some K and everything will be great.
+      You also seem to be a wedding of some kind? What's that about? Oh, no... your little {Bride}. 😢😢😢😢😢. Keep it together {Brides Father}.
       Last Night: You were at the Bachelor party. You kidnapped the Groom and brought him on a pretty nice pub crawl. You managed to get quite turped up. Plus you found your dealer
       and scored some Ketamine. Rest of the night is pretty blurry but at one point everyone put you in a taxi to go home. You have woken up with a hangover, and are ready for a
       bonza wedding.
@@ -642,6 +659,8 @@ players:
     lastName: Marolla
     firstName: Vectra
     blurb: >-
+      You are the unofficial Queen of this town. Nothing happens without your say so and everyone respects that. And it is good to be the Queen.
+      Everything you do today, you do for the good of your son! He just doesn't know what is best right now, but you are confident he will come around.
       Last Night: Brought drinks, got Maid of Honor drunk. When she brought out the wedding ring you stole it. You threw it in the trash just before getting to the wedding today.
       You didn't drink a drop.
     information: You brought the nicer boxed wine to the Bachorette party.
@@ -713,6 +732,8 @@ players:
     lastName: Marolla
     firstName: Wayne
     blurb: >-
+      Life's a laugh, isn't it? You are just here to have a good time. Why does everyone have to be such a downer about everything all the time?
+      You have fixed it so this is gonna the best wedding ever. Just gotta ride it out.
       Last Night: You were at the Bachelor party. You wanted to treat everyone so you paid for drinks on the pub crawl the whole night and also the hotel afterwards. You didn’t
       stay until the end because you got a bit too drunk. You were planning on setting everyone up with strippers at the hotel, but you never got a chance to set it up.
     information: The Groom's father died in drag race 2 years ago.
@@ -777,6 +798,10 @@ players:
     blurb: >-
       Cursed by a wizard, you roam the lands in search of your true form once again, you have the intelligence of a man but the form of a dog.
       You hope to one day reverse this curse, but its probably not happening soon. Plus this dog life is pretty good, no need to rush it.
+      You got a job as a stunt dog on a TV show called WoWza and then left that to live with {Bride's Father}.
+      Last night: It was the bachelor party. {Groom}, {Best Man}, {Drunk Uncle}, {Wedding Planner}, and {Bride’s Father} were there. The humans grabbed {Groom} from his bed, black bagged and took him on an 8
+      hour pub crawl. Each bar was great. Everyone gave you pats and treats made lots of noise! You ended up at a hotel and everyone went to their rooms and you slept on the floor in the hallway. Nobody looked good the next day.
+    information: '{Drunk Uncle} gave me a huge cash gift before the wedding.'
     information: >-
       {Groom} and {Best Man} stayed in the same hotel room after the bucks.
     optional: true
@@ -847,6 +872,9 @@ players:
     lastName: Joint
     firstName: Mungo
     blurb: >-
+      Most days you just sit alone in your apartment in the dark. You watch TV, but don't pay attention enough to remember. You cook, but all food tastes like ash so you mostly just have tinned soup.
+      Some days, the phone rings. Someone wants you to take pictures of their wedding. You always say yes. Gotta pay for the soup.
+      This is weird wedding though. It actually intrigues you. Finally... something.
       Last Night: You were hired to join the Bachelorette party. Strange but they are country folk. You got some great shots, the Maid of Honor was super blasted, and the
       Flowergirl would not let herself be photographed.
     information: You heard there is an off duty cop at the wedding.
@@ -866,12 +894,12 @@ players:
         usages: 3
       - name: What are we all talking about?
         description: >-
-          Interupt another private conversation between two people, and get them to ask you to go away. If you manage this, those players must show you their other people section
+          Interrupt another private conversation between two people, and get them to ask you to go away. If you manage this, those players must show you their other people section
           for the character of your choice.
         usages: 3
     goals:
       - name: Object at the wedding!
-        description: There is definitly something fishy going on here. If you find evidence make sure to object and explain the whole travesty.
+        description: There is definitely something fishy going on here. If you find evidence make sure to object and explain the whole travesty.
       - name: 'Find out why the {Drunk Uncle} gave {Groom} a large sum of money'
         description: Confront them and try to find why money is changing hands.
       - name: 'Get a photo of {Flowergirl} doing something illegal (Use you phone)'
