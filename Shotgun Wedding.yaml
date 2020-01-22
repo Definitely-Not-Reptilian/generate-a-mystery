@@ -224,7 +224,7 @@ players:
         usages: 2
     goals:
       - name: Don't get married
-        description: 'Make sure the Bride makes it down the aisle in one piece, you definitely don\'t want to accidentally get married.'
+        description: 'Make sure the Bride makes it down the aisle in one piece, you definitely don''t want to accidentally get married.'
       - name: Find the ring before anyone else
         description: 'You lost it, so you must find it to restore {Bride}''s faith in you. Someone must of seen it after last night.'
       - name: Make {Flowergirl} act her age
@@ -555,11 +555,11 @@ players:
         alignment: '-'
         strength: Weak
         words: >-
-        {Bride}'s foster sister. She was always stomping around the house in a huff when you visited.
+          {Bride}'s foster sister. She was always stomping around the house in a huff when you visited.
       - playerTitle: Groom
         alignment: '-'
         strength: Weak
-        words: You can't believe {Groom} is trying to steal {Bride} away, so what if he benches 200kg? He couldnt hold up 1 minute of conversation.
+        words: You can't believe {Groom} is trying to steal {Bride} away, so what if he benches 200kg? He couldn't hold up 1 minute of conversation.
       - playerTitle: Groom's Mother
         alignment: +
         strength: Weak
@@ -568,7 +568,7 @@ players:
         alignment: +
         strength: Weak
         words: >-
-        {Bride}'s best friend, you have heard they are a steadfast badass, but have never met.
+          {Bride}'s best friend, you have heard they are a steadfast badass, but have never met.
   - title: Bride's Father
     lastName: Castro
     firstName: Sparkie
@@ -618,17 +618,17 @@ players:
         alignment: '-'
         strength: Strong
         words: >-
-        {Bride} is getting married. Today! It only felt like days ago that she was your little girl who needed sheltering from the world. What happened to those days.
+          {Bride} is getting married. Today! It only felt like days ago that she was your little girl who needed sheltering from the world. What happened to those days.
       - playerTitle: Groom
         alignment: '-'
         strength: Strong
         words: >-
-        Well at least you know {Bride} has no Father issues, {Groom} is about as dis-similiar to you as you could imagine. Who could be so relaxed at their own wedding?
+          Well at least you know {Bride} has no Father issues, {Groom} is about as dis-similiar to you as you could imagine. Who could be so relaxed at their own wedding?
       - playerTitle: Wedding Planner
         alignment: +
         strength: Strong
         words: >-
-        {Wedding Planner} would often visit {Bride} after {Maid of Honor} left for police training. She needs friends. You would often stay up late chatting to {Wedding Planner} and you know you can trust them.
+          {Wedding Planner} would often visit {Bride} after {Maid of Honor} left for police training. She needs friends. You would often stay up late chatting to {Wedding Planner} and you know you can trust them.
       - playerTitle: Dog
         alignment: +
         strength: Weak
@@ -650,7 +650,7 @@ players:
         alignment: '-'
         strength: Weak
         words: >-
-        {Maid of Honor} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
+          {Maid of Honor} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
       - playerTitle: Marriage Officiant
         alignment: +
         strength: Weak
@@ -801,7 +801,6 @@ players:
       You got a job as a stunt dog on a TV show called WoWza and then left that to live with {Bride's Father}.
       Last night: It was the bachelor party. {Groom}, {Best Man}, {Drunk Uncle}, {Wedding Planner}, and {Bride’s Father} were there. The humans grabbed {Groom} from his bed, black bagged and took him on an 8
       hour pub crawl. Each bar was great. Everyone gave you pats and treats made lots of noise! You ended up at a hotel and everyone went to their rooms and you slept on the floor in the hallway. Nobody looked good the next day.
-    information: '{Drunk Uncle} gave me a huge cash gift before the wedding.'
     information: >-
       {Groom} and {Best Man} stayed in the same hotel room after the bucks.
     optional: true
