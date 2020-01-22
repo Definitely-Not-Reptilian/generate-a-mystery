@@ -938,19 +938,23 @@ players:
 items:
   - name: '$15,000 Cash'
     description: A lot of money neatly rolled up. Dolla Dolla bills, y'all!
+    startsWith: Marriage Officiant
   - name: Certificate of Marriage
     description: 'It says that {Bride} and {Wedding Planner} was married 2 years ago. It''s still valid.'
+    startsWith: Wedding Planner
   - name: Certificate of Marriage (Annulled)
     description: 'It says that {Bride} and {Wedding Planner} was married 2 years ago. It''s has been annulled recently.'
   - name: Blue drugs
     description: 'This stuff will mess you up! If someone eats or drink something you provide them, show this to the Organiser and they will be inebriated for a time.'
     limitedUses: 3
+    startsWith: Flowergirl
   - name: Ultrasound
     description: It shows a 3 month old baby. This counts as 'something new'
   - name: Photos of bachelorette party
     description: 'These photos show {Bride} and {Grooms Mother} pole dancing. It also shows {Maid of Honor} wearing a BIG wedding ring.'
   - name: Dog bone
     description: Delicious... for a dog! This counts as 'something borrowed'
+    startsWith: Dog
   - name: Scissors
     description: >-
       Tell an Organiser you wish to cut up someone's invitation (other than the Bride and Groom). They will be uninvited, preventing them from attending the ceremony. Then this item
@@ -965,17 +969,44 @@ items:
     description: The most plain wedding rings you can imagine. Boring but might do in a pinch.
   - name: Victoria Bitters
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+    limitedUses: 1
   - name: Hammer and Tongs
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+    limitedUses: 1
   - name: Rivet Ale
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+    limitedUses: 1
   - name: XXXX Gold
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+    limitedUses: 1
   - name: Carlton Mid
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a period.
+    limitedUses: 1
   - name: Cascade Premium
     description: Tell an organiser you wish to share this crisp beverage with another player. They become intoxicated for a very short period (it's light beer).
-  
+    limitedUses: 1
+  - name: You are the Bride
+    description: Not an Item. You are the Bride. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it.
+    type: Role
+  - name: You are the Groom
+    description: Not an Item. You are the Groom. This card cannot change hands unless the current owner chooses to hand it over and the receiver accepts it.
+    type: Role
+  - name: You are the Best Man
+    description: Not an Item. You are the Best Man. This card cannot change hands unless the current Groom chooses to take it and hand it over and the receiver accepts it.
+    type: Role
+  - name: You are the Maid of Honor
+    description: Not an Item. You are the Maid of Honor. This card cannot change hands unless the current Bride chooses to take it and hand it over and the receiver accepts it.
+    type: Role
+  - name: You are the Flowergirl
+    description: Not an Item. You are the Flowergirl. This card cannot change hands unless the current Bride or Groom chooses to take it and hand it over and the receiver accepts it.
+    type: Role
+  - name: You are the Marriage Officiant
+    description: Not an Item. You are the Marriage Officiant. This card cannot change hands unless the current Bride AND Groom chooses to take it and hand it over and the receiver accepts it.
+    type: Role
+  - name: You are drunk
+    description: You are drunk. Act like it. You cannot use any abilities. You remain drunk until an organiser takes this card away.
+    duplicates: 3
+    type: Status
 plots:
   - name: Inciting incident A
     playerTitles:
