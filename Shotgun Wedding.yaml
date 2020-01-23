@@ -112,10 +112,10 @@ players:
       Every since you were little, you loved a wedding. You got to be the Flowergirl for your cousin's friend's mother's wedding when you were young and loved it.
       You met {Groom} and convinced him to ask so now it is your turn and it WILL BE P E R F E C T!!!
 
-      Last Night: It was your Bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You asked for a night in of party games & Rom Coms but {Maid of Honor} had other plans. She and {Groom's Mother} rocked up, drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honor puked over your favourite party dress and you yelled at her for ruining your bachelorette party.
-      Somewhere in the calamity, {Maid of Honor} lost the ring.
+      Last Night: It was your Bachelorette party. It was you, {Maid of Honour}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You asked for a night in of party games & Rom Coms but {Maid of Honour} had other plans. She and {Groom's Mother} rocked up, drunk as skunks. You went to a Casino, Pole Dancing and then did donuts in a local parking lot. The Maid of Honour puked over your favourite party dress and you yelled at her for ruining your bachelorette party.
+      Somewhere in the calamity, {Maid of Honour} lost the ring.
     information: >-
-      {Maid of Honor} got hammered last night.
+      {Maid of Honour} got hammered last night.
     optional: false
     secret: You are 3 months pregnant.
     shortDescription: She knows what kind of wedding she wants, and that's the kind of wedding we are having! NO EXCEPTIONS!
@@ -194,12 +194,12 @@ players:
         strength: Weak
         words: |-
           The cheapest photographer you could find. You want a perfect wedding, but any rube can push buttons on a camera. They are everywhere.
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: '+'
         strength: Weak
         words: |-
-          Your maid of honor and best friend. She has only recently returned from police academy and you just want her close by on this important day. Just like back at school.
-  - title: Maid of Honor
+          Your Maid of Honour and best friend. She has only recently returned from police academy and you just want her close by on this important day. Just like back at school.
+  - title: Maid of Honour
     lastName: Belmont
     firstName: Gemini
     blurb: |-
@@ -235,7 +235,7 @@ players:
       - name: Make {Flowergirl} act her age
         description: '{Flowergirl} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
-        description: 'If you are the maid of honor its only natural you get with the Best Man, whomever that is...'
+        description: 'If you are the Maid of Honour its only natural you get with the Best Man, whomever that is...'
       - name: Don't work on your day off
         description: 'You are an off-duty cop, you absolutely refuse to do any police work at this wedding.'
       - name: Catch the bouquet
@@ -274,7 +274,7 @@ players:
         alignment: +
         strength: Weak
         words: >-
-          {Wedding Planner} is {Bride}'s other best friend. These is a friendly rivalry that has developed over the years, and it seems that as maid of honor, you have won.
+          {Wedding Planner} is {Bride}'s other best friend. These is a friendly rivalry that has developed over the years, and it seems that as Maid of Honour, you have won.
       - playerTitle: Bride
         alignment: +
         strength: Weak
@@ -286,8 +286,8 @@ players:
       There are two kinds of people in this world. Rubes and You. (Takes a long drag of the cigarette) 😎.You might be 12 years old, but you've lived longer and harder than anybody you know.
       You have to be here, but maybe you can make it worth your while.
 
-      Last Night: You were at the bachelorette party. It was you, {Maid of Honor}, {Bride}, {Groom's Mother}, and {Photographer}. You were too young to be there, but someone had to make it a real party. You gave {Maid of Honor} a small dose of Ketamine and she took it hard. Oops. You weren't allowed in the Casino, so you left and made a few sales. Everyone else was too drunk to care that you bailed.
-    information: I saw {Maid of Honor} trying on the wedding ring at the bachelorette party.
+      Last Night: You were at the bachelorette party. It was you, {Maid of Honour}, {Bride}, {Groom's Mother}, and {Photographer}. You were too young to be there, but someone had to make it a real party. You gave {Maid of Honour} a small dose of Ketamine and she took it hard. Oops. You weren't allowed in the Casino, so you left and made a few sales. Everyone else was too drunk to care that you bailed.
+    information: I saw {Maid of Honour} trying on the wedding ring at the bachelorette party.
     optional: false
     secret: I run the entire town's drug trade.
     shortDescription: She's 12 but everyone knows better than to treat her like a 12 year old. Punk AF and will burn this all down on a whim.
@@ -314,7 +314,7 @@ players:
           Get uninvited from the wedding, this dress is not your style. If you can't get uninvited at least sigh everytime it takes longer because of an interuption.
       - name: Find a reason {Bride} can't marry
         description: She has to have some skeletons in her closet. You certainly do at this age.
-      - name: Sabotage {Maid of Honor}'s every move
+      - name: Sabotage {Maid of Honour}'s every move
         description: 'She tried to have you taken away, and you ended up on the streets. Now she is gonna pay.'
       - name: End the wedding with as much valuables as possible
         description: 'Sell some drugs. {Brides Father} never pays, it''s now $1000 a hit for that loser. Perhaps someone else will buy?'
@@ -329,7 +329,7 @@ players:
         alignment: +
         strength: Strong
         words: She looks like a doll all dressed up but you can't deny she knows how to kick ass and get things done. She must be hella loaded...
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: +
         strength: Strong
         words: She used to be your babysitter, then when she left for police academy. Your parents couldn't handle you, got drunk and then died in a car crash. Why did she leave, why would she let them die like that!
@@ -364,7 +364,7 @@ players:
       - playerTitle: Wedding Planner
         alignment: '-'
         strength: Weak
-        words: Often visited {Bride} when {Maid of Honor} was away. Didn't take up your offer to 'cater' for the wedding. Shame.
+        words: Often visited {Bride} when {Maid of Honour} was away. Didn't take up your offer to 'cater' for the wedding. Shame.
   - title: Marriage Officiant
     lastName: Smith
     firstName: Robin
@@ -434,7 +434,7 @@ players:
         alignment: +
         strength: Weak
         words: When you were told there would be a dog at the wedding you presumed a mangey old thing, dirtying the decorations. {Dog} however is an absolutely lovely and well behaved creature! 
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: +
         strength: Weak
         words: She is one of the few that are trying to keep everything from falling apart. A practical lady. She just might be your only ally in fixing this wedding.
@@ -486,11 +486,11 @@ players:
         alignment: +
         strength: Strong
         words: Last night at the Bachelor party fulfilled a long lasting dream for you. You now know {Groom} is the one. I'm sure he feels the same way, after all you've never had a problem getting others to love you back when you put your charm on.
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: '-'
         strength: Strong
         words: >-
-          {Maid of Honor} is fiery, which in your world means trouble. She is not your type, and you think keeping a big distance is a solid idea, but you've had to date worse to keep your secrets in the past.
+          {Maid of Honour} is fiery, which in your world means trouble. She is not your type, and you think keeping a big distance is a solid idea, but you've had to date worse to keep your secrets in the past.
       - playerTitle: Marriage Officiant
         alignment: '-'
         strength: Strong
@@ -596,7 +596,7 @@ players:
         alignment: +
         strength: Weak
         words: She's so controlling that she might turn {Bride} off {Groom}. What a nightmare.
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: +
         strength: Weak
         words: >-
@@ -661,7 +661,7 @@ players:
         alignment: +
         strength: Strong
         words: >-
-          {Wedding Planner} would often visit {Bride} after {Maid of Honor} left for police training. She needs friends. You would often stay up late chatting to {Wedding Planner} and you know you can trust them.
+          {Wedding Planner} would often visit {Bride} after {Maid of Honour} left for police training. She needs friends. You would often stay up late chatting to {Wedding Planner} and you know you can trust them.
       - playerTitle: Dog
         alignment: +
         strength: Weak
@@ -679,11 +679,11 @@ players:
         alignment: '-'
         strength: Weak
         words: When {Bride} introduced you to {Groom} you wouldn't have guessed she was {Groom's Mother}'s son. She still looks amazing! Just like she did during high school when you had dated for a week. I wonder if she would like to ignite old flames? 
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: '-'
         strength: Weak
         words: >-
-          {Maid of Honor} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
+          {Maid of Honour} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
       - playerTitle: Marriage Officiant
         alignment: +
         strength: Weak
@@ -695,8 +695,8 @@ players:
       You are the unofficial Queen of this town. Nothing happens without your say so and everyone respects that. And it is good to be the Queen. If only you could find your King...
       When you found out that {Groom} was marrying his secret half-sister, you knew you had to stop it. Even if you couldn't say the reason why. Everything you do today, you do for the good of your son! He just doesn't know what is best right now, but you are confident he will come around. 
 
-      Last Night: You were are the bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Bride}, and {Photographer}. You brought the drinks, and deliberatly got {Maid of Honor} drunk. You lead everyone on a wild night of the Casino, Pole Dancing and car hooning. {Flowergirl} left when y'all got to the casino.
-      When {Maid of Honor} brought out the wedding ring at the casino, you realised it was your chance to sabotage the wedding. You stole the ring and threw it in the trash just before getting to the wedding today.
+      Last Night: You were are the bachelorette party. It was you, {Maid of Honour}, {Flowergirl}, {Bride}, and {Photographer}. You brought the drinks, and deliberatly got {Maid of Honour} drunk. You lead everyone on a wild night of the Casino, Pole Dancing and car hooning. {Flowergirl} left when y'all got to the casino.
+      When {Maid of Honour} brought out the wedding ring at the casino, you realised it was your chance to sabotage the wedding. You stole the ring and threw it in the trash just before getting to the wedding today.
       You didn't drink a drop last night.
     information: You brought the nicer boxed wine to the Bachelorette party and made it a real party.
     optional: false
@@ -753,7 +753,7 @@ players:
         strength: Weak
         words: >-
           He's ya son. Ya love ya son, don't ya? Of course. He is the most special, most handsome, most interesting person ever. Even if others say he's a bit boring. You would do anything for him. 
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: '-'
         strength: Weak
         words: >-
@@ -812,7 +812,7 @@ players:
         strength: Strong
         words: >-
           Ya nephew. Ya love ya nephew, don't ya? You want him to be happy, but that idiot might just sink this whole empire. Your money is worth too much to you to for him to get married without signing the pre-nup.
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: +
         strength: Strong
         words: >-
@@ -920,7 +920,7 @@ players:
       Some days, the phone rings. Someone wants you to take pictures of their wedding. You always say yes. Gotta pay for the soup.
       This is weird wedding though. It actually intrigues you. Finally... something.
 
-      Last Night: You were hired to join the Bachelorette party. It was you, {Maid of Honor}, {Flowergirl}, {Bride}, and {Bride}. Strange but they are country folk. You got some great shots, the Maid of Honor was super blasted, and the
+      Last Night: You were hired to join the Bachelorette party. It was you, {Maid of Honour}, {Flowergirl}, {Bride}, and {Bride}. Strange but they are country folk. You got some great shots, the Maid of Honour was super blasted, and the
       Flowergirl would not let herself be photographed.
     information: You heard there is an off duty cop at the wedding.
     optional: true
@@ -970,7 +970,7 @@ players:
         alignment: '-'
         strength: Weak
         words: She was the first one to arrive at the bachelorette party with a bunch of bags. She holds her booze well.
-      - playerTitle: Maid of Honor
+      - playerTitle: Maid of Honour
         alignment: +
         strength: Weak
         words: Was absolutely smashed at the bachelorette party. You have photos of her to prove it.
@@ -996,7 +996,7 @@ items:
     startsWith: Bride
   - name: Photos of bachelorette party
     description: >-
-      These photos show {Bride} and {Groom's Mother} pole dancing. It also shows {Maid of Honor} wearing a BIG wedding ring.
+      These photos show {Bride} and {Groom's Mother} pole dancing. It also shows {Maid of Honour} wearing a BIG wedding ring.
     startsWith: Flowergirl  # or Photographer
   - name: Dog bone
     description: Delicious... for a dog! This counts as 'something borrowed'.
@@ -1051,8 +1051,8 @@ items:
   - name: You are the Best Man
     description: Not an Item. You are the Best Man. This card cannot change hands unless the current Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
-  - name: You are the Maid of Honor
-    description: Not an Item. You are the Maid of Honor. This card cannot change hands unless the current Bride chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
+  - name: You are the Maid of Honour
+    description: Not an Item. You are the Maid of Honour. This card cannot change hands unless the current Bride chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are the Flowergirl
     description: Not an Item. You are the Flowergirl. This card cannot change hands unless the current Bride or Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
@@ -1069,7 +1069,7 @@ plots:
     playerTitles:
       - Groom's Mother
       - Drunk Uncle
-      - Maid of Honor
+      - Maid of Honour
       - Photographer
   - name: Conspiracy B
     playerTitles:
@@ -1099,7 +1099,7 @@ plots:
       - Marriage Officiant
   - name: Feud G
     playerTitles:
-      - Maid of Honor
+      - Maid of Honour
       - Flowergirl
   - name: Dark past H
     playerTitles:
