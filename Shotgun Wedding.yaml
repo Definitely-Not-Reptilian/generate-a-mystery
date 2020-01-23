@@ -184,7 +184,7 @@ players:
         strength: Weak
         words: |-
           Maybe one day you'll grow to love him. You managed to trick this guy into asking you to marry him. Great job. Good thing too, because you are up the duff with his baby. You'll tell him eventually.
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: '-'
         strength: Weak
         words: |-
@@ -262,10 +262,10 @@ players:
         alignment: '-'
         strength: Weak
         words: You met for the first time at the Bachelorette party, and she was a wild animal. You and her got your drink on and you feel like you bonded over her daughter.
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: +
         strength: Weak
-        words: Where does {Bride} find these people. {Marriage Officiant} is so obviously out of place that you can't help but feel sorry for them.
+        words: Where does {Bride} find these people. {Priest} is so obviously out of place that you can't help but feel sorry for them.
       - playerTitle: Photographer
         alignment: +
         strength: Weak
@@ -333,10 +333,10 @@ players:
         alignment: +
         strength: Strong
         words: She used to be your babysitter, then when she left for police academy. Your parents couldn't handle you, got drunk and then died in a car crash. Why did she leave, why would she let them die like that!
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: '-'
         strength: Strong
-        words: You know police when you see one and {Marriage Officiant} is just square enough to be an undercover cop.
+        words: You know police when you see one and {Priest} is just square enough to be an undercover cop.
       - playerTitle: Best Man
         alignment: '-'
         strength: Weak
@@ -365,7 +365,7 @@ players:
         alignment: '-'
         strength: Weak
         words: Often visited {Bride} when {Maid of Honour} was away. Didn't take up your offer to 'cater' for the wedding. Shame.
-  - title: Marriage Officiant
+  - title: Priest
     lastName: Smith
     firstName: Robin
     blurb: |-
@@ -474,7 +474,7 @@ players:
       - name: Rekindle {Wedding Planner}'s old love
         description: >-
           {Wedding Planner} seemed real broken up at the bucks about an old flame. Help them.
-      - name: 'Get {Marriage Officiant} fired'
+      - name: 'Get {Priest} fired'
         description: They think they are better than us. Get {Groom} or someone else to kick them out of the wedding.
       - name: Act cool and get a photo with everyone
         description: Make sure everyone thinks you are cool by the end of the wedding. You are a cool guy after all.
@@ -491,7 +491,7 @@ players:
         strength: Strong
         words: >-
           {Maid of Honour} is fiery, which in your world means trouble. She is not your type, and you think keeping a big distance is a solid idea, but you've had to date worse to keep your secrets in the past.
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: '-'
         strength: Strong
         words: Pretty fit for his age, perhaps his harsh exterior is only an act for the job and with a little persuasion could be convinced to have some fun.
@@ -684,7 +684,7 @@ players:
         strength: Weak
         words: >-
           {Maid of Honour} went to police academy and left {Bride} all alone. She thinks she is so fancy with her degree and training. Pfft! Stupid cops! 
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: +
         strength: Weak
         words: A little preachy, but at least they think your bloodshot eyes are from lack of sleep.
@@ -738,7 +738,7 @@ players:
         strength: Strong
         words: >-
           You love this little tyrant. She knows what she wants, and knows just who and what to stomp on to get it. She reminds you of you when you were young.
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: '-'
         strength: Strong
         words: >-
@@ -803,7 +803,7 @@ players:
       - name: Get a pre-nup signed by the Groom and whomever he marries
         description: Save the family money. You are loaded and you whilst you don't want anyone to know, you also don't want to lose the fortune to some floozy. Find a lawyer, and get {Groom} to agree.
       - name: Hide your wealth
-        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Marriage Officiant}.'
+        description: 'Make sure no one realises, or talks about that it was you that gave money to {Groom} or {Priest}.'
       - name: Catch the bouquet
         description: Bit of a laugh, eh?
     otherPeople:
@@ -902,7 +902,7 @@ players:
         strength: Weak
         words: >-
           Smells like dirt and {Brides Father}. Never has treats for you. Great pats though. Mostly just ignores you. 
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: +
         strength: Weak
         words: >-
@@ -974,14 +974,14 @@ players:
         alignment: +
         strength: Weak
         words: Was absolutely smashed at the bachelorette party. You have photos of her to prove it.
-      - playerTitle: Marriage Officiant
+      - playerTitle: Priest
         alignment: +
         strength: Weak
         words: You saw them on the train into town. Must of come from the city to do this event, like you.
 items:
   - name: '$15,000 Cash'
     description: A lot of money neatly rolled up. Dolla Dolla bills, y'all!
-    startsWith: Marriage Officiant
+    startsWith: Priest
   - name: Certificate of Marriage
     description: 'It says that {Bride} and {Wedding Planner} was married 2 years ago. It''s still valid.'
     startsWith: Wedding Planner
@@ -1057,8 +1057,8 @@ items:
   - name: You are the Flowergirl
     description: Not an Item. You are the Flowergirl. This card cannot change hands unless the current Bride or Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
-  - name: You are the Marriage Officiant
-    description: Not an Item. You are the Marriage Officiant. This card cannot change hands unless the current Bride AND Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
+  - name: You are the Priest
+    description: Not an Item. You are the Priest. This card cannot change hands unless the current Bride AND Groom chooses to take it and hand it over and the receiver accepts it. Tell the organiser if it changes hands.
     type: Role
   - name: You are drunk
     description: You are drunk. Act like it. You cannot use any abilities. You remain drunk until an organiser takes this card away.
@@ -1084,7 +1084,7 @@ plots:
       - Wedding Planner
   - name: Get the item D
     playerTitles:
-      - Marriage Officiant
+      - Priest
       - Bride
       - Groom's Mother
   - name: Misunderstanding E
@@ -1096,7 +1096,7 @@ plots:
     playerTitles:
       - Best Man
       - Wedding Planner
-      - Marriage Officiant
+      - Priest
   - name: Feud G
     playerTitles:
       - Maid of Honour
