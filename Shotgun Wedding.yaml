@@ -37,13 +37,13 @@ players:
           If a player raises their voice to you, you can show them this ability. If you do, that player is uninvited from the wedding and cannot attend the ceremony. Tell an Organiser when this happens.
         usages: 1
     goals:
-      - name: The more the merrier
-        description: 'Get the best of both worlds, marry {Bride} and {Best Man}. They may need a bit of convincing.'
-        #TODO with the current ceremony rules, how could this happen?
+      - name: Save face, but get {Bride} to give up on you.
+        description: >-
+          During your vows, explain why {Bride} cannot marry. If you can't find a reason and get her to step down, then it would be rude to say no to the I do's.
       - name: What happens on Buck's night...
         description: Make sure no-one (especially {Bride}) knows what you did with {Best Man} last night.
-      - name: Convince your monster mother
-        description: Your mother has been completely against the marriage ever since the first time you introduced {Bride}. Make her see how wonderful you are together.
+      - name: Shut down your mother
+        description: Your mother has been completely against the marriage ever since the first time you introduced {Bride}. Make sure she is intoxicated as much as possible to keep drama to a minimum.
       - name: Repay your uncle
         description: Make sure he knows you are thankful, even though he doesn't want to talk about the money, maybe drop a nod to him in your vows?
       - name: Rip up any Prenups you are asked to sign.
@@ -140,8 +140,6 @@ players:
         description: 'BIG ring. {Flowergirl} as Flowergirl. No drunks. Any groom (meh I''m easy).'
       - name: Get divorced from {Wedding Planner}
         description: You can't get married until you first get divorced. Find out who or how to get it annulled and keep it a secret.
-      - name: It's lucky they say...
-        description: 'Find something borrowed, something blue, something old & something new. (Item cards will help you)'
       - name: Uninvite anyone trying to sabotage the wedding
         description: >-
           If anyone doesn't want you to marry the love of your life, then they need to go.
@@ -206,11 +204,10 @@ players:
     blurb: |-
       You suffer no fools. Too bad the fools are all you can get in this wasteland. You like {Bride} well enough. More like her please. You figured this wedding would be a good last hurra before you bailed on this town forever, and you are just hoping it goes well.
 
-      Last Night: You attended the Bachelorette party. It was you, {Bride}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You had planned for it to be a night in of party games and romcoms, but {Groom's Mother} had other ideas. She brought a bunch of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You have a massive headache and have vowed to never drink again. After the wedding.
+      Last Night: You attended the Bachelorette party. It was you, {Bride}, {Flowergirl}, {Groom's Mother}, and {Photographer}. You had planned for it to be a night in of party games and romcoms, but {Groom's Mother} had other ideas. She brought a bunch of the nicer boxed wine over beforehand and you pre-gamed a little too hard. The rest of the night was a blur. You vaguely recall a casino and getting donuts. You brought the wedding rings (which were your responsibility) to the party, but lost them sometime in the night. You have a massive headache and have vowed to never drink again. After the wedding.
     information: You heard the ring came from the Drunk Uncle.
     optional: false
-    secret: During cop academy you became an alcoholic.
-    #TODO maybe this should be something about the ring?
+    secret: During cop academy you became an alcoholic, last night you were black out drunk and lost the ring at the casino.
     shortDescription: She carries herself like she just escaped a warzone. Maybe she did? She's real quiet and might throat punch you if you ask stupid questions.
     traits:
       - Steely
@@ -220,16 +217,20 @@ players:
       - name: Bust some heads
         description: 'Glare at someone from across the room for 30 seconds. March over to them and then demand they tell you the truth. The player must show you their information.'
         usages: 3
-      - name: I take what I need
+      - name: This is evidence.. delicious evidence
         description: >-
-          Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn't, you will steal an item at random.
-        usages: 2
-      #TODO more powers
+          Talk to an Organiser and specify a player and an item. If the player has such an item, you will steal it from them. If the player doesn't, you will steal an item at random. If they have any beer on them, you get that instead.
+        usages: 4
+      - name: Oh do I have a story for you
+        description: Tell someone a cute story (make it up) about the Bride. The player must show you their secret.
+        usages: 3
     goals:
       - name: Don't get married
         description: 'Make sure the Bride makes it down the aisle in one piece, you definitely don''t want to accidentally get married.'
       - name: Find the ring before anyone else
         description: 'You lost it, so you must find it to restore {Bride}''s faith in you. Someone must of seen it after last night.'
+      - name: It's lucky they say...
+        description: 'Find something borrowed, something blue, something old, & something new and give them to the bride. (Item cards will help you)'
       - name: Make {Flowergirl} act her age
         description: '{Flowergirl} acts far too adult for her age, as her past baby sitter you are responsible for making sure she can stay a child.'
       - name: Have a fling with the best man
@@ -312,7 +313,7 @@ players:
         description: 'She tried to have you taken away, and you ended up on the streets. Now she is gonna pay.'
       - name: End the wedding with as much valuables as possible
         description: '{Brides Father} never pays, it''s now $1000 a hit for that loser. Perhaps someone else will buy?'
-      - name: Catch the bouquet
+      - name: Catch the bouquet and smash it on the ground
         description: It would ruin everyone's fun.
     otherPeople:
       - playerTitle: Bride
@@ -386,6 +387,9 @@ players:
       - name: No secrets from God
         description: 'Give a small speech about the virtues of marriage. If a player sticks around to listens, that player must show you all items they have on them.'
         usages: 3
+      - name: Anullment
+        description: Bring a certificate of marriage to an Organiser and you can annull it.
+        usages: 1
     goals:
       - name: This wedding has to happen
         description: SOMEONE is getting married. You don't really care who.
@@ -435,10 +439,11 @@ players:
     lastName: Torana
     firstName: Dave
     blurb: |-
-      You always worked very hard on your appearance. You wanted people to like you. But even your off days {Groom} still liked you and that made things easier. When the wedding came up, you were so happy for him. Everything is looking like sunshine and rainbows.
+      You always worked very hard on your appearance. You wanted people to like you. But even on your off days {Groom} still liked you and that made things easier. When the wedding came up, you were so happy for him. Everything is looking like sunshine and rainbows.
       Last night: You were at the Bachelor party. {Groom}, {Drunk Uncle}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You kidnapped the Groom and brought him on the greatest pub crawl of all time. You went light on the drinks because you wanted to be sharp for your best friend's wedding the next day. You had to put {Bride's Father} in a taxi at some point, as he was too far gone. After the last bar you all went back to a hotel and you and the Groom and you split a room.
       One thing led to another and you both boned down. Hard. (Sex). It was something you had always thought about, but didn't think would ever happen. Everyone thinks you got strippers for the night, and you've decided to let everything think that.
-    information: The Groom's Mother recovered from last night better than anyone else.
+    information: >-
+      {Groom's Mother} recovered from last night better than anyone else.
     optional: false
     secret: The stripper's never showed up to the hotel last night.
     shortDescription: Childhood friends with the Groom. He was the smooth talking hottie that picked up enough for both of them. But that part of his life is over now.
@@ -457,14 +462,18 @@ players:
         description: 'If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.'
         usages: 3
     goals:
-      - name: Marry the Groom.
-        description: You love that gorgeous son of a gun. You want him all to yourself
+      - name: Replace the bride and marry {Groom}
+        description: You love that gorgeous son of a gun. You want him all to yourself.
       - name: Rekindle {Wedding Planner}'s old love
         description: >-
           {Wedding Planner} seemed real broken up at the bucks about an old flame. Help them.
       - name: 'Get {Marriage Officiant} fired'
         description: They think they are better than us. Get {Groom} or someone else to kick them out of the wedding.
-      #TODO needs more side interactions
+      - name: Act cool and get a photo with everyone
+        description: Make sure everyone thinks you are cool by the end of the wedding. You are a cool guy after all.
+      - name: Find a way to make the dog like you the best
+        description: >-
+          You love dogs but they don't always love you. Find a way to bribe {Dog} to be your friend.
     otherPeople:
       - playerTitle: Groom
         alignment: +
@@ -494,7 +503,7 @@ players:
       - playerTitle: Flowergirl
         alignment: '-'
         strength: Weak
-        words: You are pretty sure you;ve seen her at the local night club (Barrels). How a 12 year old regularly gets in there is beyond you.
+        words: You are pretty sure you've seen her at the local night club (Barrels). How a 12 year old regularly gets in there is beyond you.
       - playerTitle: Photographer
         alignment: +
         strength: Weak
@@ -533,12 +542,11 @@ players:
         description: You can draw up any legally binding contract for anyone. (Ask an Organiser for help)
         usages: -1
     goals:
-      - name: Interrupt the ceremony
-        description: 'Declare your love for {Bride}. Announce she can''t marry someone else if she is already married. Make a big speech.'
+      - name: Officiate this shingdig
+        description: >-
+          If you are the marriage boss, you can just fake the paperwork and it wont count! Make a long speech about 'real love' like you and {Bride} have but don't embarrass her by mentioning her name.
       - name: 'Stay married to {Bride}'
         description: Steal some private moments alone with her. Maybe she will remember the good old days.
-      - name: Officiate this shingdig
-        description: 'If you are the marriage boss, you can just fake the paperwork and it wont count! Your big speech can be longer too!'
       - name: '{Brides Father} needs a hand'
         description: '{Brides Father} needs help getting down the aisle with his daughter. Make sure he stays upright.'
       - name: Catch the bouquet
@@ -615,12 +623,12 @@ players:
     goals:
       - name: Get through the ceremony without crying
         description: You better have some drugs on hand to make it through the ceremony. You need to hold it together for your little girl.
-      - name: 'Impress {Grooms Mother}'
+      - name: 'Get a date with {Grooms Mother}'
         description: 'It was a long time ago, but she is still as smoking as ever. If you could find a way to impress her maybe there is still something there.'
       - name: 'Keep {Dog} out of mischief'
         description: Make sure if the dog takes anything you return it to its rightful owner. And keeps its nose out of the trash!
       - name: Find the real father
-        description: 'You suspected {Bride} is pregnant for a while now. But she has only been with {Groom} for so long. Keep it a secret but find out who is the father.'
+        description: 'You suspected {Bride} is pregnant for a while now. But she has only been with {Groom} for so long. Keep it a secret but find out who the father is.'
       - name: Daddy hugs
         description: Hug everyone at the wedding. Tell them how much you love them and why. They must hug back.
     otherPeople:
@@ -696,16 +704,16 @@ players:
         description: 'If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.'
         usages: 3
     goals:
-      - name: Make sure {Groom} and {Bride} do NOT get married!
+      - name: Make sure {Groom} and {Bride} do NOT get married
         description: 'While it will be too shameful to say the real reason (they are half siblings), sabotage the wedding at every chance you get.'
-      - name: Don't let anyone know you took the BIG rings at the Bachelorette party
-        description: 'You threw them in the trash, but people are putting together the dots from last night.'
+      - name: Don't let anyone know you stole the BIG rings at the Bachelorette party
+        description: 'You threw them in the trash at the casino, but somehow people are putting together the dots from last night.'
       - name: Find the love of your life
         description: Weddings (even ones that need stopping) are so romantic. Maybe the love of your life is in the crowd. Find them and lock that shit down, you are too old to play games.
       - name: '{Flowergirl} is in need of a mother figure'
         description: 'Her mother is no longer in the picture, it''s the right thing to do.'
-      - name: Catch the bouquet
-        description: It would be ever so romantic...
+      - name: Catch the bouquet while still looking classy
+        description: You would rather a respectable woman gets the bouquet than these little shits.
       #TODO needs a meatier side plot to consume. I reckon a new one. Maybe a new Item play?
     otherPeople:
       - playerTitle: Flowergirl
@@ -748,7 +756,7 @@ players:
     firstName: Wayne
     blurb: |-
       Life's a laugh, isn't it? You are just here to have a good time. Why does everyone have to be such a downer about everything all the time?
-      You have fixed it so this is gonna the best wedding ever. Just gotta ride it out.
+      You have paid of the staff so that this will be the best wedding ever. Now to enjoy it!
 
       Last Night: You were at the Bachelor party. {Best Man}, {Groom}, {Wedding Planner}, {Bride's Father}, and {Dog} were there. You wanted to treat everyone so you paid for drinks on the pub crawl the whole night and also the hotel afterwards. You got a bit too drunk and passed out as soon as you got to the hotel. You were planning on setting everyone up with strippers at the hotel, but you never got a chance.
     information: The Groom's father died in drag race 2 years ago.
@@ -764,9 +772,6 @@ players:
       - name: Stumble
         description: 'Bump into someone and show them this ability. Shuffle all your items with theirs and then get half, randomly each.'
         usages: 2
-      - name: What? Speak up son.
-        description: 'If someone uses an ability on you that forces you to reveal your information or secret, show this ability to them and keep your information or secret hidden instead.'
-        usages: 3
       - name: I can see right through ya lass
         description: Chat with someone who is intoxicated (or poisoned). If you manage this they must show the title (the part in bold) of their FIRST goal to you.
         usages: 3
@@ -837,6 +842,9 @@ players:
         usages: 4
       - name: Something smell fishy
         description: 'Follow someone around for a minute. If you manage this, the player must show you their secret or their information: your choice.'
+        usages: 3
+      - name: Ooo I know this smell
+        description: Show an item to an organiser. They will tell you who started the game with this item.
         usages: 3
       - name: Bury it!
         description: Give an item to an Organiser. They will hold on to it for you. Ask them again if you wish to get it back.
@@ -969,11 +977,12 @@ items:
     startsWith: Flowergirl
   - name: Ultrasound
     description: It shows a 3 month old baby. This counts as 'something new'
+    startsWith: Bride
   - name: Photos of bachelorette party
-    description: 'These photos show {Bride} and {Grooms Mother} pole dancing. It also shows {Maid of Honor} wearing a BIG wedding ring.'
+    description: 'These photos show {Bride} and {Groom's Mother} pole dancing. It also shows {Maid of Honor} wearing a BIG wedding ring.'
   - name: Dog bone
     description: Delicious... for a dog! This counts as 'something borrowed'
-    startsWith: Dog
+    startsWith: Bride's Father
   - name: Scissors
     description: >-
       Tell an Organiser you wish to cut up someone's invitation (other than the Bride and Groom). They will be uninvited, preventing them from attending the ceremony. Then this item
@@ -982,6 +991,7 @@ items:
     description: This might be useful if you get uninvited from the wedding. Give this to an organiser to slip back in.
   - name: Receipt for Strippers
     description: $600 receipt for Strippers last night. It looks like it was refunded because someone cancelled.
+    startsWith: Drunk Uncle
   - name: Pair of BIG rings
     description: 'Huge stones, 24ct gold, these things are old but impressive!'
   - name: Pair of rings
