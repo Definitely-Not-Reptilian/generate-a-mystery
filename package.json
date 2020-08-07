@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "angular-expressions": "^1.0.1",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "commander": "^4.1.0",
     "docxtemplater": "^3.15.4",
     "js-yaml": "^3.13.1",
