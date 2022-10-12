@@ -33,7 +33,7 @@
     "angular-expressions": "^1.0.1",
     "class-transformer": "^0.2.3",
     "commander": "^4.1.0",
-    "docxtemplater": "^3.15.4",
+    "docxtemplater": "^3.31.4",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "pizzip": "^3.0.6",
